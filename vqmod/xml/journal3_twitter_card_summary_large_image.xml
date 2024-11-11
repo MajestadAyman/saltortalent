@@ -1,0 +1,14 @@
+<modification>
+    <name>Journal 3 Twitter Card summary_large_image</name>
+    <code>summary_large_image</code>
+    <version>3.1</version>
+    <author>OPCBCN</author>
+    <link>https://www.opencartbcn.com/</link>
+    <file path="catalog/controller/journal3/seo.php">
+        <operation>
+            <search><![CDATA['content' => 'summary',]]></search>
+            <add position="replace"><![CDATA['content' => 'summary_large_image',]]></add>
+        </operation>
+
+    </file> 
+</modification>

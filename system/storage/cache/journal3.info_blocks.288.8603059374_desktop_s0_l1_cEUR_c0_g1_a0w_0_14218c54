@@ -1,0 +1,345 @@
+<?php $val = array (
+  'css' => '.module-info_blocks-288 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 3 * 20px) / 4 - 0.01px)}.module-info_blocks-288 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 4 - 0.01px)}.one-column #content .module-info_blocks-288 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 1 * 20px) / 2 - 0.01px)}.one-column #content .module-info_blocks-288 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 2 - 0.01px)}.two-column #content .module-info_blocks-288 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 1 * 20px) / 2 - 0.01px)}.two-column #content .module-info_blocks-288 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 2 - 0.01px)}.side-column .module-info_blocks-288 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-info_blocks-288 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-info_blocks-288 .module-item .info-block{justify-content:center}.module-info_blocks-288 .info-block .info-block-title{font-family:\'Libre Franklin\';font-weight:400;font-size:40px;color:rgba(255, 255, 255, 1);text-align:center;display:block}.module-info_blocks-288 .info-block .info-block-text{font-family:\'Libre Franklin\';font-weight:400;font-size:15px;color:rgba(255, 255, 255, 1);text-align:center;display:block}.module-info_blocks-288 .info-blocks:last-child .info-block{border-width:0;border-bottom-width:0px}.module-info_blocks-288 a.info-block:hover{box-shadow:0 5px 30px -5px rgba(0, 0, 0, 0.15)}.module-info_blocks-288 .info-block{display:flex;flex-direction:row;justify-content:flex-start;text-align:left}.module-info_blocks-288 .info-block-content{display:flex}.module-info_blocks-288 .info-block::before{align-self:center}.module-info_blocks-288 .info-block-img{align-self:center}.module-info_blocks-288 .info-block::before, .module-info_blocks-288 .info-block-img{margin-right:20px}.module-info_blocks-288 .info-block .count-badge{display:none}@media (max-width: 1140px){.module-info_blocks-288 .info-block{display:block;text-align:left}.module-info_blocks-288 .info-block::before{float:left}.module-info_blocks-288 .info-block-img{float:left}.module-info_blocks-288 .info-block-content{display:block}}@media (max-width: 760px){.module-info_blocks-288 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 3 * 20px) / 4 - 0.01px)}.module-info_blocks-288 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 4 - 0.01px)}.module-info_blocks-288 .info-block{display:block;text-align:left}.module-info_blocks-288 .info-block::before{float:left}.module-info_blocks-288 .info-block-img{float:left}.module-info_blocks-288 .info-block-content{display:block}}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Libre Franklin' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 4,
+          'spacing' => 20,
+        ),
+        760 => 
+        array (
+          'items' => 4,
+          'spacing' => 20,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 2,
+          'spacing' => 20,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 2,
+          'spacing' => 20,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'status' => true,
+    'id' => 'info_blocks-6439b874b8372',
+    'module_id' => 288,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-info_blocks',
+      2 => 'module-info_blocks-288',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '+<span class="count4">10000</span>',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'Candidates in our database.
+<br/><br/>',
+        'button' => false,
+        'id' => '288-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'title' => '+<span class="count2">250</span>',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'Management selection processes closed successfully.',
+        'button' => false,
+        'id' => '288-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'title' => '<span class="count2">37</span>',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'Countries where we offer services.
+<br/><br/>',
+        'button' => false,
+        'id' => '288-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      4 => 
+      array (
+        'title' => '<span class="count2">4</span>,7/5',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'Clients and candidates satisfaction.
+<br/><br/>',
+        'button' => false,
+        'id' => '288-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      5 => 
+      array (
+        'title' => '+<span class="count2">4500</span>',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'Hours of 1:1 coaching and mentoring.
+<br/><br/>',
+        'button' => false,
+        'id' => '288-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      6 => 
+      array (
+        'title' => '+<span class="count2">2000</span>',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'Hours of strategic workshops and development of teams and management skills.',
+        'button' => false,
+        'id' => '288-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      8 => 
+      array (
+        'title' => '+<span class="count2">20</span>',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'Years of experience working directly with CEOs and senior management.',
+        'button' => false,
+        'id' => '288-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      10 => 
+      array (
+        'title' => '<span class="count2">6</span>',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'Languages in which the services are performed.
+<br/><br/>',
+        'button' => false,
+        'id' => '288-10',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-10',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<name>Permission Counters</name>
+	<version>1.01</version>
+	<author>AlexDW</author>
+	<link>https://www.opencart.com/index.php?route=marketplace/extension&amp;filter_member=AlexDW</link>
+	<code>permission-counters-adw</code>
+	<file path="admin/view/template/user/user_group_form.twig">
+		<operation>
+		<search><![CDATA[
+<button type="button" onclick="$(this).parent().find(':checkbox').prop('checked', true);" class="btn btn-link">{{ text_select_all }}</button> / <button type="button" onclick="$(this).parent().find(':checkbox').prop('checked', false);" class="btn btn-link">{{ text_unselect_all }}</button></div>
+			]]></search>
+			<add position="replace" ><![CDATA[
+<!-- PermissionCount -->
+<button type="button" onclick="$(this).parent().find(':checkbox').prop('checked', true); xy();" class="btn btn-link">{{ text_select_all }}</button> / <button type="button" onclick="$(this).parent().find(':checkbox').prop('checked', false); xy();" class="btn btn-link">{{ text_unselect_all }}</button></div>
+<!-- PermissionCount -->
+			]]></add>
+		</operation>
+
+		<operation>
+		<search><![CDATA[
+{{ footer }}
+			]]></search>
+			<add position="before" ><![CDATA[
+<script type="text/javascript"><!--
+// PermissionCount
+function xy(){for(var n in{access:null,modify:null,hiden:null}){var e=$('[name^="permission['+n+']"]'),i=che=0;e.each(function(n){1==$(this).prop("checked")&&(che+=1),i=n+1}),$("."+n+"_cnt").remove(),$("#"+n).append(' <cnt class="'+n+'_cnt" style="display:block;"> '+che+" / "+i+"</cnt>")}}$(document).ready(function(){$('[name^="permission[access]"]').first().parentsUntil(".form-group").parent().find("label").first().attr("id","access"),$('[name^="permission[modify]"]').first().parentsUntil(".form-group").parent().find("label").first().attr("id","modify"),$('[name^="permission[hiden]"]').first().parentsUntil(".form-group").parent().find("label").first().attr("id","hiden"),xy()}),$("input[type=checkbox]").on("change",function(){xy()});
+// PermissionCount
+//--></script>
+			]]></add>
+		</operation>
+        <!--con mayor espacio-->
+        <operation>
+		<search><![CDATA[<div class="well well-sm" style="height: 150px; overflow: auto;">]]></search>
+			<add position="replace" ><![CDATA[<div class="well well-sm" style="height: 300px; overflow: auto;">]]></add>
+		</operation>
+        <!--en columnas-->
+        <operation>
+		<search><![CDATA[<div class="checkbox">]]></search>
+			<add position="replace" ><![CDATA[<div class="checkbox col-sm-4">]]></add>
+		</operation>
+	</file>
+</modification>

@@ -1,0 +1,44 @@
+<?php $val = array (
+  'css' => '.module-title-290
+.subtitle{display:inline-block;font-size:16px;border-radius:5px;max-width:1100px}.module-title-290 .title-divider{display:block;max-width:50px;height:3px;background:rgba(92, 152, 166, 1);margin-top:15px;margin-bottom:15px;margin-left:auto;margin-right:auto;margin-left:auto;margin-right:auto}.module-title-290 .title-wrapper{text-align:center;text-align:center}.module-title-290
+h3{font-family:\'Merriweather\';font-weight:400;font-size:40px;color:rgba(41, 41, 43, 1)}.module-title-290 .title-wrapper::before{opacity:.05;display:block}@media (max-width: 760px){.module-title-290
+h3{font-size:30px}}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Merriweather' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Personalidad propia',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-6439934b0dcb8',
+    'module_id' => 290,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-290',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

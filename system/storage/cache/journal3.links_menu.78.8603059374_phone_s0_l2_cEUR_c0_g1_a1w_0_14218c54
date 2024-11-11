@@ -1,0 +1,121 @@
+<?php $val = array (
+  'css' => 'div.links-menu-78 .module-body{display:flex;flex-direction:row;justify-content:flex-end;;-webkit-overflow-scrolling:touch}div.links-menu-78 .menu-item{border-width:0 0 0 1px;flex-grow:0}div.links-menu-78 .menu-item a .links-text{white-space:nowrap;color:rgba(41, 41, 43, 1)}div.links-menu-78 .menu-item
+a{padding-right:7px;padding-left:7px}div.links-menu-78 .menu-item a::before{content:none !important}.phone footer  div.links-menu-78 .module-title::before{display:none}.phone footer  div.links-menu-78 .module-title+.module-body>li{display:flex}@media (max-width: 760px){div.links-menu-78 .menu-item a .links-text{font-size:12px;color:rgba(41, 41, 43, 1)}}@media (max-width: 470px){div.links-menu-78 .menu-item{flex-grow:0}div.links-menu-78 .module-body{justify-content:center}}div.links-menu-78 .links-menu-item-1:hover a .links-text{color:rgba(92, 152, 166, 1)}div.links-menu-78 .links-menu-item-2:hover a .links-text{color:rgba(92, 152, 166, 1)}div.links-menu-78 .links-menu-item-3:hover a .links-text{color:rgba(92, 152, 166, 1)}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'status' => true,
+    'id' => 'links-menu-6439934b6ab96',
+    'module_id' => 78,
+    'classes' => 
+    array (
+      0 => 'links-menu',
+      1 => 'links-menu-78',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Política de Privacidad',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '3',
+          'href' => 'https://saltortalent.com/es/politica-de-privacidad',
+          'name' => 'Política de Privacidad',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'label' => '',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'links-menu-item',
+          2 => 'links-menu-item-1',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'title' => 'Política de Cookies',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '6',
+          'href' => 'https://saltortalent.com/es/politica-de-cookies',
+          'name' => 'Política de Cookies',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'label' => '',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'links-menu-item',
+          2 => 'links-menu-item-2',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'title' => '<a href="#" id="changePreferences">Cambiar preferencias Cookies</a>',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'label' => '',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'links-menu-item',
+          2 => 'links-menu-item-3',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

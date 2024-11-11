@@ -1,0 +1,74 @@
+<?php $val = array (
+  57 => 
+  array (
+    'category_id' => '57',
+    'parent_id' => '0',
+    'title' => 'Tablets',
+    'items' => 
+    array (
+    ),
+    'classes' => 
+    array (
+      0 => 'menu-item menu-item-c57',
+      'dropdown' => 
+      array (
+      ),
+    ),
+    'link' => 
+    array (
+      'href' => 'https://saltortalent.com/index.php?route=product/category&amp;path=57',
+      'total' => '0',
+      'classes' => 
+      array (
+      ),
+    ),
+  ),
+  17 => 
+  array (
+    'category_id' => '17',
+    'parent_id' => '0',
+    'title' => 'Software',
+    'items' => 
+    array (
+    ),
+    'classes' => 
+    array (
+      0 => 'menu-item menu-item-c17',
+      'dropdown' => 
+      array (
+      ),
+    ),
+    'link' => 
+    array (
+      'href' => 'https://saltortalent.com/index.php?route=product/category&amp;path=17',
+      'total' => '0',
+      'classes' => 
+      array (
+      ),
+    ),
+  ),
+  24 => 
+  array (
+    'category_id' => '24',
+    'parent_id' => '0',
+    'title' => 'Phones &amp; PDAs',
+    'items' => 
+    array (
+    ),
+    'classes' => 
+    array (
+      0 => 'menu-item menu-item-c24',
+      'dropdown' => 
+      array (
+      ),
+    ),
+    'link' => 
+    array (
+      'href' => 'https://saltortalent.com/index.php?route=product/category&amp;path=24',
+      'total' => '0',
+      'classes' => 
+      array (
+      ),
+    ),
+  ),
+);

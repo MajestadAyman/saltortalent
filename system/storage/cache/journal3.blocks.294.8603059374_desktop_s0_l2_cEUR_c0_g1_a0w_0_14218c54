@@ -1,0 +1,764 @@
+<?php $val = array (
+  'css' => '.module-blocks-294.blocks-grid .module-item.swiper-slide{margin-right:20px;width:calc((100% - 2 * 20px) / 3 - 0.01px)}.module-blocks-294.blocks-grid .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 3 - 0.01px)}.one-column #content .module-blocks-294.blocks-grid .module-item.swiper-slide{margin-right:20px;width:calc((100% - 3 * 20px) / 4 - 0.01px)}.one-column #content .module-blocks-294.blocks-grid .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 4 - 0.01px)}.two-column #content .module-blocks-294.blocks-grid .module-item.swiper-slide{margin-right:20px;width:calc((100% - 3 * 20px) / 4 - 0.01px)}.two-column #content .module-blocks-294.blocks-grid .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 4 - 0.01px)}.side-column .module-blocks-294.blocks-grid .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-blocks-294.blocks-grid .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-blocks-294 .block-title{order:-2}.module-blocks-294 .block-header{display:flex;float:none;order:-1;justify-content:flex-start;align-items:flex-start;margin-bottom:20px}.module-blocks-294 .block-header
+img{display:flex}.module-blocks-294 .block-wrapper{display:flex}.module-blocks-294 .block-header
+i{float:none;display:flex}.module-blocks-294 .block-body{display:flex;flex-direction:column}@media (max-width: 1024px){.module-blocks-294.blocks-grid .module-item.swiper-slide{margin-right:20px;width:calc((100% - 1 * 20px) / 2 - 0.01px)}.module-blocks-294.blocks-grid .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 2 - 0.01px)}}@media (max-width: 760px){.module-blocks-294.blocks-grid .module-item.swiper-slide{margin-right:20px;width:calc((100% - 0 * 20px) / 1 - 0.01px)}.module-blocks-294.blocks-grid .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 1 - 0.01px)}}.module-blocks-294 .module-item-1 .block-header{display:flex;float:none;order:-1}.module-blocks-294 .module-item-1 .block-header
+img{display:flex}.module-blocks-294 .module-item-1 .block-wrapper{display:flex}.module-blocks-294 .module-item-1 .block-header
+i{float:none;display:flex}.module-blocks-294 .module-item-1 .block-body{display:flex;flex-direction:column}.module-blocks-294 .module-item-1 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-294 .module-item-1 .block-content{column-count:initial;column-gap:20px;column-rule-width:1px;column-rule-style:solid}.module-blocks-294 .module-item-1 .block-footer{margin-top:auto;margin-top:8px;text-align:left}.module-blocks-294 .module-item-1 .block-footer
+.btn{width:auto;transform:scale(calc(70 / 100));transform-origin:bottom left}.module-blocks-294 .module-item-1 .block-footer .btn::before{content:\'\\f0e1\' !important;font-family:icomoon !important;font-size:15px;color:rgba(255, 255, 255, 1)}.module-blocks-294 .module-item-2 .block-header{display:flex;float:none;order:-1}.module-blocks-294 .module-item-2 .block-header
+img{display:flex}.module-blocks-294 .module-item-2 .block-wrapper{display:flex}.module-blocks-294 .module-item-2 .block-header
+i{float:none;display:flex}.module-blocks-294 .module-item-2 .block-body{display:flex;flex-direction:column}.module-blocks-294 .module-item-2 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-294 .module-item-2 .block-content{column-count:initial;column-gap:20px;column-rule-width:1px;column-rule-style:solid}.module-blocks-294 .module-item-2 .block-footer{margin-top:auto;margin-top:8px;margin-left:-5px;text-align:left}.module-blocks-294 .module-item-2 .block-footer
+.btn{width:auto;transform:scale(calc(70 / 100));transform-origin:bottom left}.module-blocks-294 .module-item-2 .block-footer .btn::before{content:\'\\f0e1\' !important;font-family:icomoon !important;font-size:15px;color:rgba(255, 255, 255, 1)}.module-blocks-294 .module-item-3 .block-header{display:flex;float:none;order:-1}.module-blocks-294 .module-item-3 .block-header
+img{display:flex}.module-blocks-294 .module-item-3 .block-wrapper{display:flex}.module-blocks-294 .module-item-3 .block-header
+i{float:none;display:flex}.module-blocks-294 .module-item-3 .block-body{display:flex;flex-direction:column}.module-blocks-294 .module-item-3 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-294 .module-item-3 .block-content{column-count:initial;column-gap:20px;column-rule-width:1px;column-rule-style:solid}.module-blocks-294 .module-item-3 .block-footer{margin-top:auto;margin-top:8px;margin-left:-5px;text-align:left}.module-blocks-294 .module-item-3 .block-footer
+.btn{width:auto;transform:scale(calc(70 / 100));transform-origin:bottom left}.module-blocks-294 .module-item-3 .block-footer .btn::before{content:\'\\f0e1\' !important;font-family:icomoon !important;font-size:15px;color:rgba(255, 255, 255, 1)}.module-blocks-294 .module-item-4 .block-header{display:flex;float:none;order:-1}.module-blocks-294 .module-item-4 .block-header
+img{display:flex}.module-blocks-294 .module-item-4 .block-wrapper{display:flex}.module-blocks-294 .module-item-4 .block-header
+i{float:none;display:flex}.module-blocks-294 .module-item-4 .block-body{display:flex;flex-direction:column}.module-blocks-294 .module-item-4 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-294 .module-item-4 .block-content{column-count:initial;column-gap:20px;column-rule-width:1px;column-rule-style:solid}.module-blocks-294 .module-item-4 .block-footer{margin-top:auto;margin-top:8px;margin-left:-5px;text-align:left}.module-blocks-294 .module-item-4 .block-footer
+.btn{width:auto;transform:scale(calc(70 / 100));transform-origin:bottom left}.module-blocks-294 .module-item-4 .block-footer .btn::before{content:\'\\f0e1\' !important;font-family:icomoon !important;font-size:15px;color:rgba(255, 255, 255, 1)}.module-blocks-294 .module-item-5 .block-header{display:flex;float:none;order:-1}.module-blocks-294 .module-item-5 .block-header
+img{display:flex}.module-blocks-294 .module-item-5 .block-wrapper{display:flex}.module-blocks-294 .module-item-5 .block-header
+i{float:none;display:flex}.module-blocks-294 .module-item-5 .block-body{display:flex;flex-direction:column}.module-blocks-294 .module-item-5 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-294 .module-item-5 .block-content{column-count:initial;column-gap:20px;column-rule-width:1px;column-rule-style:solid}.module-blocks-294 .module-item-5 .block-footer{margin-top:auto;margin-top:8px;margin-left:-5px;text-align:left}.module-blocks-294 .module-item-5 .block-footer
+.btn{width:auto;transform:scale(calc(70 / 100));transform-origin:bottom left}.module-blocks-294 .module-item-5 .block-footer .btn::before{content:\'\\f0e1\' !important;font-family:icomoon !important;font-size:15px;color:rgba(255, 255, 255, 1)}.module-blocks-294 .module-item-6 .block-header{display:flex;float:none;order:-1}.module-blocks-294 .module-item-6 .block-header
+img{display:flex}.module-blocks-294 .module-item-6 .block-wrapper{display:flex}.module-blocks-294 .module-item-6 .block-header
+i{float:none;display:flex}.module-blocks-294 .module-item-6 .block-body{display:flex;flex-direction:column}.module-blocks-294 .module-item-6 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-294 .module-item-6 .block-content{column-count:initial;column-gap:20px;column-rule-width:1px;column-rule-style:solid}.module-blocks-294 .module-item-6 .block-footer{margin-top:auto;margin-top:8px;margin-left:-5px;text-align:left}.module-blocks-294 .module-item-6 .block-footer
+.btn{width:auto;transform:scale(calc(70 / 100));transform-origin:bottom left}.module-blocks-294 .module-item-6 .block-footer .btn::before{content:\'\\f0e1\' !important;font-family:icomoon !important;font-size:15px;color:rgba(255, 255, 255, 1)}.module-blocks-294 .module-item-7 .block-header{display:flex;float:none;order:-1}.module-blocks-294 .module-item-7 .block-header
+img{display:flex}.module-blocks-294 .module-item-7 .block-wrapper{display:flex}.module-blocks-294 .module-item-7 .block-header
+i{float:none;display:flex}.module-blocks-294 .module-item-7 .block-body{display:flex;flex-direction:column}.module-blocks-294 .module-item-7 .expand-content{max-height:100%;overflow:visible;max-height:435px}.module-blocks-294 .module-item-7 .block-content{column-count:initial;column-gap:20px;column-rule-width:1px;column-rule-style:solid}.module-blocks-294 .module-item-7 .block-footer{margin-top:auto;margin-top:8px;margin-left:-5px;text-align:left}.module-blocks-294 .module-item-7 .block-footer
+.btn{width:auto;transform:scale(calc(70 / 100));transform-origin:bottom left}.module-blocks-294 .module-item-7 .block-footer .btn::before{content:\'\\f0e1\' !important;font-family:icomoon !important;font-size:15px;color:rgba(255, 255, 255, 1)}.module-blocks-294 .module-item-9 .block-header{display:flex;float:none;order:-1}.module-blocks-294 .module-item-9 .block-header
+img{display:flex}.module-blocks-294 .module-item-9 .block-wrapper{display:flex}.module-blocks-294 .module-item-9 .block-header
+i{float:none;display:flex}.module-blocks-294 .module-item-9 .block-body{display:flex;flex-direction:column}.module-blocks-294 .module-item-9 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-294 .module-item-9 .block-content{column-count:initial;column-gap:20px;column-rule-width:1px;column-rule-style:solid}.module-blocks-294 .module-item-9 .block-footer{margin-top:auto;margin-top:8px;margin-left:-5px;text-align:left}.module-blocks-294 .module-item-9 .block-footer
+.btn{width:auto;transform:scale(calc(70 / 100));transform-origin:bottom left}.module-blocks-294 .module-item-9 .block-footer .btn::before{content:\'\\f0e1\' !important;font-family:icomoon !important;font-size:15px;color:rgba(255, 255, 255, 1)}.module-blocks-294 .module-item-10 .block-header{display:flex;float:none;order:-1}.module-blocks-294 .module-item-10 .block-header
+img{display:flex}.module-blocks-294 .module-item-10 .block-wrapper{display:flex}.module-blocks-294 .module-item-10 .block-header
+i{float:none;display:flex}.module-blocks-294 .module-item-10 .block-body{display:flex;flex-direction:column}.module-blocks-294 .module-item-10 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-294 .module-item-10 .block-content{column-count:initial;column-gap:20px;column-rule-width:1px;column-rule-style:solid}.module-blocks-294 .module-item-10 .block-footer{margin-top:auto;margin-top:8px;margin-left:-5px;text-align:left}.module-blocks-294 .module-item-10 .block-footer
+.btn{width:auto;transform:scale(calc(70 / 100));transform-origin:bottom left}.module-blocks-294 .module-item-10 .block-footer .btn::before{content:\'\\f0e1\' !important;font-family:icomoon !important;font-size:15px;color:rgba(255, 255, 255, 1)}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'display' => 'grid',
+    'displayTablet' => '',
+    'displayPhone' => '',
+    'carousel' => false,
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 3,
+          'spacing' => 20,
+        ),
+        760 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+        1024 => 
+        array (
+          'items' => 2,
+          'spacing' => 20,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 4,
+          'spacing' => 20,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 4,
+          'spacing' => 20,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'default' => '',
+    'title' => '',
+    'imageDimensions' => 
+    array (
+      'width' => 449,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'lazyLoad' => false,
+    'status' => true,
+    'id' => 'blocks-643a20dd79963',
+    'module_id' => 294,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-blocks',
+      2 => 'module-blocks-294',
+      3 => 'blocks-grid',
+      'carousel-mode' => false,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'default_index' => 0,
+    'items' => 
+    array (
+      1 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'image',
+        'text' => '',
+        'alt' => 'Iñaki Saltor',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'button',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://www.linkedin.com/in/isaltor/',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+            'target' => 'target="_blank"',
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '294-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-1',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/equipo/perfiles-equipo/inaki-saltor-1-449x451fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/equipo/perfiles-equipo/inaki-saltor-1-898x902fill.jpg',
+        'title' => '',
+        'content' => '<h4>Iñaki Saltor<br><b>Socio Fundador</b></h4>',
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'image',
+        'text' => '',
+        'alt' => 'Álvaro Cárcel',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'button',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://www.linkedin.com/in/alvarocarcel/',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+            'target' => 'target="_blank"',
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '294-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-2',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/equipo/perfiles-equipo/alvaro-carcel-1-449x451fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/equipo/perfiles-equipo/alvaro-carcel-1-898x902fill.jpg',
+        'title' => '',
+        'content' => '<h4>Álvaro Cárcel<br><b>Partner</b></h4>',
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'image',
+        'text' => '',
+        'alt' => 'Daniel Pascual',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'button',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://www.linkedin.com/in/danielpascualg/',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+            'target' => 'target="_blank"',
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '294-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-3',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/equipo/perfiles-equipo/daniel-pascual-1-449x451fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/equipo/perfiles-equipo/daniel-pascual-1-898x902fill.jpg',
+        'title' => '',
+        'content' => '<h4>Daniel Pascual<br><b>Managing Director de Human Consulting</b></h4>',
+        'items' => 
+        array (
+        ),
+      ),
+      4 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'image',
+        'text' => '',
+        'alt' => 'Ana Afán',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'button',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://www.linkedin.com/in/ana-afan-de-ribera/',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+            'target' => 'target="_blank"',
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '294-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-4',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/ana-afán-449x451fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/ana-afán-898x902fill.jpg',
+        'title' => '',
+        'content' => '<h4>Ana Afán de Ribera<br><b>Directora de Oficina Madrid</b></h4>',
+        'items' => 
+        array (
+        ),
+      ),
+      5 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'image',
+        'text' => '',
+        'alt' => 'Paloma Villafranca',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'button',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://www.linkedin.com/in/palomavillafranca/',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+            'target' => 'target="_blank"',
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '294-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-5',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/paloma-villafranca-449x451fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/paloma-villafranca-898x902fill.jpg',
+        'title' => '',
+        'content' => '<h4>Paloma Villafranca<br><b>Senior Associate Director Madrid</b></h4>',
+        'items' => 
+        array (
+        ),
+      ),
+      6 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'image',
+        'text' => '',
+        'alt' => 'César Durán',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'button',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://www.linkedin.com/in/cesar-duran/',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+            'target' => 'target="_blank"',
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '294-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-6',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/cesar-449x451fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/cesar-898x902fill.jpg',
+        'title' => '',
+        'content' => '<h4>César Durán<br><b>Consultor de Executive Search</b></h4>',
+        'items' => 
+        array (
+        ),
+      ),
+      7 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'image',
+        'text' => '',
+        'alt' => 'Ester Porta',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'button',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://www.linkedin.com/in/ester-porta-80693a13/',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+            'target' => 'target="_blank"',
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '294-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-7',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/ester-449x451fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/ester-898x902fill.jpg',
+        'title' => '',
+        'content' => '<h4>Ester Porta<br><b>Executive Assistant</b></h4>',
+        'items' => 
+        array (
+        ),
+      ),
+      9 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'image',
+        'text' => '',
+        'alt' => 'Maria Alberich',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'button',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://www.linkedin.com/in/maria-alberich-256413168/',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+            'target' => 'target="_blank"',
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '294-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-9',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/maria-449x451fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/maria-898x902fill.jpg',
+        'title' => '',
+        'content' => '<h4>Maria Alberich<br><b>Executive
+              Search Consultant</b></h4>',
+        'items' => 
+        array (
+        ),
+      ),
+      10 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'image',
+        'text' => '',
+        'alt' => 'Patricia Gili',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'button',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://www.linkedin.com/in/patricia-gili-cantarell-8b959887/',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+            'target' => 'target="_blank"',
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '294-10',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-10',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-10',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/patricia-449x451fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/patricia-898x902fill.jpg',
+        'title' => '',
+        'content' => '<h4>Patricia Gili<br><b>Executive Search Assistant</b></h4>',
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

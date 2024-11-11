@@ -1,0 +1,46 @@
+<?php $val = array (
+  'css' => '.module-title-292
+.subtitle{display:inline-block;font-size:16px;border-radius:5px;max-width:1100px}.module-title-292 .title-divider{display:block;max-width:50px;height:3px;background:rgba(92, 152, 166, 1);margin-top:15px;margin-bottom:15px;margin-left:auto;margin-right:auto;display:none;margin-left:0;margin-right:auto}.module-title-292 .title-wrapper{text-align:center;text-align:left}.module-title-292
+h3{font-family:\'Merriweather\';font-weight:400;font-size:40px;color:rgba(41,41,43,1)}.module-title-292{margin-top:20px;margin-bottom:30px}.module-title-292 .title-wrapper::before{opacity:.05;display:block}@media (max-width: 760px){.module-title-292
+h3{font-size:30px}.module-title-292 .title-wrapper{text-align:center}.module-title-292 .title-divider{margin-left:auto;margin-right:auto}}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Merriweather' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => '',
+    'subtitle' => '<p>Seamless from Need to Fit® es una experiencia innovadora gamificada que replantea todos los Momentos de la Verdad de un proceso de búsqueda de ejecutivos para garantizar la máxima eficiencia y, al final, un encaje perfecto entre las necesidades del cliente y el candidato seleccionado. </p>
+<p>Un proceso creado desde cero para eliminar todas las ineficiencias de los métodos tradicionales y centrarse en aquellos aspectos -a menudo ocultos- que son fundamentales para el éxito de una búsqueda de talento ejecutivo.</p>
+<p>Una metodología que respeta los recursos y la inteligencia de clientes y candidatos. Un proceso que abre nuevos caminos para atraer el talento ejecutivo del siglo XXI.</p>',
+    'status' => true,
+    'id' => 'title-643a31ff29474',
+    'module_id' => 292,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-292',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

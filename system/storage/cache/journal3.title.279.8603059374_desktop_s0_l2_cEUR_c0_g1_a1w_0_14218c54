@@ -1,0 +1,33 @@
+<?php $val = array (
+  'css' => '.module-title-279 .title-wrapper
+h3{font-size:60px;color:rgba(41, 41, 43, 1);font-weight:400;line-height:1.1}.module-title-279 .title-wrapper::before{opacity:.05;display:block}@media (max-width: 1140px){.module-title-279 .title-wrapper
+h3{font-size:50px}}@media (max-width: 760px){.module-title-279 .title-wrapper
+h3{font-size:32px}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Entendemos el talento ejecutivo, sea cual sea su reto.',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-64399b11ec8a2',
+    'module_id' => 279,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-279',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

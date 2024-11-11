@@ -1,0 +1,160 @@
+<?php $val = array (
+  'css' => '.module-blocks-346.blocks-grid .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-blocks-346.blocks-grid .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-blocks-346.blocks-grid .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-blocks-346.blocks-grid .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-blocks-346.blocks-grid .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-blocks-346.blocks-grid .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-blocks-346.blocks-grid .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-blocks-346.blocks-grid .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-blocks-346 .block-title{order:-2}.module-blocks-346 .block-header{display:flex;float:none;order:-1;justify-content:flex-start;align-items:flex-start}.module-blocks-346 .block-header
+img{display:flex}.module-blocks-346 .block-wrapper{display:flex}.module-blocks-346 .block-header
+i{float:none;display:flex}.module-blocks-346 .block-body{display:flex;flex-direction:column}.module-blocks-346 .module-item-1 .block-header{display:flex;float:none;order:-1}.module-blocks-346 .module-item-1 .block-header
+img{display:flex}.module-blocks-346 .module-item-1 .block-wrapper{display:flex}.module-blocks-346 .module-item-1 .block-header
+i{float:none;display:flex}.module-blocks-346 .module-item-1 .block-body{display:flex;flex-direction:row}.module-blocks-346 .module-item-1 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-346 .module-item-1 .block-content{column-count:initial;column-gap:30px;column-rule-width:1px;column-rule-style:none}.module-blocks-346 .module-item-1 .block-footer
+.btn{width:auto;transform:scale(calc(100 / 100));transform-origin:center}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'display' => 'grid',
+    'displayTablet' => '',
+    'displayPhone' => '',
+    'carousel' => false,
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'default' => '',
+    'title' => '',
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'lazyLoad' => false,
+    'status' => true,
+    'id' => 'blocks-643a510258465',
+    'module_id' => 346,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-blocks',
+      2 => 'module-blocks-346',
+      3 => 'blocks-grid',
+      'carousel-mode' => false,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'default_index' => 0,
+    'items' => 
+    array (
+      1 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'none',
+        'text' => '',
+        'alt' => '',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'none',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '346-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-1',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/placeholder-1000x1000.png',
+        'image2x' => 'https://saltortalent.com/image/cache/placeholder-1000x1000.png',
+        'title' => '',
+        'content' => '<p>We have a unique perspective on talent management: all of us at Kennedy Executive Search are leaders of organizations with some of the best practices. </p><p>We see diversity, equity, inclusion and accessibility as a key point for companies. Effective diversity and inclusion strategies help organizations recruit and retain the best talent and ensure they experience a sense of value and purpose. </p><p>Good practices in diversity and inclusion are more than measurable indicators, objectives and metrics. It\'s about ensuring that all perspectives on teams are collected, heard, and valued. </p><p>Some of the services we offer in this area are: </p><p><span style="font-weight: 700; color: rgb(92, 152, 166); font-family: &quot;Libre Franklin&quot;; font-size: 16px;">&gt;</span><span style="color: rgb(41, 41, 43); font-family: &quot;Libre Franklin&quot;; font-size: 16px;">&nbsp;</span>Equality Audits.<br><span style="font-weight: 700; color: rgb(92, 152, 166); font-family: &quot;Libre Franklin&quot;; font-size: 16px;">&gt;</span><span style="color: rgb(41, 41, 43); font-family: &quot;Libre Franklin&quot;; font-size: 16px;">&nbsp;</span><font face="Chinese Quote, -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol">Maturity and gap analysis.</font><br><span style="font-weight: 700; color: rgb(92, 152, 166); font-family: &quot;Libre Franklin&quot;; font-size: 16px;">&gt;</span><span style="color: rgb(41, 41, 43); font-family: &quot;Libre Franklin&quot;; font-size: 16px;">&nbsp;</span><font face="Chinese Quote, -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol">Awareness and Training Workshops.</font><br><span style="font-weight: 700; color: rgb(92, 152, 166); font-family: &quot;Libre Franklin&quot;; font-size: 16px;">&gt;</span><span style="color: rgb(41, 41, 43); font-family: &quot;Libre Franklin&quot;; font-size: 16px;">&nbsp;</span><font face="Chinese Quote, -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol">Talent mapping.</font><br><span style="font-weight: 700; color: rgb(92, 152, 166); font-family: &quot;Libre Franklin&quot;; font-size: 16px;">&gt;</span><span style="color: rgb(41, 41, 43); font-family: &quot;Libre Franklin&quot;; font-size: 16px;">&nbsp;</span><font face="Chinese Quote, -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol">International benchmarking.</font><br><span style="font-weight: 700; color: rgb(92, 152, 166); font-family: &quot;Libre Franklin&quot;; font-size: 16px;">&gt;</span><span style="color: rgb(41, 41, 43); font-family: &quot;Libre Franklin&quot;; font-size: 16px;">&nbsp;</span><span style="font-family: &quot;Chinese Quote&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;;">Optimization of Recruitment Processes.</span></p>',
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

@@ -1,0 +1,15 @@
+---------- Date: 2023-04-13 16:24:04 ~ IP : 88.30.26.13 ----------
+REQUEST URI : /admin/index.php?route=extension/extension/advertise&user_token=cG1w9ehMcmyVqDafBjSZL6i0nRSzcHXb
+MOD DETAILS:
+   modFile   : /var/www/vhosts/saltortalent.com/httpdocs/vqmod/xml/admin-extras.xml
+   id        : Admin Extras
+   version   : 3.7
+   vqmver    : 
+   author    : opbcn
+
+File Name    : admin/controller/extension/extension/*.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $data['promotion'] = $this->load->controller('extension/extension/promotion');
+
+----------------------------------------------------------------------
+
+

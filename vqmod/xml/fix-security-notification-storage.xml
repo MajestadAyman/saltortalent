@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<name>bnit.it-fix-security-notification-storage</name>
+	<version>1.0</version>
+	<vqmver>2.x</vqmver>
+	<author>BNIT.it</author>
+	<link>http://www.bnit.it/</link>
+
+	<file path="admin/controller/common/dashboard.php">
+		<operation>
+			<search><![CDATA[$data['security'] = $this->load->controller('common/security');]]></search>
+			<add position="replace"><![CDATA[$data['security'] = '';]]></add>
+		</operation>
+	</file>
+</modification>

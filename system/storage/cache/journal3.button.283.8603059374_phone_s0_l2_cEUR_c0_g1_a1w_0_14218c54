@@ -1,0 +1,44 @@
+<?php $val = array (
+  'css' => '.module-button-283
+.btn{transform:scale(calc(100 / 100));transform-origin:center;width:auto;background:rgba(41, 41, 43, 1);border-width:1px;border-style:solid;border-color:rgba(0, 0, 0, 0);padding:12px;border-radius:20px !important}.module-button-283{display:flex;justify-content:center}.module-button-283 .btn, .module-button-283 .btn:visited{font-size:13px;color:rgba(255, 255, 255, 1);text-transform:none;letter-spacing:1.1px}.module-button-283 .btn:hover{color:rgba(255, 255, 255, 1) !important;background:rgba(92, 152, 166, 1) !important}.module-button-283 .btn:active, .module-button-283 .btn:hover:active, .module-button-283 .btn:focus:active{color:rgba(245, 245, 245, 1) !important;box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.15)}.module-button-283 .btn:focus{color:rgba(255, 255, 255, 1) !important;box-shadow:inset 0 0 20px rgba(0, 0, 0, 0.25)}.module-button-283 .btn:hover, .module-button-283 .btn:active:hover{border-color:rgba(255, 255, 255, 1)}.desktop .module-button-283 .btn:hover{box-shadow:0 5px 30px -5px rgba(0, 0, 0, 0.15)}.module-button-283 .btn.btn.disabled::after{font-size:20px}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Conoce Kennedy',
+    'link' => 
+    array (
+      'type' => 'custom',
+      'id' => '',
+      'href' => 'https://www.kennedyexecutive.com/',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+        'target' => 'target="_blank"',
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'status' => true,
+    'id' => 'button-6439934b0bb33',
+    'module_id' => 283,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-button',
+      2 => 'module-button-283',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

@@ -1,0 +1,285 @@
+<?php $val = array (
+  'css' => '.module-info_blocks-289 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 2 * 20px) / 3 - 0.01px)}.module-info_blocks-289 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 3 - 0.01px)}.one-column #content .module-info_blocks-289 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 4 * 20px) / 5 - 0.01px)}.one-column #content .module-info_blocks-289 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 5 - 0.01px)}.two-column #content .module-info_blocks-289 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 4 * 20px) / 5 - 0.01px)}.two-column #content .module-info_blocks-289 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 5 - 0.01px)}.side-column .module-info_blocks-289 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-info_blocks-289 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-info_blocks-289 .info-block .info-block-title{font-family:\'Merriweather\';font-weight:400;font-size:28px;color:rgba(41, 41, 43, 1);text-align:center;display:block}.module-info_blocks-289 .info-block .info-block-text{font-family:\'Libre Franklin\';font-weight:400;font-size:15px;text-align:center;display:block}.module-info_blocks-289 a.info-block:hover{box-shadow:0 5px 30px -5px rgba(0, 0, 0, 0.15)}.module-info_blocks-289 .info-block{display:flex;flex-direction:column;align-items:center;text-align:center}.module-info_blocks-289 .info-block-content{display:flex}.module-info_blocks-289 .info-block::before{align-self:center}.module-info_blocks-289 .info-block-img{align-self:center}.module-info_blocks-289 .info-block::before, .module-info_blocks-289 .info-block-img{margin-top:20px;margin-bottom:10px}.module-info_blocks-289 .info-block .count-badge{display:none}@media (max-width: 1024px){.module-info_blocks-289 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 2 * 20px) / 3 - 0.01px)}.module-info_blocks-289 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 3 - 0.01px)}}@media (max-width: 760px){.module-info_blocks-289 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 0 * 20px) / 1 - 0.01px)}.module-info_blocks-289 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 1 - 0.01px)}.module-info_blocks-289 .info-block .info-block-title{font-size:26px}.module-info_blocks-289 .info-block{display:flex;flex-direction:column;align-items:center;text-align:center}.module-info_blocks-289 .info-block-content{display:flex}.module-info_blocks-289 .info-block::before, .module-info_blocks-289 .info-block-img{margin-top:10px;margin-bottom:5px}}.module-info_blocks-289 .module-item-1 .info-block::before{content:\'\\eb69\' !important;font-family:icomoon !important;font-size:30px;color:rgba(92, 152, 166, 1)}.module-info_blocks-289 .module-item-2 .info-block::before{content:\'\\eb0b\' !important;font-family:icomoon !important;font-size:25px;color:rgba(92, 152, 166, 1)}.module-info_blocks-289 .module-item-3 .info-block::before{content:\'\\e30c\' !important;font-family:icomoon !important;font-size:30px;color:rgba(92, 152, 166, 1)}.module-info_blocks-289 .module-item-4 .info-block::before{content:\'\\ebb3\' !important;font-family:icomoon !important;font-size:30px;color:rgba(92, 152, 166, 1)}.module-info_blocks-289 .module-item-5 .info-block::before{content:\'\\eb29\' !important;font-family:icomoon !important;font-size:30px;color:rgba(92, 152, 166, 1)}.module-info_blocks-289 .module-item-6 .info-block::before{content:\'\\ebdf\' !important;font-family:icomoon !important;font-size:30px;color:rgba(92, 152, 166, 1)}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Merriweather' => 
+      array (
+        400 => '400',
+      ),
+      'Libre Franklin' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 3,
+          'spacing' => 20,
+        ),
+        760 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+        1024 => 
+        array (
+          'items' => 3,
+          'spacing' => 20,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 5,
+          'spacing' => 20,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 5,
+          'spacing' => 20,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'status' => true,
+    'id' => 'info_blocks-643a5102404e7',
+    'module_id' => 289,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-info_blocks',
+      2 => 'module-info_blocks-289',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Boutique',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'We are artisans in the search, development and evaluation of managerial talent. The experience of clients and candidates throughout the process is exquisite.',
+        'button' => false,
+        'id' => '289-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'title' => 'Rigor',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'Our methodology is close but also scientific and exhaustive to fulfill 100% the demands of our clients.',
+        'button' => false,
+        'id' => '289-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'title' => 'Innovation',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'We disrupt the search and development sector for executives with technology, gamification and the best service to attract the best talent and evaluate it objectively.',
+        'button' => false,
+        'id' => '289-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      4 => 
+      array (
+        'title' => 'Internationality',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'Through our international partner Kennedy Executive Search, we are present in 37 markets in Europe, Asia and America.',
+        'button' => false,
+        'id' => '289-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      5 => 
+      array (
+        'title' => 'Experience',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'Our team has more than 20 years of experience in executive search. Thousands of interviews and successful development plans support us.',
+        'button' => false,
+        'id' => '289-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      6 => 
+      array (
+        'title' => 'Diversity and inclusion',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => 'We believe that it is a competitive advantage, which allows organizations to generate differential value. Our commitment is to help build balanced, diverse and inclusive teams.',
+        'button' => false,
+        'id' => '289-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

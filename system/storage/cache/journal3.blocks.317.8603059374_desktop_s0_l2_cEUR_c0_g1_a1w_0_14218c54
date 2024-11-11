@@ -1,0 +1,307 @@
+<?php $val = array (
+  'css' => '.module-blocks-317.blocks-grid .module-item.swiper-slide{margin-right:40px;width:calc((100% - 2 * 40px) / 3 - 0.01px)}.module-blocks-317.blocks-grid .module-item:not(.swiper-slide){padding:20px;width:calc(100% / 3 - 0.01px)}.one-column #content .module-blocks-317.blocks-grid .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-blocks-317.blocks-grid .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-blocks-317.blocks-grid .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-blocks-317.blocks-grid .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-blocks-317.blocks-grid .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-blocks-317.blocks-grid .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-blocks-317 .block-title{order:-2}.module-blocks-317 .block-header{display:flex;float:none;order:-1;justify-content:flex-start;align-items:flex-start}.module-blocks-317 .block-header
+img{display:flex}.module-blocks-317 .block-wrapper{display:flex;text-align:left;justify-content:flex-start}.module-blocks-317 .block-header
+i{float:none;display:flex}.module-blocks-317 .block-body{display:flex;flex-direction:column}@media (max-width: 760px){.module-blocks-317.blocks-grid .module-item.swiper-slide{margin-right:20px;width:calc((100% - 0 * 20px) / 1 - 0.01px)}.module-blocks-317.blocks-grid .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 1 - 0.01px)}}.module-blocks-317 .module-item-1 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-317 .module-item-1 .block-content{column-count:initial;column-gap:20px;column-rule-width:1px;column-rule-style:solid}.module-blocks-317 .module-item-1 .block-footer
+.btn{width:auto;transform:scale(calc(100 / 100));transform-origin:center}.module-blocks-317 .module-item-2 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-317 .module-item-2 .block-content{column-count:initial;column-gap:20px;column-rule-width:1px;column-rule-style:solid}.module-blocks-317 .module-item-2 .block-footer
+.btn{width:auto;transform:scale(calc(100 / 100));transform-origin:center}.module-blocks-317 .module-item-3 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-317 .module-item-3 .block-content{column-count:initial;column-gap:20px;column-rule-width:1px;column-rule-style:solid}.module-blocks-317 .module-item-3 .block-footer
+.btn{width:auto;transform:scale(calc(100 / 100));transform-origin:center}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'display' => 'grid',
+    'displayTablet' => '',
+    'displayPhone' => '',
+    'carousel' => false,
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 3,
+          'spacing' => 40,
+        ),
+        760 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'default' => '',
+    'title' => '',
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'lazyLoad' => false,
+    'status' => true,
+    'id' => 'blocks-643abd549ee48',
+    'module_id' => 317,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-blocks',
+      2 => 'module-blocks-317',
+      3 => 'blocks-grid',
+      'carousel-mode' => false,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'default_index' => 0,
+    'items' => 
+    array (
+      1 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'none',
+        'text' => '',
+        'alt' => '',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'none',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '317-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-1',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/placeholder-1000x1000.png',
+        'image2x' => 'https://saltortalent.com/image/cache/placeholder-1000x1000.png',
+        'title' => '',
+        'content' => '<h3>Empresas familiares y pymes</h3><p>Nos especializamos en la búsqueda, evaluación y desarrollo de sus posiciones clave, comités de dirección y consejos de administración. En España se estima que el 89% de empresas sobre el total son familiares y/o pymes. Y en Saltor Talent contamos con una gran experiencia en este sector.<br></p>',
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'none',
+        'text' => '',
+        'alt' => '',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'none',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '317-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-2',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/placeholder-1000x1000.png',
+        'image2x' => 'https://saltortalent.com/image/cache/placeholder-1000x1000.png',
+        'title' => '',
+        'content' => '<h3>Grandes corporaciones y multinacionales</h3>
+<p>Trabajamos para grandes corporaciones y multinacionales con la celeridad y discreción que demandan. Gracias a nuestra red mundial de oficinas asociadas a Kennedy Executive, contamos con una base de datos de primer nivel. Y sumado a la innovación en las herramientas de búsqueda, el assessment y la consultoría, conseguimos resultados óptimos.<br></p>',
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'none',
+        'text' => '',
+        'alt' => '',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'none',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '317-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-3',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/placeholder-1000x1000.png',
+        'image2x' => 'https://saltortalent.com/image/cache/placeholder-1000x1000.png',
+        'title' => '',
+        'content' => '<h3>Startups y empresas tecnológicas</h3>
+<p>La demanda de talento tecnológico y de directivos para empresas de base tecnológica va en aumento. Entender la lógica de esta tipología de empresas, mejorando la atracción y retención de los mejores candidatos. Conocer bien los roles y habilidades de los posibles candidatos y los beneficios que el empleador tiene para ofrecer es la clave para acertar.</p>',
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

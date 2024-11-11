@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/ 
+
+Sitemap: https://saltortalent.com/sitemap-information.xml
+Sitemap: https://saltortalent.com/sitemap-journal.xml

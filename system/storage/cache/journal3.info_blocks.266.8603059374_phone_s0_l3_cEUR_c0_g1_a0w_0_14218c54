@@ -1,0 +1,111 @@
+<?php $val = array (
+  'css' => '.module-info_blocks-266 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-info_blocks-266 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px);width:auto !important}.one-column #content .module-info_blocks-266 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-info_blocks-266 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-info_blocks-266 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-info_blocks-266 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-info_blocks-266 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-info_blocks-266 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-info_blocks-266 .module-item .info-block{justify-content:center}.module-info_blocks-266 .module-body{justify-content:center;padding:20px;padding-top:80px;padding-right:30px;padding-left:30px}.module-info_blocks-266 .info-block .info-block-title{font-family:\'Merriweather\';font-weight:400;font-size:40px;color:rgba(0, 0, 0, 1);text-align:center;text-transform:none;line-height:1.2;margin-bottom:20px;display:block}.module-info_blocks-266 .info-block .info-block-text{color:rgba(0, 0, 0, 1);text-align:center;display:block}.module-info_blocks-266 a.info-block:hover{box-shadow:5px 20px 40px rgba(0, 0, 0, 0.3)}.module-info_blocks-266 .info-block-content{padding-right:340px;padding-left:340px;display:flex}.module-info_blocks-266 .info-block{display:flex;flex-direction:row;justify-content:flex-start;text-align:left}.module-info_blocks-266 .info-block::before{align-self:center;font-size:20px;color:rgba(255, 255, 255, 1)}.module-info_blocks-266 .info-block-img{align-self:center}.module-info_blocks-266 .info-block::before, .module-info_blocks-266 .info-block-img{margin-right:10px}.module-info_blocks-266 .info-block .count-badge{display:none}@media (max-width: 1280px){.module-info_blocks-266 .info-block-content{padding-right:30px;padding-left:30px}}@media (max-width: 1140px){.module-info_blocks-266 .info-block-content{padding-right:30px;padding-left:30px}}@media (max-width: 760px){.module-info_blocks-266 .info-block .info-block-title{font-size:28px}.module-info_blocks-266 .info-block-content{padding-right:30px;padding-left:30px}.module-info_blocks-266 .module-body{padding-right:0px;padding-left:0px}}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Merriweather' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'status' => true,
+    'id' => 'info_blocks-6439b95860b76',
+    'module_id' => 266,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-info_blocks',
+      2 => 'module-info_blocks-266',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'La nostra oficina,<br>el món',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'content' => '<p>A través de Kennedy Executive Search, a Saltor Talent desenvolupem projectes internacionals amb altres firmes boutiques a Europa, Estats Units, Amèrica Llatina i Àsia. </p><p>Els nostres socis tenen oficines a Àustria, Bèlgica, Brasil, República Txeca, Dinamarca, França, Alemanya, Hongria, Itàlia, Mèxic, Mònaco, Espanya, Suècia, Suïssa, Holanda, Regne Unit i Estats Units i Japó.</p>',
+        'button' => false,
+        'id' => '266-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => 'info-blocks',
+          3 => 'info-blocks-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

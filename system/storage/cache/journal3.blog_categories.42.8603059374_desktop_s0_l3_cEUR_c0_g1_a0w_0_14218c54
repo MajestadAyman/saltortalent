@@ -1,0 +1,59 @@
+<?php $val = array (
+  'css' => '.module-blog_categories-42 .module-body{border-style:none;border-color:rgba(221, 221, 221, 1)}.module-blog_categories-42
+a{padding:7px;padding-left:0px}.module-blog_categories-42 a
+span{color:rgba(41, 41, 43, 1)}.module-blog_categories-42 a:hover
+span{color:rgba(92, 152, 166, 1)}.module-blog_categories-42 a::before{content:\'\\e93f\' !important;font-family:icomoon !important;font-size:12px;margin-right:4px}.module-blog_categories-42 a+a{border-style:solid;border-color:rgba(92, 152, 166, 1)}.module-blog_categories-42
+span{white-space:normal;overflow:visible;text-overflow:initial}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'status' => true,
+    'id' => 'blog_categories-6439a20d8ef45',
+    'module_id' => 42,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-blog_categories',
+      2 => 'module-blog_categories-42',
+    ),
+    'items' => 
+    array (
+      0 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'module-item',
+        ),
+        'name' => 'Notícies',
+        'href' => 'https://saltortalent.com/cat/blog-and-people/noticies',
+      ),
+      1 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'module-item',
+        ),
+        'name' => 'Executive Agora',
+        'href' => 'https://saltortalent.com/cat/blog-and-people/executive-agora',
+      ),
+      2 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'module-item',
+        ),
+        'name' => 'Casos d\'Èxit',
+        'href' => 'https://saltortalent.com/cat/blog-and-people/casos-dexit',
+      ),
+    ),
+  ),
+);

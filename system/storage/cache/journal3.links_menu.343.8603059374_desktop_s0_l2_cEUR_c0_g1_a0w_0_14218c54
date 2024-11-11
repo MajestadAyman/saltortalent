@@ -1,0 +1,24 @@
+<?php $val = array (
+  'css' => 'div.links-menu-343 .module-body{display:flex;flex-direction:row;justify-content:flex-start;;-webkit-overflow-scrolling:touch}div.links-menu-343 .menu-item{border-width:0 0 0 1px;flex-grow:0}div.links-menu-343 .menu-item a .links-text{white-space:nowrap;color:rgba(187, 198, 221, 1)}.phone footer  div.links-menu-343 .module-title::before{display:none}.phone footer  div.links-menu-343 .module-title+.module-body>li{display:flex}@media (max-width: 760px){div.links-menu-343 .menu-item{flex-grow:0}div.links-menu-343 .module-body{justify-content:center}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'status' => false,
+    'id' => 'links-menu-643dba3ea2cc0',
+    'module_id' => 343,
+    'classes' => 
+    array (
+      0 => 'links-menu',
+      1 => 'links-menu-343',
+    ),
+  ),
+);

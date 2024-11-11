@@ -1,0 +1,503 @@
+<?php $val = array (
+  'settings' => 
+  array (
+    'column_left' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'column_right' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'top' => 
+    array (
+      'rows' => 
+      array (
+        1 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-1',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-1-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-1-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '284',
+                    'name' => 'Nosotros Title',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-2',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-2-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-2-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '287',
+                    'name' => 'Nosotros Historia Title',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        3 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-3',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-3-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-3-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '285',
+                    'name' => 'Info Block Historia',
+                    'type' => 'info_blocks',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        4 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-4',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-4-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-4-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '286',
+                    'name' => 'Nosotros Figures Title',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+            2 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-4-2',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-4-2-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '288',
+                    'name' => 'Info Block Figures',
+                    'type' => 'info_blocks',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        5 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-5',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-5-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-5-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '290',
+                    'name' => 'Nosotros Valores Title',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        6 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-6',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-6-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-6-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '289',
+                    'name' => 'Info Block Valores',
+                    'type' => 'info_blocks',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        7 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-7',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-7-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-7-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '291',
+                    'name' => 'Nosotros Método de trabajo Title',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+            2 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-7-2',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-7-2-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '292',
+                    'name' => 'Nosotros Método de trabajo Text',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'bottom' => 
+    array (
+      'rows' => 
+      array (
+        1 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-bottom-1',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-bottom-1-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-bottom-1-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '305',
+                    'name' => 'Custom Map Copy Copy',
+                    'type' => 'blocks',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'header_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+  ),
+  'php' => 
+  array (
+    'headerDesktop' => '',
+    'headerMobile' => '',
+    'footerMenu' => '',
+    'footerMenuPhone' => '',
+  ),
+  'js' => 
+  array (
+  ),
+  'fonts' => 
+  array (
+  ),
+  'css' => '.layout-14 .site-wrapper>.container{display:none !important}.layout-14 .page-title{display:none !important}.grid-row-top-1{background-image:url(\'https://saltortalent.com/image/cache/catalog/nosotros/cabecera/cabecera-nosotros-3-1498x400.jpg\');background-repeat:no-repeat;background-size:cover;padding-top:50px;padding-bottom:50px}.grid-row-top-1::before{display:block;left:0;width:100vw}.grid-row-top-1 .wave-top{display:block}.grid-row-top-1 .wave-bottom{display:block}.grid-col-top-1-1{width:100%}.grid-col-top-1-1 .grid-item{height:auto}.grid-col-top-1-1 .grid-items{justify-content:flex-start}@media (max-width: 1024px){.grid-col-top-1-1{padding-right:20px;padding-left:20px}}@media (max-width: 760px){.grid-col-top-1-1{padding-right:20px;padding-left:20px}}.grid-item-top-1-1-1{width:100%}.grid-row-top-2::before{display:block;left:0;width:100vw}.grid-row-top-2{padding-top:30px;padding-bottom:30px}.grid-row-top-2 .wave-top{display:block}.grid-row-top-2 .wave-bottom{display:block}@media (max-width: 760px){.grid-row-top-2{padding-right:20px;padding-left:20px}}.grid-col-top-2-1{width:100%}.grid-col-top-2-1 .grid-item{height:auto}.grid-col-top-2-1 .grid-items{justify-content:flex-start}.grid-item-top-2-1-1{width:100%}.grid-row-top-3::before{display:block;left:0;width:100vw}.grid-row-top-3{padding-bottom:60px}.grid-row-top-3 .wave-top{display:block}.grid-row-top-3 .wave-bottom{display:block}@media (max-width: 1024px){.grid-row-top-3{padding-right:20px;padding-left:20px}}@media (max-width: 760px){.grid-row-top-3{padding-right:20px;padding-left:20px}}.grid-col-top-3-1{width:100%}.grid-col-top-3-1 .grid-item{height:auto}.grid-col-top-3-1 .grid-items{justify-content:flex-start}.grid-item-top-3-1-1{width:100%}.grid-row-top-4{background-image:url(\'https://saltortalent.com/image/cache/catalog/nosotros/background/nosotros-figures-background-1900x600.jpg\');background-size:cover;padding-top:40px;padding-bottom:40px}.grid-row-top-4::before{content:\'\';display:block;background:rgba(92, 152, 166, 1);mix-blend-mode:multiply;left:0;width:100vw}.grid-row-top-4 .wave-top{display:block}.grid-row-top-4 .wave-bottom{display:block}@media (max-width: 1024px){.grid-row-top-4{padding-right:20px;padding-left:20px}}@media (max-width: 760px){.grid-row-top-4{padding-right:20px;padding-left:20px}}.grid-col-top-4-1{width:50%}.grid-col-top-4-1 .grid-item{height:auto}.grid-col-top-4-1 .grid-items{justify-content:flex-start}@media (max-width: 760px){.grid-col-top-4-1{width:100%}}.grid-item-top-4-1-1{width:100%}.grid-col-top-4-2{width:50%}.grid-col-top-4-2 .grid-item{height:auto}.grid-col-top-4-2 .grid-items{justify-content:flex-start}@media (max-width: 760px){.grid-col-top-4-2{width:100%}}.grid-item-top-4-2-1{width:100%}.grid-row-top-5{background:rgba(238,238,238,0.5);padding-top:30px}.grid-row-top-5::before{display:block;left:0;width:100vw}.grid-row-top-5 .wave-top{display:block}.grid-row-top-5 .wave-bottom{display:block}@media (max-width: 1024px){.grid-row-top-5{padding-right:20px;padding-left:20px}}@media (max-width: 760px){.grid-row-top-5{padding-right:20px;padding-left:20px}}.grid-col-top-5-1{width:100%}.grid-col-top-5-1 .grid-item{height:auto}.grid-col-top-5-1 .grid-items{justify-content:flex-start}.grid-item-top-5-1-1{width:100%}.grid-row-top-6{background:rgba(238,238,238,0.5);padding-bottom:60px}.grid-row-top-6::before{display:block;left:0;width:100vw}.grid-row-top-6 .wave-top{display:block}.grid-row-top-6 .wave-bottom{display:block}@media (max-width: 1024px){.grid-row-top-6{padding-right:20px;padding-left:20px}}@media (max-width: 760px){.grid-row-top-6{padding-right:20px;padding-left:20px}}.grid-col-top-6-1{width:100%}.grid-col-top-6-1 .grid-item{height:auto}.grid-col-top-6-1 .grid-items{justify-content:flex-start}.grid-item-top-6-1-1{width:100%}.grid-row-top-7::before{display:block;left:0;width:100vw}.grid-row-top-7{padding-top:30px;padding-bottom:30px}.grid-row-top-7 .wave-top{display:block}.grid-row-top-7 .wave-bottom{display:block}.grid-col-top-7-1{width:50%;padding-right:40px}.grid-col-top-7-1 .grid-item{height:auto}.grid-col-top-7-1 .grid-items{justify-content:flex-start}@media (max-width: 1024px){.grid-col-top-7-1{padding-right:20px;padding-left:20px}}@media (max-width: 760px){.grid-col-top-7-1{width:100%;padding-right:20px;padding-left:20px}}.grid-item-top-7-1-1{width:100%}.grid-col-top-7-2{width:50%}.grid-col-top-7-2 .grid-item{height:auto}.grid-col-top-7-2 .grid-items{justify-content:flex-start}@media (max-width: 1024px){.grid-col-top-7-2{padding-right:20px;padding-left:20px}}@media (max-width: 760px){.grid-col-top-7-2{width:100%;padding-right:20px;padding-left:20px}}.grid-item-top-7-2-1{width:100%}.grid-row-bottom-1::before{display:block;left:0;width:100vw}.grid-row-bottom-1 .wave-top{display:block}.grid-row-bottom-1 .wave-bottom{display:block}.grid-col-bottom-1-1{width:100%}.grid-col-bottom-1-1 .grid-item{height:auto}.grid-col-bottom-1-1 .grid-items{justify-content:flex-start}.grid-item-bottom-1-1-1{width:100%}',
+);

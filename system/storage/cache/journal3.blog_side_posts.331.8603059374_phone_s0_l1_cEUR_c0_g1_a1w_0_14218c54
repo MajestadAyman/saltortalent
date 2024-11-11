@@ -1,0 +1,213 @@
+<?php $val = array (
+  'css' => '.module-blog_side_posts-331 .swiper-container{overflow:hidden;padding:-5px}.module-blog_side_posts-331 .swiper-buttons{display:block;top:0;margin-top:-30px}.module-blog_side_posts-331 .swiper-button-prev{left:auto;right:0;transform:translate(-100%, -100%)}.module-blog_side_posts-331 .swiper-button-next{transform:translate(0, -100%)}.module-blog_side_posts-331 .swiper-buttons
+div{width:25px;height:25px;background:rgba(0, 138, 221, 1)}.module-blog_side_posts-331 .swiper-button-disabled{opacity:0.5}.module-blog_side_posts-331 .swiper-buttons div::before{content:\'\\e5c4\' !important;font-family:icomoon !important;color:rgba(255, 255, 255, 1)}.module-blog_side_posts-331 .swiper-buttons .swiper-button-next::before{content:\'\\e5c8\' !important;font-family:icomoon !important;color:rgba(255, 255, 255, 1)}.module-blog_side_posts-331 .swiper-buttons div:not(.swiper-button-disabled):hover{background:rgba(10, 55, 143, 1)}.module-blog_side_posts-331 .swiper-pagination{display:none;margin-bottom:-10px;left:50%;right:auto;transform:translateX(-50%)}.module-blog_side_posts-331:hover .swiper-pagination{display:block}.module-blog_side_posts-331
+.swiper{padding-bottom:15px}.module-blog_side_posts-331 .swiper-pagination-bullet{width:10px;height:10px;background-color:rgba(0, 138, 221, 1)}.module-blog_side_posts-331 .swiper-pagination>span+span{margin-left:7px}.desktop .module-blog_side_posts-331 .swiper-pagination-bullet:hover{background-color:rgba(238, 80, 66, 1)}.module-blog_side_posts-331 .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color:rgba(238, 80, 66, 1)}.module-blog_side_posts-331 .swiper-pagination>span{border-radius:10px}.module-blog_side_posts-331 .nav-tabs > li > a, .module-blog_side_posts-331 .nav-tabs > li.active > a, .module-blog_side_posts-331 .nav-tabs > li.active > a:hover, .module-blog_side_posts-331 .nav-tabs>li.active>a:focus{font-size:13px;color:rgba(41, 41, 43, 1);font-weight:700;text-transform:uppercase}.desktop .module-blog_side_posts-331 .nav-tabs > li:hover > a, .module-blog_side_posts-331 .nav-tabs>li.active>a{color:rgba(208, 30, 36, 1)}.module-blog_side_posts-331 .nav-tabs > li.active > a, .module-blog_side_posts-331 .nav-tabs > li.active > a:hover, .module-blog_side_posts-331 .nav-tabs>li.active>a:focus{color:rgba(41, 41, 43, 1)}.module-blog_side_posts-331 .nav-tabs{border-width:0;border-bottom-width:1px;border-style:solid;border-color:rgba(221, 221, 221, 1);margin-bottom:20px;display:flex;justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;;min-width:50px}.module-blog_side_posts-331 .nav-tabs>li{border-width:0;border-bottom-width:2px;border-style:solid;border-color:rgba(0, 0, 0, 0);flex-grow:0}.module-blog_side_posts-331 .nav-tabs>li.active{border-color:rgba(208, 30, 36, 1)}.module-blog_side_posts-331 .nav-tabs>li.active::after{display:none;border-top-color:rgba(221, 221, 221, 1);border-top-width:10px}.module-blog_side_posts-331 .nav-tabs>li>a{justify-content:flex-start;white-space:nowrap;padding:0px;padding-bottom:12px}.module-blog_side_posts-331 .nav-tabs>li:last-child{margin-left:0}.module-blog_side_posts-331 .nav-tabs>li:not(:last-child){margin-right:20px}.module-blog_side_posts-331 .mobile .nav-tabs{overflow-x:scroll}.module-blog_side_posts-331 .nav-tabs::-webkit-scrollbar{-webkit-appearance:none;height:1px;height:1px;width:1px}.module-blog_side_posts-331 .nav-tabs::-webkit-scrollbar-track{background-color:white}.module-blog_side_posts-331 .nav-tabs::-webkit-scrollbar-thumb{background-color:#999;background-color:rgba(208, 30, 36, 1)}.module-blog_side_posts-331 .tab-container::before{display:none}.module-blog_side_posts-331 .tab-container{display:block}.module-blog_side_posts-331 .tab-container .nav-tabs{flex-direction:row}.module-blog_side_posts-331 .post-layout.swiper-slide{margin-right:0px;width:calc((100% - 3 * 0px) / 4 - 0.01px)}.module-blog_side_posts-331 .post-layout:not(.swiper-slide){padding:0px;width:calc(100% / 4 - 0.01px)}.one-column #content .module-blog_side_posts-331 .post-layout.swiper-slide{margin-right:0px;width:calc((100% - 3 * 0px) / 4 - 0.01px)}.one-column #content .module-blog_side_posts-331 .post-layout:not(.swiper-slide){padding:0px;width:calc(100% / 4 - 0.01px)}.two-column #content .module-blog_side_posts-331 .post-layout.swiper-slide{margin-right:0px;width:calc((100% - 2 * 0px) / 3 - 0.01px)}.two-column #content .module-blog_side_posts-331 .post-layout:not(.swiper-slide){padding:0px;width:calc(100% / 3 - 0.01px)}.side-column .module-blog_side_posts-331 .post-layout.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-blog_side_posts-331 .post-layout:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-blog_side_posts-331:not(.carousel-mode) .side-posts{margin:-5px}.module-blog_side_posts-331 .side-posts .post-thumb{padding:10px;border-radius:3px}.module-blog_side_posts-331 .side-posts .post-thumb
+img{border-radius:50%;filter:grayscale(1)}.module-blog_side_posts-331 .side-posts .post-thumb:hover
+img{filter:grayscale(0)}.module-blog_side_posts-331 .side-posts .post-thumb
+.name{display:block}.module-blog_side_posts-331 .side-posts .post-thumb .name
+a{white-space:normal;overflow:visible;text-overflow:initial;color:rgba(41, 41, 43, 1)}.module-blog_side_posts-331 .side-posts .post-thumb .name a:hover{color:rgba(92, 152, 166, 1)}.module-blog_side_posts-331 .side-posts .post-thumb .post-stats{display:flex}.module-blog_side_posts-331 .side-posts .post-thumb .post-stats .p-date{display:inline-flex}.module-blog_side_posts-331 .side-posts .post-thumb .post-stats .p-comment{display:none}@media (max-width: 1024px){.module-blog_side_posts-331 .swiper-buttons{display:none !important}.module-blog_side_posts-331 .swiper-pagination{display:block}}@media (max-width: 760px){.module-blog_side_posts-331 .swiper-buttons{top:50%;width:calc(100% - (-12px * 2));margin-top:-10px}.module-blog_side_posts-331 .swiper-button-prev{left:0;right:auto;transform:translate(0, -50%)}.module-blog_side_posts-331 .swiper-button-next{left:auto;right:0;transform:translate(0, -50%)}.module-blog_side_posts-331 .swiper-button-disabled{opacity:0}.module-blog_side_posts-331 .nav-tabs{display:flex;justify-content:flex-start}.module-blog_side_posts-331 .nav-tabs>li{flex-grow:1}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'sectionsDisplay' => 'blocks',
+    'sectionsDisplayTablet' => '',
+    'sectionsDisplayPhone' => '',
+    'carousel' => false,
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 4,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 4,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 3,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'default' => 'f11b7bee-5e03-43e4-9407-b11c3b2987c0',
+    'imageDimensions' => 
+    array (
+      'width' => 50,
+      'height' => 50,
+      'resize' => 'fill',
+    ),
+    'status' => true,
+    'id' => 'blog_side_posts-6439ade0d2c16',
+    'module_id' => 331,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-blog_side_posts',
+      2 => 'module-blog_side_posts-331',
+      'carousel-mode' => false,
+      'isotope' => false,
+    ),
+    'image_width' => 50,
+    'image_height' => 50,
+    'image_resize' => 'fill',
+    'carouselOptions' => 
+    array (
+      'speed' => 400,
+      'autoplay' => false,
+      'pauseOnHover' => true,
+      'loop' => false,
+    ),
+    'text_tax' => 'Ex Tax:',
+    'button_cart' => 'Add to Cart',
+    'button_wishlist' => 'Add to Wish List',
+    'button_compare' => 'Compare this Product',
+    'default_index' => 1,
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '',
+        'filter' => 
+        array (
+          'sort' => 'newest',
+          'order' => 'ASC',
+          'start' => 0,
+          'limit' => 5,
+          'preset' => 'category',
+          'categories' => 
+          array (
+            0 => '7',
+          ),
+        ),
+        'id' => '331-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'tab-pane' => false,
+          'panel' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-1',
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+        ),
+        'posts' => 
+        array (
+          70 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'post_id' => '70',
+            'thumb' => 'https://saltortalent.com/image/cache/catalog/retail-exito-50x50h.jpg',
+            'thumb2x' => 'https://saltortalent.com/image/cache/catalog/retail-exito-100x100h.jpg',
+            'author' => 'saltortalent',
+            'name' => 'EXECUTIVE SEARCH | We contribute to the creation of a regional Hub located in Barcelona of one of the largest multinational in the retail sector',
+            'comments' => '0',
+            'views' => '75',
+            'date' => '28 <i>Mar 2023</i>',
+            'description' => 'Recently, from Saltor Talent, we have worked on the project of selecting some  of the key positions of a large European multinational in the retail sector. 1. What was the challenge?It is a multinational with a turnover of more than 20 BN USD, with  a global presence, and at a time of decentralizati..',
+            'href' => 'https://saltortalent.com/eng/blog-and-people/we-contribute-to-the-creation-of-a-regional-Hub-located-in-Barcelona-of-one-of-the-largest-multinational-in-the-retail-sector',
+          ),
+          17 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'post_id' => '17',
+            'thumb' => 'https://saltortalent.com/image/cache/catalog/blog/casos-de-exito/post-17/acompanyar-un-proces-de-canvi-cultural-i-de-mindset-en-una-empresa-multinacional-del-sector-industrial-50x50h.jpg',
+            'thumb2x' => 'https://saltortalent.com/image/cache/catalog/blog/casos-de-exito/post-17/acompanyar-un-proces-de-canvi-cultural-i-de-mindset-en-una-empresa-multinacional-del-sector-industrial-100x100h.jpg',
+            'author' => 'saltortalent',
+            'name' => 'CONSULTING | We accompany a process of cultural and mindset change in a multinational company in the industrial sector',
+            'comments' => '0',
+            'views' => '1257',
+            'date' => '01 <i>Jan 2021</i>',
+            'description' => 'An example of the many projects that we have successfully led from Saltor Talent, helping companies in one of the most critical challenges they can face in an environment of crisis and maximum uncertainty.
+1. What was the challenge?
+We were contacted by one of the leading companies in Europe in the ..',
+            'href' => 'https://saltortalent.com/eng/blog-and-people/accompany-a-process-of-cultural-and-mindset-change-in-a-multinational-company-in-the-industrial-sector',
+          ),
+          16 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'post_id' => '16',
+            'thumb' => 'https://saltortalent.com/image/cache/catalog/blog/casos-de-exito/post-16/evaluamos-a-los-futuros-managers-de-una-compania-del-sector-farma-con-bright-ly-nuestra-factoria-de-experiencias-en-assessment-50x50h.jpg',
+            'thumb2x' => 'https://saltortalent.com/image/cache/catalog/blog/casos-de-exito/post-16/evaluamos-a-los-futuros-managers-de-una-compania-del-sector-farma-con-bright-ly-nuestra-factoria-de-experiencias-en-assessment-100x100h.jpg',
+            'author' => 'saltortalent',
+            'name' => 'ASSESSMENT | We evaluate future managers of a company in the pharmaceutical sector with Bright-ly, our factory of assessment experiences',
+            'comments' => '0',
+            'views' => '883',
+            'date' => '01 <i>Jan 2021</i>',
+            'description' => '1. What was the challenge?
+Last June, one of our clients in the pharmaceutical sector presented us with a challenge:  design a Group Assessment for its talent program aimed at future managers of the organization . The target of participants was very diverse since it brought together all kinds of pro..',
+            'href' => 'https://saltortalent.com/eng/blog-and-people/we-evaluate-future-managers-of-a-company-in-the-pharmaceutical-sector-with-bright-ly-our-factory-of-assessment-experiences',
+          ),
+          15 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'post_id' => '15',
+            'thumb' => 'https://saltortalent.com/image/cache/catalog/blog/casos-de-exito/reforzamos-el-organo-de-gobierno-de-una-pyme-industrial-montando-un-consejo-asesor-con-dos-miembros-externos-50x50h.jpg',
+            'thumb2x' => 'https://saltortalent.com/image/cache/catalog/blog/casos-de-exito/reforzamos-el-organo-de-gobierno-de-una-pyme-industrial-montando-un-consejo-asesor-con-dos-miembros-externos-100x100h.jpg',
+            'author' => 'saltortalent',
+            'name' => 'EXECUTIVE SEARCH | We strengthened the Governing Body of an industrial SME, setting up an Advisory Council with two external members',
+            'comments' => '0',
+            'views' => '924',
+            'date' => '01 <i>Jan 2021</i>',
+            'description' => ' Recently, from Saltor Talent, we have worked on the project of setting up an Advisory Council for a Spanish SME company in the industrial sector. 
+ 1. What was the challenge? 
+ It is a professionalized and internationalized family-owned company, with subsidiaries in different countries and with a s..',
+            'href' => 'https://saltortalent.com/eng/blog-and-people/we-strengthened-the-governing-body-of-an-industrial-sme-setting-up-an-advisory-council-with-two-external-members',
+          ),
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

@@ -1,0 +1,409 @@
+<?php $val = array (
+  'css' => '.module-banners-298 .module-item.swiper-slide{margin-right:30px;width:calc((100% - 2 * 30px) / 3 - 0.01px)}.module-banners-298 .module-item:not(.swiper-slide){padding:15px;width:calc(100% / 3 - 0.01px)}.one-column #content .module-banners-298 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-banners-298 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-banners-298 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-banners-298 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-banners-298 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-banners-298 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-banners-298 a
+img{transform:scale(1)}.desktop .module-banners-298 .module-item:hover>a{box-shadow:0 5px 30px -5px rgba(0, 0, 0, 0.15)}.module-banners-298 .module-item>a::before{background:rgba(114, 118, 132, 1);mix-blend-mode:multiply}.module-banners-298 a::before{opacity:1}.module-banners-298 a .banner-caption{visibility:visible;opacity:1;display:block}.module-banners-298 .banner-caption{top:50%;left:50%;right:auto;bottom:auto;transform:translate3d(-50%, -50%, 0)}.module-banners-298 .banner-caption
+span{white-space:normal;;font-family:\'Libre Franklin\';font-weight:700;font-size:28px;color:rgba(255, 255, 255, 1);text-align:center;padding:5px}.module-banners-298 .banner-caption-2{visibility:hidden;opacity:0;display:block;top:auto;left:50%;right:auto;bottom:0;transform:translate3d(-50%, 0, 0)}.desktop .module-banners-298 a:hover .banner-caption-2{visibility:visible;opacity:1}.module-banners-298 a .banner-caption-2{width:100%}.module-banners-298 .banner-caption-2
+span{text-align:center;text-transform:uppercase;padding:10px;padding-right:20px;padding-bottom:50px;padding-left:20px}.module-banners-298 .banner-caption-3
+span{white-space:normal}@media (max-width: 1140px){.module-banners-298 a::before{opacity:1}}@media (max-width: 1024px){.module-banners-298 .banner-caption
+span{font-size:22px;padding:5px}.module-banners-298 a .banner-caption-2{visibility:visible;opacity:1;display:block}.module-banners-298 .banner-caption-2
+span{font-size:13px;padding:10px}}@media (max-width: 760px){.module-banners-298 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 0 * 20px) / 1 - 0.01px)}.module-banners-298 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 1 - 0.01px)}.module-banners-298 a::before{opacity:1}.module-banners-298 .banner-caption
+span{font-size:18px;padding:5px}.module-banners-298 a .banner-caption-2{visibility:visible;opacity:1;display:block}.module-banners-298 .banner-caption-2
+span{font-size:13px;padding:10px}}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Libre Franklin' => 
+      array (
+        700 => '700',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'carousel' => false,
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 3,
+          'spacing' => 30,
+        ),
+        760 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'imageDimensions' => 
+    array (
+      'width' => 1500,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'lazyLoad' => false,
+    'status' => true,
+    'id' => 'banners-64398d2f9dde2',
+    'module_id' => 298,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-banners',
+      2 => 'module-banners-298',
+      'carousel-mode' => false,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Finanzas',
+        'title2' => 'Banca - Capital riesgo - Seguros',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '59',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '298-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-finanzas-1-1500x1000fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-finanzas-1-3000x2000fill.jpg',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'title' => 'Alimentación',
+        'title2' => 'Producción alimentaria - Distribución horeca',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '59',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '298-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-alimentacion-1500x1000fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-alimentacion-3000x2000fill.jpg',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'title' => 'Industria ferroviaria',
+        'title2' => 'Red ferroviaria - Infraestructuras - Proyectos llave en mano',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '59',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '298-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-ferroviaria-1-1500x1000fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-ferroviaria-1-3000x2000fill.jpg',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+      4 => 
+      array (
+        'title' => 'Industria energética y utilities',
+        'title2' => 'Fabricación - Instalación - Construcción',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '59',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '298-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-energia-y-utilities-1-1500x1000fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-energia-y-utilities-1-3000x2000fill.jpg',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+      5 => 
+      array (
+        'title' => 'Ocio y turismo',
+        'title2' => 'Sector hotelero - Restauración - Entretenimiento',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '59',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '298-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-ocio-turismo-1500x1000fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-ocio-turismo-3000x2000fill.jpg',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+      6 => 
+      array (
+        'title' => 'Gran consumo y retail',
+        'title2' => 'Bienes consumo - Cosmética - Embalaje - Lujo - Moda y retail',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '59',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '298-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-gran-consumo-retail-1500x1000fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-gran-consumo-retail-3000x2000fill.jpg',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+      7 => 
+      array (
+        'title' => 'Farmacéutica y química',
+        'title2' => 'Medicamentos - Equipos médicos - Biotecnología',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '59',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '298-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'swiper-slide' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-farmaceutica-quimica-1500x1000fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-farmaceutica-quimica-3000x2000fill.jpg',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+      8 => 
+      array (
+        'title' => 'Tecnología',
+        'title2' => 'Digital - Software - Hardware',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '59',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '298-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          'swiper-slide' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-tecnologia-1-1500x1000fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-tecnologia-1-3000x2000fill.jpg',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+      9 => 
+      array (
+        'title' => '> Contacta con nosotros y te ayudaremos',
+        'title2' => '',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '59',
+          'href' => 'https://saltortalent.com/es/contacto',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '298-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          'swiper-slide' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-contacta-1500x1000fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/industrias/banners-sectores/banner-industrias-contacta-3000x2000fill.jpg',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

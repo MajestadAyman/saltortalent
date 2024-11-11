@@ -1,0 +1,174 @@
+<?php
+// Heading
+$_['heading_title'] 		= 'PayPal Pro iFrame';
+
+// Text
+$_['text_extension']                 = 'Extensions';
+$_['text_success'] = 'Enhorabona: Ha modificat PayPal Pro iFrame.';
+$_['text_edit'] = 'Edita PayPal Pro iFrame';
+$_['text_pp_pro_iframe']			 = '<a target="_BLANK" href="https://www.paypal.com/uk/mrb/pal=V4T754QB63XXL"><img src="view/image/payment/paypal.png" alt="PayPal Pro iFrame" title="PayPal Pro iFrame" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_authorization'] = 'Autorització';
+$_['text_sale'] = 'Venda';
+$_['text_payment_info'] = 'Informació del pagament';
+$_['text_capture_status'] = 'Captura estat';
+$_['text_amount_auth'] = 'Import autoritzat';
+$_['text_amount_captured'] = 'Quantitat capturada';
+$_['text_amount_refunded'] = 'Import reemborsat';
+$_['text_capture_amount'] = 'Quantitat capturada';
+$_['text_complete_capture'] = 'Captura completa';
+$_['text_transactions'] = 'Transaccions';
+$_['text_complete'] = 'Completa';
+$_['text_confirm_void'] = 'Si anul·la no pot capturar tots els fons addicionals';
+$_['text_view'] = 'Veure';
+$_['text_refund'] = 'Devolució';
+$_['text_resend'] = 'Reenviar';
+$_['text_reauthorise'] = 'Reautorizar';
+$_['text_reauthorised'] = 'Transacció va ser reautorizada';
+$_['text_transaction'] = 'Transacció';
+$_['text_product_lines'] = 'Línies de productes';
+$_['text_ebay_txn_id'] = 'eBay ID de transacció';
+$_['text_name'] = 'Nom';
+$_['text_qty'] = 'Quantitat';
+$_['text_price'] = 'Preu';
+$_['text_number'] = 'Nombre';
+$_['text_coupon_id'] = 'ID Cupó';
+$_['text_coupon_amount'] = 'Quantitat del cupó';
+$_['text_coupon_currency'] = 'Diner del cupó';
+$_['text_loyalty_disc_amt'] = 'Targeta Fidelitat quantitat disc';
+$_['text_loyalty_currency'] = 'Diner de targeta de fidelitat';
+$_['text_options_name'] = 'Nom de Opcions';
+$_['text_tax_amt'] = 'Quantitat d&#039;impost';
+$_['text_currency_code'] = 'El codi de divises';
+$_['text_amount'] = 'Import';
+$_['text_gift_msg'] = 'Missatge de regal';
+$_['text_gift_receipt'] = 'Rebut de regals';
+$_['text_gift_wrap_name'] = 'Paper de regal nom';
+$_['text_gift_wrap_amt'] = 'Paper de regal quantitat';
+$_['text_buyer_email_market'] = 'Correu electrònic comercialització del comprador';
+$_['text_survey_question'] = 'Pregunta de l&#039;enquesta';
+$_['text_survey_chosen'] = 'Elecció enquesta seleccionat';
+$_['text_receiver_business'] = 'Negoci receptor';
+$_['text_receiver_email'] = 'Correu electrònic del receptor';
+$_['text_receiver_id'] = 'ID del receptor';
+$_['text_buyer_email'] = 'E-mail del comprador';
+$_['text_payer_id'] = 'Payero ID';
+$_['text_payer_status'] = 'Estat Payero';
+$_['text_country_code'] = 'Codi del país';
+$_['text_payer_business'] = 'Negoci Payero';
+$_['text_payer_salute'] = 'Salutació Payero';
+$_['text_payer_firstname'] = 'Payero nom';
+$_['text_payer_middlename'] = 'Payero segon nom';
+$_['text_payer_lastname'] = 'Payero cognom';
+$_['text_payer_suffix'] = 'Sufix Payero';
+$_['text_address_owner'] = 'Adreça del propietari';
+$_['text_address_status'] = 'Adreça estat';
+$_['text_ship_sec_name'] = 'Envia a Nom secundària';
+$_['text_ship_name'] = 'Nau a nom';
+$_['text_ship_street1'] = 'Envia a una direcció 1';
+$_['text_ship_street2'] = 'Envia a una direcció 2';
+$_['text_ship_city'] = 'Envia a una ciutat';
+$_['text_ship_state'] = 'Envia a estat';
+$_['text_ship_zip'] = 'Envia a ZIP';
+$_['text_ship_country'] = 'Envia a codi de país';
+$_['text_ship_phone'] = 'Envia a nombre de telèfon';
+$_['text_ship_sec_add1'] = 'Envia a una adreça secundària 1';
+$_['text_ship_sec_add2'] = 'Envia a una adreça secundària 2';
+$_['text_ship_sec_city'] = 'Envia a una ciutat secundària';
+$_['text_ship_sec_state'] = 'Envia a estat secundari';
+$_['text_ship_sec_zip'] = 'Envia a ZIP secundària';
+$_['text_ship_sec_country'] = 'Envia a codi de país secundària';
+$_['text_ship_sec_phone'] = 'Envia a telèfon secundari';
+$_['text_trans_id'] = 'ID de transacció';
+$_['text_receipt_id'] = 'ID rebut';
+$_['text_parent_trans_id'] = 'Parent ID de transacció';
+$_['text_trans_type'] = 'Tipus de transacció';
+$_['text_payment_type'] = 'Tipus de pagament';
+$_['text_order_time'] = 'Ordre de temps';
+$_['text_fee_amount'] = 'Quantia de la tarifa';
+$_['text_settle_amount'] = 'Import liquidat';
+$_['text_tax_amount'] = 'Quantitat d&#039;impost';
+$_['text_exchange'] = 'Taxa de Canvi';
+$_['text_payment_status'] = 'Estat del pagament';
+$_['text_pending_reason'] = 'Raó Pendent';
+$_['text_reason_code'] = 'Codi de raó';
+$_['text_protect_elig'] = 'Elegibilitat de protecció';
+$_['text_protect_elig_type'] = 'Tipus d&#039;elegibilitat de protecció';
+$_['text_store_id'] = 'ID botiga';
+$_['text_terminal_id'] = 'ID de l&#039;terminal';
+$_['text_invoice_number'] = 'Nombre de factura';
+$_['text_custom'] = 'Custom';
+$_['text_note'] = 'Nota';
+$_['text_sales_tax'] = 'Impost venda';
+$_['text_buyer_id'] = 'ID del comprador';
+$_['text_close_date'] = 'Data límit';
+$_['text_multi_item'] = 'Element Multi';
+$_['text_sub_amt'] = 'Quantitat subscripció';
+$_['text_sub_period'] = 'Període de subscripció';
+$_['text_redirect'] = 'Redirigir';
+$_['text_iframe'] = 'Iframe';
+$_['help_checkout_method'] = 'Si us plau, utilitzeu el mètode Redirect si no tenen SSL instal·lat o si vostè no té l&#039;opció de pagament amb PayPal deshabilitat en la pàgina de pagament allotjada.';
+$_['help_debug'] = 'Registres d&#039;informació addicional.';
+
+// Column
+$_['column_trans_id'] = 'Identificació de la transacció';
+$_['column_amount'] = 'Import';
+$_['column_type'] = 'Tipus de pagament';
+$_['column_status'] = 'Estat';
+$_['column_pending_reason'] = 'A l&#039;espera de raó';
+$_['column_date_added'] = 'Creat';
+$_['column_action'] = 'Acció';
+
+// Tab
+$_['tab_settings'] = 'Configuració';
+$_['tab_order_status'] = 'Estat de la comanda';
+$_['tab_checkout_customisation'] = 'Comanda Personalització';
+
+// Entry
+$_['entry_username'] = 'API Uuario';
+$_['entry_password'] = 'API contrasenya';
+$_['entry_signature'] = 'API signatura';
+$_['entry_test'] = 'Mode Test';
+$_['entry_total'] = 'Total';
+$_['entry_order_status'] = 'Estat de la comanda';
+$_['entry_geo_zone'] = 'Geo Zone';
+$_['entry_status'] = 'estat';
+$_['entry_sort_order'] = 'Ordre d&#039;aparició';
+$_['entry_transaction_method'] = 'Procediment de transacció';
+$_['entry_transaction_id'] = 'Transaction ID';
+$_['entry_full_refund'] = 'Reemborsament complet';
+$_['entry_amount'] = 'Import';
+$_['entry_message'] = 'Missatge';
+$_['entry_ipn_url'] = 'IPN URL';
+$_['entry_checkout_method'] = 'Mètode Comanda';
+$_['entry_debug'] = 'Mode de depuració';
+$_['entry_canceled_reversal_status'] = 'Cancel·lat Estat Reversió';
+$_['entry_completed_status'] = 'Estat Complet';
+$_['entry_denied_status'] = 'Estat Denegat';
+$_['entry_expired_status'] = 'Estat Expirat';
+$_['entry_failed_status'] = 'Estat Fallat';
+$_['entry_pending_status'] = 'Estat Pendent';
+$_['entry_processed_status'] = 'Estat Processament';
+$_['entry_refunded_status'] = 'Estat refós';
+$_['entry_reversed_status'] = 'Estat Reservat';
+$_['entry_voided_status'] = 'Estat Anul·lat';
+
+// Help
+$_['help_test'] = 'El servidor en viu o proves (sandbox) de porta d&#039;enllaç per processar les transaccions? Les proves poden fallar a Internet Explorer ';
+$_['help_total'] = 'L&#039;import total de la comanda que ha d&#039;assolir abans que aquest mètode de pagament s&#039;activi';
+
+// Button
+$_['button_refund'] = 'Reemborsament';
+$_['button_void'] = 'Anul·lat';
+$_['button_capture'] = 'Captura';
+$_['button_reauthorise'] = 'Reauthorise';
+
+// Error
+$_['error_permission'] = 'Avís: No té permís per modificar PayPal Website Payment Pro iFrame!';
+$_['error_sig'] = 'Avís: Signatura requerida!';
+$_['error_user'] = 'Avís: L&#039;usuari a necessari!';
+$_['error_password'] = 'Avís: La contrasenya és necessària!';
+$_['error_timeout'] = 'Avís: Temps d&#039;espera esgotat';
+$_['error_transaction_missing'] = 'Avís: No s&#039;ha pogut trobar la transacció';
+$_['error_missing_data'] = 'Avís: Falten dades';
+$_['error_general'] = 'Avís: S&#039;ha produït un error';
+$_['error_capture'] = 'Avís: Introduïu una quantitat per capturar';

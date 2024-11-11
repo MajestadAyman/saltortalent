@@ -1,0 +1,136 @@
+<?php $val = array (
+  'css' => '.icons-menu-61 a::before{color:rgba(114, 118, 132, 1)}.desktop .icons-menu-61 a:hover::before{color:rgba(92,152,166,1)}.icons-menu-61>ul{margin-top:20px}.icons-menu-61 .links-text{white-space:normal;overflow:visible;text-overflow:ellipsis;display:none}.icons-menu-61
+a{width:30px;height:30px}.icons-menu-61>ul>.icons-menu-item{padding:calc(10px / 2)}.icons-menu-tooltip-61 .tooltip-inner{color:rgba(255, 255, 255, 1);background:rgba(92, 152, 166, 1)}.icons-menu-tooltip-61.tooltip.top .tooltip-arrow{border-top-color:rgba(92, 152, 166, 1)}.icons-menu-tooltip-61.tooltip.right .tooltip-arrow{border-right-color:rgba(92, 152, 166, 1)}.icons-menu-tooltip-61.tooltip.bottom .tooltip-arrow{border-bottom-color:rgba(92, 152, 166, 1)}.icons-menu-tooltip-61.tooltip.left .tooltip-arrow{border-left-color:rgba(92, 152, 166, 1)}.icons-menu-61
+ul{justify-content:center}.icons-menu-61 .module-title{text-align:center}.icons-menu-61 .module-title::after{left:50%;right:auto;transform:translate3d(-50%,0,0)}.icons-menu-61 .icons-menu-item-2.icon-menu-icon>a::before{content:\'\\ebd3\' !important;font-family:icomoon !important}.icons-menu-61 .icons-menu-item-3.icon-menu-icon>a::before{content:\'\\f0e1\' !important;font-family:icomoon !important;font-size:18px}.icons-menu-61 .icons-menu-item-5.icon-menu-icon>a::before{content:\'\\f167\' !important;font-family:icomoon !important;font-size:18px}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'tooltipStatus' => true,
+    'tooltipPosition' => 'top',
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'status' => true,
+    'id' => 'icons-menu-6439a20dcc11f',
+    'module_id' => 61,
+    'classes' => 
+    array (
+      0 => 'icons-menu',
+      1 => 'icons-menu-61',
+    ),
+    'items' => 
+    array (
+      2 => 
+      array (
+        'title' => 'Twitter',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://twitter.com/SaltorTalent',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+            'target' => 'target="_blank"',
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-2',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'title' => 'Linkedin',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://www.linkedin.com/company/saltor-leadership-and-talent/',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+            'target' => 'target="_blank"',
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-3',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      5 => 
+      array (
+        'title' => 'Youtube',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://www.youtube.com/channel/UCbdaOJnZEr1JN07Rv5sRuYQ',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+            'target' => 'target="_blank"',
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-5',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

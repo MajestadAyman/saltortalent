@@ -1,0 +1,317 @@
+<?php $val = array (
+  'css' => '.module-master_slider-242 .ms-view{overflow:hidden}.module-master_slider-242 .static-text-1{top:0;left:0;right:auto;bottom:auto;transform:none}.module-master_slider-242 .static-text-1
+span{transform:scale(calc(100 / 100));transform-origin:center}.module-master_slider-242 .static-text-2{top:auto;left:0;right:auto;bottom:0;transform:translate3d(0, 0, 0)}.module-master_slider-242 .static-text-2
+span{transform:scale(calc(100 / 100));transform-origin:center}.desktop .module-master_slider-242 .ms-nav-next{opacity:0}.desktop .module-master_slider-242 .ms-nav-prev{opacity:0}.desktop .module-master_slider-242 .ms-container:hover .ms-nav-next{opacity:1}.desktop .module-master_slider-242 .ms-container:hover .ms-nav-prev{opacity:1}.module-master_slider-242 .ms-nav-next{display:flex;left:auto;right:0;top:50%;bottom:auto;transform:translateY(-100%)}.module-master_slider-242 .ms-nav-prev{display:flex;left:auto;right:0;top:50%;bottom:auto;transform:translateY(0)}.module-master_slider-242 .ms-nav-next::before, .module-master_slider-242 .ms-nav-prev::before{content:\'\\e5c8\' !important;font-family:icomoon !important}.desktop .module-master_slider-242 .ms-nav-next:hover::before, .desktop .module-master_slider-242 .ms-nav-prev:hover::before{color:rgba(255, 255, 255, 1)}.module-master_slider-242 .ms-nav-next, .module-master_slider-242 .ms-nav-prev{width:40px;height:40px;background:rgba(237, 242, 254, 1)}.module-master_slider-242 .ms-nav-next:hover, .module-master_slider-242 .ms-nav-prev:hover{background:rgba(0, 138, 221, 1)}.desktop .module-master_slider-242 .ms-container .ms-bullets{opacity:0}.desktop .module-master_slider-242 .ms-container:hover .ms-bullets{opacity:1}.module-master_slider-242 .ms-bullets{display:block;top:50%;bottom:auto;left:auto;right:0;transform:translateY(-50%);;margin-left:20px;margin-right:20px;margin-top:20px;margin-bottom:20px}.module-master_slider-242 .ms-bullets .ms-bullets-count{flex-direction:column}.module-master_slider-242 .ms-bullets .ms-bullet{margin:calc(10px / 2) !important;background:rgba(255, 255, 255, 1);border-radius:50px}.module-master_slider-242 .ms-bullet{width:10px;height:10px}.desktop .module-master_slider-242 .ms-bullets .ms-bullet:hover, .module-master_slider-242 .ms-bullets .ms-bullet-selected{background:rgba(0, 0, 0, 1)}.module-master_slider-242 .ms-thumb-list{display:block;padding:10px
+0;top:auto !important;bottom:0 !important;order:2}.module-master_slider-242 .ms-thumb-list .ms-thumb-frame{margin-right:10px !important;opacity: .75}.module-master_slider-242 .ms-thumb-frame{border-width:0px}.module-master_slider-242 .ms-timerbar{display:none;top:0 !important;bottom:auto !important}.module-master_slider-242 .master-slider .ms-time-bar{background-color:rgba(208, 30, 36, 1) !important;height:3px !important}@media (max-width: 1140px){.module-master_slider-242 .ms-bullets{top:auto;bottom:0;left:50%;right:auto;transform:translateX(-50%)}.module-master_slider-242 .ms-bullets .ms-bullets-count{flex-direction:row}}@media (max-width: 1024px){.module-master_slider-242 .ms-nav-next{display:none}.module-master_slider-242 .ms-nav-prev{display:none}.module-master_slider-242 .ms-bullets{display:block}}@media (max-width: 760px){.module-master_slider-242 .ms-nav-next, .module-master_slider-242 .ms-nav-prev{width:30px;height:30px}.module-master_slider-242 .ms-bullets{display:none}}.module-master_slider-242 .module-item-4 .module-subitem-1.ms-layer-hotspot .ms-point-center{width:20px;height:20px}.module-master_slider-242 .module-item-4 .module-subitem-1{display:block;visibility:visible !important}.module-master_slider-242 .module-item-4 .module-subitem-1.ms-layer-button{transform:scale(calc(100 / 100));transform-origin:center}.module-master_slider-242 .module-item-4 .module-subitem-1.ms-caption{width:60%;font-family:\'Merriweather\';font-weight:400;font-size:60px;color:rgba(0, 0, 0, 1);line-height:1.1;box-shadow:none;margin-left:30px}.module-master_slider-242 .module-item-4 .module-subitem-1.ms-layer-video{width:400px;height:225px}@media (max-width: 1140px){.module-master_slider-242 .module-item-4 .module-subitem-1.ms-layer-text{margin-top:-10% !important}.module-master_slider-242 .module-item-4 .module-subitem-1.ms-caption{font-size:70px}}@media (max-width: 760px){.module-master_slider-242 .module-item-4 .module-subitem-1.ms-layer-text{margin-left:4% !important;margin-right:4% !important;margin-top:-20% !important}.module-master_slider-242 .module-item-4 .module-subitem-1.ms-caption{font-size:120px}}.module-master_slider-242 .module-item-5 .module-subitem-1.ms-layer-hotspot .ms-point-center{width:20px;height:20px}.module-master_slider-242 .module-item-5 .module-subitem-1{display:block;visibility:visible !important}.module-master_slider-242 .module-item-5 .module-subitem-1.ms-layer-button{transform:scale(calc(100 / 100));transform-origin:center}.module-master_slider-242 .module-item-5 .module-subitem-1.ms-caption{width:60%;font-family:\'Merriweather\';font-weight:400;font-size:60px;color:rgba(0, 0, 0, 1);line-height:1.1;box-shadow:none;margin-left:30px}.module-master_slider-242 .module-item-5 .module-subitem-1.ms-layer-video{width:400px;height:225px}@media (max-width: 1140px){.module-master_slider-242 .module-item-5 .module-subitem-1.ms-layer-text{margin-top:-10% !important}.module-master_slider-242 .module-item-5 .module-subitem-1.ms-caption{font-size:70px}}@media (max-width: 760px){.module-master_slider-242 .module-item-5 .module-subitem-1.ms-layer-text{margin-left:4% !important;margin-right:4% !important;margin-top:-20% !important}.module-master_slider-242 .module-item-5 .module-subitem-1.ms-caption{font-size:120px}}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Merriweather' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'shuffle' => false,
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => 2000,
+      'resize' => 'fill',
+    ),
+    'sliderDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'parallaxMode' => true,
+    'parallax' => '35',
+    'layout' => 'fillwidth',
+    'layoutTablet' => '',
+    'layoutPhone' => 'fillwidth',
+    'bottomOffset' => '',
+    'bottomOffsetTablet' => '',
+    'bottomOffsetPhone' => '',
+    'staticTextType' => 'text',
+    'staticText' => '',
+    'staticTextLink' => 
+    array (
+      'type' => '',
+      'id' => '',
+      'href' => '',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'static2TextType' => 'text',
+    'static2Text' => '',
+    'static2TextLink' => 
+    array (
+      'type' => '',
+      'id' => '',
+      'href' => '',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'delay' => '4000',
+    'thumbnails' => false,
+    'thumbnailsDimensions' => 
+    array (
+      'width' => 50,
+      'height' => 50,
+      'resize' => 'fill',
+    ),
+    'lazyLoad' => false,
+    'status' => true,
+    'id' => 'master_slider-6439b95844f0b',
+    'module_id' => 242,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-master_slider',
+      2 => 'module-master_slider-242',
+      'fullscreen-slider' => false,
+    ),
+    'width' => 1498,
+    'height' => 2000,
+    'options' => 
+    array (
+      'width' => 1498,
+      'height' => 2000,
+      'layout' => 'fillwidth',
+      'smoothHeight' => false,
+      'centerControls' => false,
+      'parallaxMode' => 'swipe',
+      'instantStartLayers' => true,
+      'loop' => true,
+      'dir' => 'h',
+      'autoHeight' => false,
+      'rtl' => false,
+      'startOnAppear' => false,
+      'autoplay' => true,
+      'overPause' => true,
+      'shuffle' => false,
+      'view' => 'mask',
+      'speed' => '20',
+      'swipe' => true,
+      'mouse' => true,
+      'controls' => 
+      array (
+        'bullets' => 
+        array (
+          'autohide' => false,
+        ),
+        'timebar' => 
+        array (
+          'autohide' => false,
+          'inset' => true,
+          'align' => 'top',
+        ),
+      ),
+    ),
+    'first_image' => '',
+    'first_alt' => '',
+    'items' => 
+    array (
+      4 => 
+      array (
+        'type' => 'image',
+        'alt' => '',
+        'videoType' => 'html5',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '242-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          2 => 'ms-slide',
+        ),
+        'delay' => 4.0,
+        'image' => 'https://saltortalent.com/image/cache/catalog/portada–web-rodona-1498x2000h.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/portada–web-rodona-2996x4000h.jpg',
+        'thumb' => false,
+        'items' => 
+        array (
+          1 => 
+          array (
+            'type' => 'text',
+            'text' => 'Som una firma<br/>d\'Executive Search<br/>i consultora estratègica<br/>de talent',
+            'alt' => '',
+            'videoType' => 'html5',
+            'link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'crop',
+            ),
+            'id' => '242-4-1',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-1',
+              2 => 'ms-layer',
+              3 => 'ms-layer-text',
+              'btn' => false,
+              'no-show-effect' => false,
+              'ms-caption' => true,
+            ),
+            'data' => 
+            array (
+              0 => 'data-resize="true"',
+              1 => 'data-origin="ml"',
+              2 => 'data-parallax="0"',
+              3 => 'data-type="text"',
+              4 => 'data-position="normal"',
+              5 => 'data-effect="top(100)"',
+              6 => 'data-delay="100"',
+              7 => 'data-duration="1500"',
+              8 => 'data-ease="easeOutQuart"',
+              9 => 'data-hide-effect="fade"',
+              10 => 'data-hide-delay="0"',
+              11 => 'data-hide-duration="0"',
+            ),
+          ),
+        ),
+      ),
+      5 => 
+      array (
+        'type' => 'image',
+        'alt' => '',
+        'videoType' => 'html5',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '242-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          2 => 'ms-slide',
+        ),
+        'delay' => 4.0,
+        'image' => 'https://saltortalent.com/image/cache/catalog/portada–web-rodona-1498x2000h.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/portada–web-rodona-2996x4000h.jpg',
+        'thumb' => false,
+        'items' => 
+        array (
+          1 => 
+          array (
+            'type' => 'text',
+            'text' => 'Ens defineixen <b>3 passions</b><br/>Aprendre<br/>Emprendre<br/>Autoconeixement',
+            'alt' => '',
+            'videoType' => 'html5',
+            'link' => 
+            array (
+              'type' => '',
+              'id' => '',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'imageDimensions' => 
+            array (
+              'width' => NULL,
+              'height' => NULL,
+              'resize' => 'crop',
+            ),
+            'id' => '242-5-1',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-1',
+              2 => 'ms-layer',
+              3 => 'ms-layer-text',
+              'btn' => false,
+              'no-show-effect' => false,
+              'ms-caption' => true,
+            ),
+            'data' => 
+            array (
+              0 => 'data-resize="true"',
+              1 => 'data-origin="ml"',
+              2 => 'data-parallax="0"',
+              3 => 'data-type="text"',
+              4 => 'data-position="normal"',
+              5 => 'data-effect="top(100)"',
+              6 => 'data-delay="100"',
+              7 => 'data-duration="1500"',
+              8 => 'data-ease="easeOutQuart"',
+              9 => 'data-hide-effect="fade"',
+              10 => 'data-hide-delay="0"',
+              11 => 'data-hide-duration="0"',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

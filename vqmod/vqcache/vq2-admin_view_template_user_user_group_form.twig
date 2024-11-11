@@ -1,0 +1,176 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="pull-right">
+        <button type="submit" form="form-user-group" data-toggle="tooltip" title="{{ button_save }}" class="btn btn-primary"><i class="fa fa-save"></i></button>
+        <a href="{{ cancel }}" data-toggle="tooltip" title="{{ button_cancel }}" class="btn btn-default"><i class="fa fa-reply"></i></a></div>
+      <h1>{{ heading_title }}</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid">
+    {% if error_warning %}
+    <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% endif %}
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-pencil"></i> {{ text_form }}</h3>
+
+       			<div class="pull-right">
+				   <div class="input-group">
+				    <input style="height:36px" type="text" class="file-finder form-control" placeholder="{{ entry_search }}" value="">
+				    <div class="input-group-btn">
+				      <button data-toggle="tooltip" title="{{ button_clear }}" style="border-left:none" type="button" class="btn btn-default" onclick="resethightlight(true);"><i class="fa fa-eraser"></i></button>
+				    </div>
+				    </div>
+				 </div>
+				<style type="text/css">
+					.mp-highlight { background-color: #1e91cf; color: #fff; font-weight: 600; }
+				</style>
+				<div class="clearfix"></div>
+				
+			
+      </div>
+      <div class="panel-body">
+        <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-user-group" class="form-horizontal">
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-name">{{ entry_name }}</label>
+            <div class="col-sm-10">
+              <input type="text" name="name" value="{{ name }}" placeholder="{{ entry_name }}" id="input-name" class="form-control" />
+              {% if error_name %}
+              <div class="text-danger">{{ error_name }}</div>
+              {% endif %}
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">{{ entry_access }}</label>
+            <div class="col-sm-10">
+              <div class="well well-sm" style="height: 300px; overflow: auto;">
+                {% for permission in permissions %}
+                <div class="checkbox col-sm-4">
+                  <label>
+                    {% if permission in access %}
+                    <input type="checkbox" name="permission[access][]" value="{{ permission }}" checked="checked" />
+                    {{ permission }}
+                    {% else %}
+                    <input type="checkbox" name="permission[access][]" value="{{ permission }}" />
+                    {{ permission }}
+                    {% endif %}
+                  </label>
+                </div>
+                {% endfor %}
+              </div>
+              
+<!-- PermissionCount -->
+<button type="button" onclick="$(this).parent().find(':checkbox').prop('checked', true); xy();" class="btn btn-link">{{ text_select_all }}</button> / <button type="button" onclick="$(this).parent().find(':checkbox').prop('checked', false); xy();" class="btn btn-link">{{ text_unselect_all }}</button></div>
+<!-- PermissionCount -->
+			
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">{{ entry_modify }}</label>
+            <div class="col-sm-10">
+              <div class="well well-sm" style="height: 300px; overflow: auto;">
+                {% for permission in permissions %}
+                <div class="checkbox col-sm-4">
+                  <label>
+                    {% if permission in modify %}
+                    <input type="checkbox" name="permission[modify][]" value="{{ permission }}" checked="checked" />
+                    {{ permission }}
+                    {% else %}
+                    <input type="checkbox" name="permission[modify][]" value="{{ permission }}" />
+                    {{ permission }}
+                    {% endif %}
+                  </label>
+                </div>
+                {% endfor %}
+              </div>
+              
+<!-- PermissionCount -->
+<button type="button" onclick="$(this).parent().find(':checkbox').prop('checked', true); xy();" class="btn btn-link">{{ text_select_all }}</button> / <button type="button" onclick="$(this).parent().find(':checkbox').prop('checked', false); xy();" class="btn btn-link">{{ text_unselect_all }}</button></div>
+<!-- PermissionCount -->
+			
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+       			<script>
+jQuery.fn.highlight = function(pat) {
+	function innerHighlight(node, pat) {
+		var skip = 0;
+		if (node.nodeType == 3) {
+			var pos = node.data.toUpperCase().indexOf(pat);
+			pos -= (node.data.substr(0, pos).toUpperCase().length - node.data.substr(0, pos).length);
+			if (pos >= 0) {
+				var spannode = document.createElement('span');
+				spannode.className = 'mp-highlight';
+				var middlebit = node.splitText(pos);
+				var endbit = middlebit.splitText(pat.length);
+				var middleclone = middlebit.cloneNode(true);
+				spannode.appendChild(middleclone);
+				middlebit.parentNode.replaceChild(spannode, middlebit);
+				skip = 1;
+			}
+		}
+		else if (node.nodeType == 1 && node.childNodes && !/(script|style)/i.test(node.tagName)) {
+			for (var i = 0; i < node.childNodes.length; ++i) {
+				i += innerHighlight(node.childNodes[i], pat);
+			}
+		}
+		return skip;
+	}
+	return this.length && pat && pat.length ? this.each(function() {
+	innerHighlight(this, pat.toUpperCase());
+	}) : this;
+};
+
+jQuery.fn.removeHighlight = function() {
+	return this.find("span.mp-highlight").each(function() {
+		this.parentNode.firstChild.nodeName;
+		with (this.parentNode) {
+			replaceChild(this.firstChild, this);
+			normalize();
+		}
+	}).end();
+};
+function resethightlight(empty) {
+	empty = typeof empty != 'undefined' ? empty : false;
+	if(empty == true) { $('.file-finder').val(''); }
+	$('.well').removeHighlight();
+	$('.checkbox').removeClass('hide');
+}
+$(document).ready(function() {
+	$('.file-finder').on('keyup',function(){ if($(this).val() == '') { resethightlight(); } });	
+	$('.file-finder').autocomplete({
+		delay: 500,
+		source: function(request, response) {
+			resethightlight();
+			var filter = request;
+			filter = filter.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
+			$('.well .checkbox').each(function(){					
+				if ($(this).text().search(new RegExp(filter, "g")) < 0) { $(this).addClass('hide'); } else { $(this).highlight(filter); }
+			});
+		}, 
+		select: function(event, ui) { return false; },
+		focus: function(event, ui) { return false; }
+	});
+ });
+	</script>			
+			
+
+<script type="text/javascript"><!--
+// PermissionCount
+function xy(){for(var n in{access:null,modify:null,hiden:null}){var e=$('[name^="permission['+n+']"]'),i=che=0;e.each(function(n){1==$(this).prop("checked")&&(che+=1),i=n+1}),$("."+n+"_cnt").remove(),$("#"+n).append(' <cnt class="'+n+'_cnt" style="display:block;"> '+che+" / "+i+"</cnt>")}}$(document).ready(function(){$('[name^="permission[access]"]').first().parentsUntil(".form-group").parent().find("label").first().attr("id","access"),$('[name^="permission[modify]"]').first().parentsUntil(".form-group").parent().find("label").first().attr("id","modify"),$('[name^="permission[hiden]"]').first().parentsUntil(".form-group").parent().find("label").first().attr("id","hiden"),xy()}),$("input[type=checkbox]").on("change",function(){xy()});
+// PermissionCount
+//--></script>
+			
+{{ footer }} 

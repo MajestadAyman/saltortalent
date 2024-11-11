@@ -1,0 +1,169 @@
+<?php $val = array (
+  'css' => '.module-blocks-327.blocks-grid .module-item.swiper-slide{margin-right:20px;width:calc((100% - 0 * 20px) / 1 - 0.01px)}.module-blocks-327.blocks-grid .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-blocks-327.blocks-grid .module-item.swiper-slide{margin-right:20px;width:calc((100% - 2 * 20px) / 3 - 0.01px)}.one-column #content .module-blocks-327.blocks-grid .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 3 - 0.01px)}.two-column #content .module-blocks-327.blocks-grid .module-item.swiper-slide{margin-right:20px;width:calc((100% - 2 * 20px) / 3 - 0.01px)}.two-column #content .module-blocks-327.blocks-grid .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 3 - 0.01px)}.side-column .module-blocks-327.blocks-grid .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-blocks-327.blocks-grid .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-blocks-327 .block-title{order:-2}.module-blocks-327 .block-header{display:flex;float:none;order:-1;justify-content:flex-start;align-items:flex-start}.module-blocks-327 .block-header
+img{display:flex}.module-blocks-327 .block-wrapper{display:flex}.module-blocks-327 .block-header
+i{float:none;display:flex}.module-blocks-327 .block-body{display:flex;flex-direction:column}@media (max-width: 760px){.module-blocks-327.blocks-grid .module-item.swiper-slide{margin-right:20px;width:calc((100% - 0 * 20px) / 1 - 0.01px)}.module-blocks-327.blocks-grid .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 1 - 0.01px)}}.module-blocks-327 .module-item-1 .block-header{display:flex;float:none;order:-1;justify-content:flex-start;align-items:flex-start}.module-blocks-327 .module-item-1 .block-header
+img{display:flex}.module-blocks-327 .module-item-1 .block-wrapper{display:flex}.module-blocks-327 .module-item-1 .block-header
+i{float:none;display:flex}.module-blocks-327 .module-item-1 .block-body{display:flex;flex-direction:column}.module-blocks-327 .module-item-1 .expand-content{max-height:100%;overflow:visible;max-height:70px}.module-blocks-327 .module-item-1 .block-content{column-count:initial;column-gap:30px;column-rule-style:none}.module-blocks-327 .module-item-1 .block-footer{margin-top:8px;text-align:left}.module-blocks-327 .module-item-1 .block-footer
+.btn{width:auto;transform:scale(calc(70 / 100));transform-origin:bottom left}.module-blocks-327 .module-item-1 .block-footer .btn::before{content:\'\\f0e1\' !important;font-family:icomoon !important;font-size:15px;color:rgba(255, 255, 255, 1)}@media (max-width: 760px){.module-blocks-327 .module-item-1 .block-content{column-count:initial}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'display' => 'grid',
+    'displayTablet' => '',
+    'displayPhone' => '',
+    'carousel' => false,
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+        760 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 3,
+          'spacing' => 20,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 3,
+          'spacing' => 20,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'default' => '',
+    'title' => '',
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'lazyLoad' => false,
+    'status' => true,
+    'id' => 'blocks-64398d2e1a069',
+    'module_id' => 327,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-blocks',
+      2 => 'module-blocks-327',
+      3 => 'blocks-grid',
+      'carousel-mode' => false,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'default_index' => 0,
+    'items' => 
+    array (
+      1 => 
+      array (
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'header' => 'none',
+        'text' => '',
+        'alt' => '',
+        'contentType' => 'html',
+        'shortDescriptionLimit' => '150',
+        'dynamic' => 'journal3/blocks_example',
+        'expandButton' => false,
+        'footer' => 'none',
+        'footerText' => '',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'https://www.linkedin.com/in/isaltor/',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+            'target' => 'target="_blank"',
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '327-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-1',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/home/banners/banner-home-consultoria-de-liderazgo-1-1500x1000.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/home/banners/banner-home-consultoria-de-liderazgo-1-1500x1000.jpg',
+        'title' => '',
+        'content' => '<h5>Evaluación de perfiles internos</h5>
+          <p>Evaluación individual de directivos</p>
+          <p>Evaluación de equipos directivos</p>
+',
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

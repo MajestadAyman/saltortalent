@@ -1,0 +1,48 @@
+<?php $val = array (
+  'css' => '.module-title-328
+.subtitle{display:inline-block;font-family:\'Libre Franklin\';font-weight:400;font-size:16px;color:rgba(255, 255, 255, 1);max-width:800px}.module-title-328 .title-divider{display:block;margin-top:10px;margin-bottom:10px;margin-left:auto;margin-right:auto}.module-title-328 .title-wrapper{text-align:center}.module-title-328
+h3{font-family:\'Merriweather\';font-weight:400;font-size:40px;color:rgba(41, 41, 43, 1)}.module-title-328 .title-wrapper::before{opacity:.05;display:block}@media (max-width: 760px){.module-title-328
+h3{font-size:32px}}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Merriweather' => 
+      array (
+        400 => '400',
+      ),
+      'Libre Franklin' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'current',
+    'title' => 'Seamless<br>knowledge',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-6439996290931',
+    'module_id' => 328,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-328',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

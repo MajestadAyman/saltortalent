@@ -1,0 +1,48 @@
+<?php $val = array (
+  'css' => '.module-title-293
+.subtitle{display:inline-block;font-family:\'Libre Franklin\';font-weight:400;font-size:16px;color:rgba(255, 255, 255, 1);max-width:800px}.module-title-293 .title-divider{display:block;margin-top:10px;margin-bottom:10px;margin-left:auto;margin-right:auto}.module-title-293 .title-wrapper{text-align:center}.module-title-293
+h3{font-family:\'Merriweather\';font-weight:400;font-size:40px;color:rgba(41, 41, 43, 1)}.module-title-293 .title-wrapper::before{opacity:.05;display:block}@media (max-width: 760px){.module-title-293
+h3{font-size:32px}.module-title-293 .title-wrapper{text-align:center}.module-title-293 .title-divider{margin-left:auto;margin-right:auto}}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Merriweather' => 
+      array (
+        400 => '400',
+      ),
+      'Libre Franklin' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Un equipo<br>en el que confiar',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-643a569f9d46d',
+    'module_id' => 293,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-293',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

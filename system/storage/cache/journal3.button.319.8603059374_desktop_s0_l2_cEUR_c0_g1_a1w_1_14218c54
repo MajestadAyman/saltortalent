@@ -1,0 +1,40 @@
+<?php $val = array (
+  'css' => '.module-button-319
+.btn{transform:scale(calc(100 / 100));transform-origin:center;width:auto;background:rgba(92, 152, 166, 1);border-width:1px;border-style:solid;border-color:rgba(0, 0, 0, 0);padding:12px;border-radius:20px !important;margin-bottom:10px}.module-button-319{display:flex;justify-content:flex-start}.module-button-319 .btn, .module-button-319 .btn:visited{font-size:13px;color:rgba(255, 255, 255, 1);text-transform:none;letter-spacing:1.1px}.module-button-319 .btn:hover{color:rgba(255, 255, 255, 1) !important;background:rgba(41, 41, 43, 1) !important}.module-button-319 .btn:active, .module-button-319 .btn:hover:active, .module-button-319 .btn:focus:active{color:rgba(245, 245, 245, 1) !important;box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.15)}.module-button-319 .btn:focus{color:rgba(255, 255, 255, 1) !important;box-shadow:inset 0 0 20px rgba(0, 0, 0, 0.25)}.module-button-319 .btn:hover, .module-button-319 .btn:active:hover{border-color:rgba(255, 255, 255, 1)}.desktop .module-button-319 .btn:hover{box-shadow:0 5px 30px -5px rgba(0, 0, 0, 0.15)}.module-button-319 .btn.btn.disabled::after{font-size:20px}@media (max-width: 760px){.module-button-319 .btn, .module-button-319 .btn:visited{font-size:12px;color:rgba(255, 255, 255, 1)}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Casos de éxito',
+    'link' => 
+    array (
+      'type' => 'custom',
+      'id' => '5',
+      'href' => '/index.php?route=journal3/blog&journal_blog_tag=Executive%20Search',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'status' => false,
+    'id' => 'button-64398d2c8fa65',
+    'module_id' => 319,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-button',
+      2 => 'module-button-319',
+    ),
+  ),
+);

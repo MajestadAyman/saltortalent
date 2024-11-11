@@ -1,0 +1,44 @@
+<?php $val = array (
+  'css' => '.module-title-291
+.subtitle{display:inline-block;font-size:16px;border-radius:5px;max-width:1100px}.module-title-291 .title-divider{display:block;max-width:50px;height:3px;background:rgba(92, 152, 166, 1);margin-top:15px;margin-bottom:15px;margin-left:auto;margin-right:auto;margin-left:auto;margin-right:auto}.module-title-291 .title-wrapper{text-align:center;text-align:center}.module-title-291
+h3{font-family:\'Merriweather\';font-weight:400;font-size:40px;color:rgba(41,41,43,1)}.module-title-291{margin-top:20px;margin-bottom:30px}.module-title-291 .title-wrapper::before{opacity:.05;display:block}@media (max-width: 760px){.module-title-291
+h3{font-size:30px}.module-title-291 .title-wrapper{text-align:center}.module-title-291 .title-divider{margin-left:auto;margin-right:auto}}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Merriweather' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Metodología<br><b>Seamless from Need to Fit ®</b>',
+    'subtitle' => 'En Saltor Talent hemos creado una metodología propia para conseguir una experiencia única para cliente y candidato, y de forma rigurosa unir la necesidad del cliente con el perfil del candidato. Nuestro método nos permite una compresión más profunda de las personas y necesidades, creando así el ajuste perfecto. Sin costuras.',
+    'status' => true,
+    'id' => 'title-643a31ff270be',
+    'module_id' => 291,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-291',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

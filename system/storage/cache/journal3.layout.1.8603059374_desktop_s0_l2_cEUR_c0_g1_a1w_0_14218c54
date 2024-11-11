@@ -1,0 +1,659 @@
+<?php $val = array (
+  'settings' => 
+  array (
+    'column_left' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'column_right' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'top' => 
+    array (
+      'rows' => 
+      array (
+        1 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-1',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-1-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-1-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '242',
+                    'name' => 'Slider Top Home',
+                    'type' => 'master_slider',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-2',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-2-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-2-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '147',
+                    'name' => 'New Arrivals Title',
+                    'type' => 'title',
+                  ),
+                ),
+                2 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-2-1-2',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '251',
+                    'name' => 'SALE',
+                    'type' => 'banners',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        3 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-3',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-3-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-3-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '287',
+                    'name' => 'Home Historia Title',
+                    'type' => 'title',
+                  ),
+                ),
+                2 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-3-1-2',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '337',
+                    'name' => 'Home Banners Historia',
+                    'type' => 'banners',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        5 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-5',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-5-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-5-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '266',
+                    'name' => 'Free Shipping Qualifier Copy',
+                    'type' => 'info_blocks',
+                  ),
+                ),
+                2 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-5-1-2',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '283',
+                    'name' => 'Home CTA Kennedy Button',
+                    'type' => 'button',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        6 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-6',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-6-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-6-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '290',
+                    'name' => 'Nosotros Valores Title',
+                    'type' => 'title',
+                  ),
+                ),
+                2 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-6-1-2',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '289',
+                    'name' => 'Info Block Valores',
+                    'type' => 'info_blocks',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        7 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-7',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-7-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-7-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '288',
+                    'name' => 'Nosotros Info Block Figures',
+                    'type' => 'info_blocks',
+                  ),
+                ),
+                2 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-7-1-2',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '305',
+                    'name' => 'NOSOTROS - COUNT - CODE',
+                    'type' => 'blocks',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        8 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-8',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-8-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-8-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '355',
+                    'name' => 'Nuestras 3 pasiones Title',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        9 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-9',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-9-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-9-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '311',
+                    'name' => 'Home Blocks Metodología Seamless características',
+                    'type' => 'blocks',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        11 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-11',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-11-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-11-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '344',
+                    'name' => 'Diversidad e inclusión Title',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+            2 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-11-2',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-11-2-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '347',
+                    'name' => 'Home Banner Diversidad e inclusión',
+                    'type' => 'banners',
+                  ),
+                ),
+              ),
+            ),
+            3 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-11-3',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-11-3-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '346',
+                    'name' => 'Home - Blocks - Diversidad e inclusión',
+                    'type' => 'blocks',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'bottom' => 
+    array (
+      'rows' => 
+      array (
+        1 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-bottom-1',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-bottom-1-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-bottom-1-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '40',
+                    'name' => 'Blog Posts Home',
+                    'type' => 'blog_posts',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'header_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+  ),
+  'php' => 
+  array (
+    'headerDesktop' => '',
+    'headerMobile' => '',
+    'footerMenu' => '',
+    'footerMenuPhone' => '',
+  ),
+  'js' => 
+  array (
+  ),
+  'fonts' => 
+  array (
+  ),
+  'css' => '.grid-row-top-1{background:rgba(41,41,43,1)}.grid-row-top-1::before{display:block;left:0;width:100vw}.grid-row-top-1>.grid-cols{max-width:100% !important}.grid-row-top-1 .wave-top{display:block}.grid-row-top-1 .wave-bottom{display:block}.grid-col-top-1-1{width:100%}.grid-col-top-1-1 .grid-item{height:auto}.grid-col-top-1-1 .grid-items{justify-content:flex-start}.grid-item-top-1-1-1{width:100%}.grid-row-top-2{background:rgba(254,242,232,1);padding:20px;padding-top:70px;padding-bottom:60px}.grid-row-top-2::before{display:block;left:0;width:100vw}.grid-row-top-2 .wave-top{display:block}.grid-row-top-2 .wave-bottom{display:block}@media (max-width: 760px){.grid-row-top-2{padding:10px;padding-top:40px;padding-right:20px;padding-bottom:30px;padding-left:20px}}.grid-col-top-2-1{width:100%}.grid-col-top-2-1 .grid-item{height:auto}.grid-col-top-2-1 .grid-items{justify-content:flex-start}.grid-item-top-2-1-1{width:100%}.grid-item-top-2-1-2{width:100%}.grid-row-top-3::before{display:block;left:0;width:100vw}.grid-row-top-3{padding-top:70px}.grid-row-top-3>.grid-cols{max-width:100% !important}.grid-row-top-3 .wave-top{display:block}.grid-row-top-3 .wave-bottom{display:block}@media (max-width: 760px){.grid-row-top-3{padding-top:40px}}.grid-col-top-3-1{width:100%}.grid-col-top-3-1 .grid-item{height:auto}.grid-col-top-3-1 .grid-items{justify-content:flex-start}.grid-item-top-3-1-1{width:100%}.grid-item-top-3-1-2{width:100%}.grid-row-top-5{background-image:url(\'https://saltortalent.com/image/cache/catalog/home/background/mapa-kennedy-saltor-4-1790x892.jpg\');background-position:center center;padding-top:100px;padding-bottom:150px}.grid-row-top-5::before{content:\'\';display:block;background:rgba(92,152,166,0.4);mix-blend-mode:multiply;left:0;width:100vw}.grid-row-top-5>.grid-cols{max-width:100% !important}.grid-row-top-5 .wave-top{display:block}.grid-row-top-5 .wave-bottom{display:block}@media (max-width: 760px){.grid-row-top-5{padding-top:5px;padding-bottom:70px}}.grid-col-top-5-1{width:100%}.grid-col-top-5-1 .grid-item{height:auto}.grid-col-top-5-1 .grid-items{justify-content:flex-start}.grid-item-top-5-1-1{width:100%}.grid-item-top-5-1-2{width:100%}.grid-row-top-6{background:rgba(238,238,238,0.2);padding-top:80px;padding-bottom:80px}.grid-row-top-6::before{display:block;left:0;width:100vw}.grid-row-top-6 .wave-top{display:block}.grid-row-top-6 .wave-bottom{display:block}@media (max-width: 1140px){.grid-row-top-6{padding-right:20px;padding-left:20px}}@media (max-width: 760px){.grid-row-top-6{padding-top:60px;padding-right:20px;padding-bottom:40px;padding-left:20px}}.grid-col-top-6-1{width:100%}.grid-col-top-6-1 .grid-item{height:auto}.grid-col-top-6-1 .grid-items{justify-content:flex-start}.grid-item-top-6-1-1{width:100%}.grid-item-top-6-1-2{width:100%}.grid-row-top-7{background-image:url(\'https://saltortalent.com/image/cache/catalog/home/background/home-parallax-figures-1900x600.jpg\');background-position:center center;padding-top:70px;padding-bottom:70px}.grid-row-top-7::before{content:\'\';display:block;background:rgba(41, 41, 43, 0.8);mix-blend-mode:multiply;left:0;width:100vw}.grid-row-top-7 .wave-top{display:block}.grid-row-top-7 .wave-bottom{display:block}@media (max-width: 1140px){.grid-row-top-7{padding-right:20px;padding-left:20px}}@media (max-width: 760px){.grid-row-top-7{background-image:url(\'https://saltortalent.com/image/cache/catalog/home/background/home-parallax-figures-1900x600.jpg\');background-position:-30%;background-size:cover;padding-right:30px;padding-left:30px}}.grid-col-top-7-1{width:100%}.grid-col-top-7-1 .grid-item{height:auto}.grid-col-top-7-1 .grid-items{justify-content:flex-start}.grid-item-top-7-1-1{width:100%}.grid-item-top-7-1-2{width:100%}.grid-row-top-8::before{display:block;left:0;width:100vw}.grid-row-top-8 .wave-top{display:block}.grid-row-top-8 .wave-bottom{display:block}.grid-col-top-8-1{width:100%}.grid-col-top-8-1 .grid-item{height:auto}.grid-col-top-8-1 .grid-items{justify-content:flex-start}.grid-item-top-8-1-1{width:100%}.grid-row-top-9{background:rgba(238,238,238,0.2);padding-bottom:80px}.grid-row-top-9::before{display:block;left:0;width:100vw}.grid-row-top-9 .wave-top{display:block}.grid-row-top-9 .wave-bottom{display:block}@media (max-width: 1140px){.grid-row-top-9{padding-right:20px;padding-left:20px}}@media (max-width: 760px){.grid-row-top-9{padding-top:0px;padding-right:20px;padding-bottom:40px;padding-left:20px}}.grid-col-top-9-1{width:100%}.grid-col-top-9-1 .grid-item{height:auto}.grid-col-top-9-1 .grid-items{justify-content:flex-start}.grid-item-top-9-1-1{width:100%}.grid-row-top-11{background:rgba(95,123,177,0.2);padding-top:80px;padding-bottom:80px}.grid-row-top-11::before{display:block;left:0;width:100vw}.grid-row-top-11 .wave-top{display:block}.grid-row-top-11 .wave-bottom{display:block}@media (max-width: 1140px){.grid-row-top-11{padding-right:20px;padding-left:20px}}@media (max-width: 760px){.grid-row-top-11{padding-top:60px;padding-right:20px;padding-bottom:40px;padding-left:20px}}.grid-col-top-11-1{width:100%}.grid-col-top-11-1 .grid-item{height:auto}.grid-col-top-11-1 .grid-items{justify-content:flex-start}.grid-item-top-11-1-1{width:100%}.grid-col-top-11-2{width:40%;padding-right:15px}.grid-col-top-11-2 .grid-item{height:auto}.grid-col-top-11-2 .grid-items{justify-content:flex-start}@media (max-width: 760px){.grid-col-top-11-2{width:100%;padding-right:0px}}.grid-item-top-11-2-1{width:100%}.grid-col-top-11-3{width:60%;padding-left:15px}.grid-col-top-11-3 .grid-item{height:auto}.grid-col-top-11-3 .grid-items{justify-content:flex-start}@media (max-width: 760px){.grid-col-top-11-3{width:100%;padding-top:20px;padding-left:0px}}.grid-item-top-11-3-1{width:100%}.grid-row-bottom-1{background:rgba(114,118,132,0.4);padding:30px;padding-top:70px;padding-bottom:50px}.grid-row-bottom-1::before{display:block;left:50%;width:100vw}.grid-row-bottom-1 .wave-top{display:block}.grid-row-bottom-1 .wave-bottom{display:block}@media (max-width: 760px){.grid-row-bottom-1{padding:20px;padding-top:30px}}.grid-col-bottom-1-1{width:100%}.grid-col-bottom-1-1 .grid-item{height:auto}.grid-col-bottom-1-1 .grid-items{justify-content:flex-start}@media (max-width: 760px){.grid-col-bottom-1-1{width:100%;padding-right:0px;padding-bottom:30px}}.grid-item-bottom-1-1-1{width:100%}',
+);

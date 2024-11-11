@@ -1,0 +1,2441 @@
+<modification>
+	<id><![CDATA[Product admin Pro]]></id>
+	<version><![CDATA[2.1]]]></version>
+	<vqmver><![CDATA[v2.6.4]]></vqmver>
+	<author><![CDATA[opbcn]]></author>
+    <!--ADMIN MENU CONTROL-->
+    <file path="admin/controller/setting/setting.php">
+	    <operation>
+			<search><![CDATA[if (isset($this->request->post['config_open'])) {]]></search>
+			<add position="before"><![CDATA[
+				if (isset($this->request->post['config_admin_product_extras_save_auth'])) {
+					$data['config_admin_product_extras_save_auth'] = $this->request->post['config_admin_product_extras_save_auth'];
+				} else {
+					$data['config_admin_product_extras_save_auth'] = $this->config->get('config_admin_product_extras_save_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_view_auth'])) {
+					$data['config_admin_product_extras_view_auth'] = $this->request->post['config_admin_product_extras_view_auth'];
+				} else {
+					$data['config_admin_product_extras_view_auth'] = $this->config->get('config_admin_product_extras_view_auth');
+				}
+                // data
+                if (isset($this->request->post['config_admin_product_extras_fields_model_auth'])) {
+					$data['config_admin_product_extras_fields_model_auth'] = $this->request->post['config_admin_product_extras_fields_model_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_model_auth'] = $this->config->get('config_admin_product_extras_fields_model_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_model_size'])) {
+					$data['config_admin_product_extras_fields_model_size'] = $this->request->post['config_admin_product_extras_fields_model_size'];
+				} else {
+					$data['config_admin_product_extras_fields_model_size'] = $this->config->get('config_admin_product_extras_fields_model_size');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_price_auth'])) {
+					$data['config_admin_product_extras_fields_price_auth'] = $this->request->post['config_admin_product_extras_fields_price_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_price_auth'] = $this->config->get('config_admin_product_extras_fields_price_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_price_size'])) {
+					$data['config_admin_product_extras_fields_price_size'] = $this->request->post['config_admin_product_extras_fields_price_size'];
+				} else {
+					$data['config_admin_product_extras_fields_price_size'] = $this->config->get('config_admin_product_extras_fields_price_size');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_sku_auth'])) {
+					$data['config_admin_product_extras_fields_sku_auth'] = $this->request->post['config_admin_product_extras_fields_sku_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_sku_auth'] = $this->config->get('config_admin_product_extras_fields_sku_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_sku_size'])) {
+					$data['config_admin_product_extras_fields_sku_size'] = $this->request->post['config_admin_product_extras_fields_sku_size'];
+				} else {
+					$data['config_admin_product_extras_fields_sku_size'] = $this->config->get('config_admin_product_extras_fields_sku_size');
+				}
+
+                if (isset($this->request->post['config_admin_product_extras_fields_upc_auth'])) {
+					$data['config_admin_product_extras_fields_upc_auth'] = $this->request->post['config_admin_product_extras_fields_upc_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_upc_auth'] = $this->config->get('config_admin_product_extras_fields_upc_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_upc_size'])) {
+					$data['config_admin_product_extras_fields_upc_size'] = $this->request->post['config_admin_product_extras_fields_upc_size'];
+				} else {
+					$data['config_admin_product_extras_fields_upc_size'] = $this->config->get('config_admin_product_extras_fields_upc_size');
+				}
+
+                if (isset($this->request->post['config_admin_product_extras_fields_ean_auth'])) {
+					$data['config_admin_product_extras_fields_ean_auth'] = $this->request->post['config_admin_product_extras_fields_ean_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_ean_auth'] = $this->config->get('config_admin_product_extras_fields_ean_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_ean_size'])) {
+					$data['config_admin_product_extras_fields_ean_size'] = $this->request->post['config_admin_product_extras_fields_ean_size'];
+				} else {
+					$data['config_admin_product_extras_fields_ean_size'] = $this->config->get('config_admin_product_extras_fields_ean_size');
+				}
+
+                if (isset($this->request->post['config_admin_product_extras_fields_jan_auth'])) {
+					$data['config_admin_product_extras_fields_jan_auth'] = $this->request->post['config_admin_product_extras_fields_jan_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_jan_auth'] = $this->config->get('config_admin_product_extras_fields_jan_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_jan_size'])) {
+					$data['config_admin_product_extras_fields_jan_size'] = $this->request->post['config_admin_product_extras_fields_jan_size'];
+				} else {
+					$data['config_admin_product_extras_fields_jan_size'] = $this->config->get('config_admin_product_extras_fields_jan_size');
+				}
+
+                if (isset($this->request->post['config_admin_product_extras_fields_isbn_auth'])) {
+					$data['config_admin_product_extras_fields_isbn_auth'] = $this->request->post['config_admin_product_extras_fields_isbn_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_isbn_auth'] = $this->config->get('config_admin_product_extras_fields_isbn_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_isbn_size'])) {
+					$data['config_admin_product_extras_fields_isbn_size'] = $this->request->post['config_admin_product_extras_fields_isbn_size'];
+				} else {
+					$data['config_admin_product_extras_fields_isbn_size'] = $this->config->get('config_admin_product_extras_fields_isbn_size');
+				}
+
+                if (isset($this->request->post['config_admin_product_extras_fields_mpn_auth'])) {
+					$data['config_admin_product_extras_fields_mpn_auth'] = $this->request->post['config_admin_product_extras_fields_mpn_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_mpn_auth'] = $this->config->get('config_admin_product_extras_fields_mpn_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_mpn_size'])) {
+					$data['config_admin_product_extras_fields_mpn_size'] = $this->request->post['config_admin_product_extras_fields_mpn_size'];
+				} else {
+					$data['config_admin_product_extras_fields_mpn_size'] = $this->config->get('config_admin_product_extras_fields_mpn_size');
+				}
+
+                if (isset($this->request->post['config_admin_product_extras_fields_location_auth'])) {
+					$data['config_admin_product_extras_fields_location_auth'] = $this->request->post['config_admin_product_extras_fields_location_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_location_auth'] = $this->config->get('config_admin_product_extras_fields_location_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_location_size'])) {
+					$data['config_admin_product_extras_fields_location_size'] = $this->request->post['config_admin_product_extras_fields_location_size'];
+				} else {
+					$data['config_admin_product_extras_fields_location_size'] = $this->config->get('config_admin_product_extras_fields_location_size');
+				}
+    
+                if (isset($this->request->post['config_admin_product_extras_fields_quantity_auth'])) {
+					$data['config_admin_product_extras_fields_quantity_auth'] = $this->request->post['config_admin_product_extras_fields_quantity_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_quantity_auth'] = $this->config->get('config_admin_product_extras_fields_quantity_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_quantity_size'])) {
+					$data['config_admin_product_extras_fields_quantity_size'] = $this->request->post['config_admin_product_extras_fields_quantity_size'];
+				} else {
+					$data['config_admin_product_extras_fields_quantity_size'] = $this->config->get('config_admin_product_extras_fields_quantity_size');
+				}
+                
+                if (isset($this->request->post['config_admin_product_extras_fields_subtract_auth'])) {
+					$data['config_admin_product_extras_fields_subtract_auth'] = $this->request->post['config_admin_product_extras_fields_subtract_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_subtract_auth'] = $this->config->get('config_admin_product_extras_fields_subtract_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_subtract_size'])) {
+					$data['config_admin_product_extras_fields_subtract_size'] = $this->request->post['config_admin_product_extras_fields_subtract_size'];
+				} else {
+					$data['config_admin_product_extras_fields_subtract_size'] = $this->config->get('config_admin_product_extras_fields_subtract_size');
+				}
+
+                
+                if (isset($this->request->post['config_admin_product_extras_fields_stockstatus_auth'])) {
+					$data['config_admin_product_extras_fields_stockstatus_auth'] = $this->request->post['config_admin_product_extras_fields_stockstatus_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_stockstatus_auth'] = $this->config->get('config_admin_product_extras_fields_stockstatus_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_stockstatus_size'])) {
+					$data['config_admin_product_extras_fields_stockstatus_size'] = $this->request->post['config_admin_product_extras_fields_stockstatus_size'];
+				} else {
+					$data['config_admin_product_extras_fields_stockstatus_size'] = $this->config->get('config_admin_product_extras_fields_stockstatus_size');
+				}
+
+                
+                if (isset($this->request->post['config_admin_product_extras_fields_shipping_auth'])) {
+					$data['config_admin_product_extras_fields_shipping_auth'] = $this->request->post['config_admin_product_extras_fields_shipping_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_shipping_auth'] = $this->config->get('config_admin_product_extras_fields_shipping_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_shipping_size'])) {
+					$data['config_admin_product_extras_fields_shipping_size'] = $this->request->post['config_admin_product_extras_fields_shipping_size'];
+				} else {
+					$data['config_admin_product_extras_fields_shipping_size'] = $this->config->get('config_admin_product_extras_fields_shipping_size');
+				}
+
+                
+                if (isset($this->request->post['config_admin_product_extras_fields_shipping_auth'])) {
+					$data['config_admin_product_extras_fields_shipping_auth'] = $this->request->post['config_admin_product_extras_fields_shipping_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_shipping_auth'] = $this->config->get('config_admin_product_extras_fields_shipping_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_shipping_size'])) {
+					$data['config_admin_product_extras_fields_shipping_size'] = $this->request->post['config_admin_product_extras_fields_shipping_size'];
+				} else {
+					$data['config_admin_product_extras_fields_shipping_size'] = $this->config->get('config_admin_product_extras_fields_shipping_size');
+				}
+
+                
+                if (isset($this->request->post['config_admin_product_extras_fields_dateavailable_auth'])) {
+					$data['config_admin_product_extras_fields_dateavailable_auth'] = $this->request->post['config_admin_product_extras_fields_dateavailable_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_dateavailable_auth'] = $this->config->get('config_admin_product_extras_fields_dateavailable_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_dateavailable_size'])) {
+					$data['config_admin_product_extras_fields_dateavailable_size'] = $this->request->post['config_admin_product_extras_fields_dateavailable_size'];
+				} else {
+					$data['config_admin_product_extras_fields_dateavailable_size'] = $this->config->get('config_admin_product_extras_fields_dateavailable_size');
+				}
+
+                
+                if (isset($this->request->post['config_admin_product_extras_fields_sortorder_auth'])) {
+					$data['config_admin_product_extras_fields_sortorder_auth'] = $this->request->post['config_admin_product_extras_fields_sortorder_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_sortorder_auth'] = $this->config->get('config_admin_product_extras_fields_sortorder_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_sortorder_size'])) {
+					$data['config_admin_product_extras_fields_sortorder_size'] = $this->request->post['config_admin_product_extras_fields_sortorder_size'];
+				} else {
+					$data['config_admin_product_extras_fields_sortorder_size'] = $this->config->get('config_admin_product_extras_fields_sortorder_size');
+				}
+                // enlaces
+                if (isset($this->request->post['config_admin_product_extras_fields_manufacturer_auth'])) {
+					$data['config_admin_product_extras_fields_manufacturer_auth'] = $this->request->post['config_admin_product_extras_fields_manufacturer_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_manufacturer_auth'] = $this->config->get('config_admin_product_extras_fields_manufacturer_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_category_auth'])) {
+					$data['config_admin_product_extras_fields_category_auth'] = $this->request->post['config_admin_product_extras_fields_category_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_category_auth'] = $this->config->get('config_admin_product_extras_fields_category_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_filter_auth'])) {
+					$data['config_admin_product_extras_fields_filter_auth'] = $this->request->post['config_admin_product_extras_fields_filter_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_filter_auth'] = $this->config->get('config_admin_product_extras_fields_filter_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_product_store_auth'])) {
+					$data['config_admin_product_extras_fields_product_store_auth'] = $this->request->post['config_admin_product_extras_fields_product_store_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_product_store_auth'] = $this->config->get('config_admin_product_extras_fields_product_store_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_download_auth'])) {
+					$data['config_admin_product_extras_fields_download_auth'] = $this->request->post['config_admin_product_extras_fields_download_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_download_auth'] = $this->config->get('config_admin_product_extras_fields_download_auth');
+				}
+                if (isset($this->request->post['config_admin_product_extras_fields_related_auth'])) {
+					$data['config_admin_product_extras_fields_related_auth'] = $this->request->post['config_admin_product_extras_fields_related_auth'];
+				} else {
+					$data['config_admin_product_extras_fields_related_auth'] = $this->config->get('config_admin_product_extras_fields_related_auth');
+				}
+
+                //mostrar tabs 
+                if (isset($this->request->post['config_admin_product_tab_attribute_auth'])) {
+					$data['config_admin_product_tab_attribute_auth'] = $this->request->post['config_admin_product_tab_attribute_auth'];
+				} else {
+					$data['config_admin_product_tab_attribute_auth'] = $this->config->get('config_admin_product_tab_attribute_auth');
+				}
+                if (isset($this->request->post['config_admin_product_fields_attribute_size'])) {
+					$data['config_admin_product_fields_attribute_size'] = $this->request->post['config_admin_product_fields_attribute_size'];
+				} else {
+					$data['config_admin_product_fields_attribute_size'] = $this->config->get('config_admin_product_fields_attribute_size');
+				}
+                
+                if (isset($this->request->post['config_admin_product_tab_option_auth'])) {
+					$data['config_admin_product_tab_option_auth'] = $this->request->post['config_admin_product_tab_option_auth'];
+				} else {
+					$data['config_admin_product_tab_option_auth'] = $this->config->get('config_admin_product_tab_option_auth');
+				}
+                if (isset($this->request->post['config_admin_product_tab_recurring_auth'])) {
+					$data['config_admin_product_tab_recurring_auth'] = $this->request->post['config_admin_product_tab_recurring_auth'];
+				} else {
+					$data['config_admin_product_tab_recurring_auth'] = $this->config->get('config_admin_product_tab_recurring_auth');
+				}
+                if (isset($this->request->post['config_admin_product_tab_discount_auth'])) {
+					$data['config_admin_product_tab_discount_auth'] = $this->request->post['config_admin_product_tab_discount_auth'];
+				} else {
+					$data['config_admin_product_tab_discount_auth'] = $this->config->get('config_admin_product_tab_discount_auth');
+				}
+                if (isset($this->request->post['config_admin_product_tab_image_auth'])) {
+					$data['config_admin_product_tab_image_auth'] = $this->request->post['config_admin_product_tab_image_auth'];
+				} else {
+					$data['config_admin_product_tab_image_auth'] = $this->config->get('config_admin_product_tab_image_auth');
+				}
+                if (isset($this->request->post['config_admin_product_tab_reward_auth'])) {
+					$data['config_admin_product_tab_reward_auth'] = $this->request->post['config_admin_product_tab_reward_auth'];
+				} else {
+					$data['config_admin_product_tab_reward_auth'] = $this->config->get('config_admin_product_tab_reward_auth');
+				}
+                if (isset($this->request->post['config_admin_product_tab_seo_auth'])) {
+					$data['config_admin_product_tab_seo_auth'] = $this->request->post['config_admin_product_tab_seo_auth'];
+				} else {
+					$data['config_admin_product_tab_seo_auth'] = $this->config->get('config_admin_product_tab_seo_auth');
+				}
+                if (isset($this->request->post['config_admin_product_tab_design_auth'])) {
+					$data['config_admin_product_tab_design_auth'] = $this->request->post['config_admin_product_tab_design_auth'];
+				} else {
+					$data['config_admin_product_tab_design_auth'] = $this->config->get('config_admin_product_tab_design_auth');
+				}
+]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/view/template/setting/setting.twig">
+		<operation>
+			<search><![CDATA[<li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>]]></search>
+			<add position="after"><![CDATA[
+				<li><a href="#tab-admin-product-extras" data-toggle="tab">{{ text_admin_product_extras }}</a></li>
+				]]>
+			</add>
+		</operation>
+        <operation>
+			<search><![CDATA[<div class="tab-pane" id="tab-server">]]></search>
+			<add position="before"><![CDATA[
+            <div class="tab-pane" id="tab-admin-product-extras">
+                <fieldset>
+                <legend>{{ text_admin_legend_save_view }}</legend>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="{{ help_admin_product_extras_save_auth }}">{{ text_admin_product_extras_save_auth }}</span></label>
+                  <div class="col-sm-10">
+                    <label class="radio-inline"> {% if config_admin_product_extras_save_auth %}
+                      <input type="radio" name="config_admin_product_extras_save_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_save_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_save_auth %}
+                      <input type="radio" name="config_admin_product_extras_save_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_save_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="{{ help_admin_product_extras_view_auth }}">{{ text_admin_product_extras_view_auth }}</span></label>
+                  <div class="col-sm-10">
+                    <label class="radio-inline"> {% if config_admin_product_extras_view_auth %}
+                      <input type="radio" name="config_admin_product_extras_view_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_view_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_view_auth %}
+                      <input type="radio" name="config_admin_product_extras_view_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_view_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                </div>
+                </fieldset>
+                {{ legend_tab }}
+                
+			</div>]]>
+			</add>
+		</operation>
+		<operation>
+			<search><![CDATA[{{ legend_tab }}]]></search>
+			<add position="replace"><![CDATA[
+            <fieldset>
+                <legend style="margin-top: 18px;">{{ text_admin_legend_tab }}</legend>
+                {% set items = [] %}
+                {% set items = items|merge(["1","2","3","4","5","6","7","8","9","10"]) %}
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_tab_attribute_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_tab_attribute_auth %}
+                      <input type="radio" name="config_admin_product_tab_attribute_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_attribute_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_tab_attribute_auth %}
+                      <input type="radio" name="config_admin_product_tab_attribute_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_attribute_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_fields_attribute_size" id="config_admin_product_fields_attribute_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_fields_attribute_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div> 
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_tab_option_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_tab_option_auth %}
+                      <input type="radio" name="config_admin_product_tab_option_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_option_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_tab_option_auth %}
+                      <input type="radio" name="config_admin_product_tab_option_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_option_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div> 
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_tab_recurring_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_tab_recurring_auth %}
+                      <input type="radio" name="config_admin_product_tab_recurring_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_recurring_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_tab_recurring_auth %}
+                      <input type="radio" name="config_admin_product_tab_recurring_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_recurring_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div> 
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_tab_discount_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_tab_discount_auth %}
+                      <input type="radio" name="config_admin_product_tab_discount_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_discount_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_tab_discount_auth %}
+                      <input type="radio" name="config_admin_product_tab_discount_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_discount_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div> 
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_tab_special_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_tab_special_auth %}
+                      <input type="radio" name="config_admin_product_tab_special_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_special_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_tab_special_auth %}
+                      <input type="radio" name="config_admin_product_tab_special_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_special_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div> 
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_tab_image_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_tab_image_auth %}
+                      <input type="radio" name="config_admin_product_tab_image_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_image_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_tab_image_auth %}
+                      <input type="radio" name="config_admin_product_tab_image_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_image_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div> 
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_tab_reward_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_tab_reward_auth %}
+                      <input type="radio" name="config_admin_product_tab_reward_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_reward_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_tab_reward_auth %}
+                      <input type="radio" name="config_admin_product_tab_reward_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_reward_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div> 
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_tab_seo_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_tab_seo_auth %}
+                      <input type="radio" name="config_admin_product_tab_seo_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_seo_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_tab_seo_auth %}
+                      <input type="radio" name="config_admin_product_tab_seo_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_seo_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div> 
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_tab_design_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_tab_design_auth %}
+                      <input type="radio" name="config_admin_product_tab_design_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_design_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_tab_design_auth %}
+                      <input type="radio" name="config_admin_product_tab_design_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_tab_design_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div> 
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend style="margin-top: 18px;">{{ text_admin_legend_fields_data }}</legend>
+                {% set items = [] %}
+                {% set items = items|merge(["col-md-1","col-md-2","col-md-3","col-md-4","col-md-5","col-md-6","col-md-7","col-md-8","col-md-9","col-md-10"]) %}
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_model_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_model_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_model_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_model_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_model_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_model_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_model_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_model_size" id="config_admin_product_extras_fields_model_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_model_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>  
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_price_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_price_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_price_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_price_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_price_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_price_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_price_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_price_size" id="config_admin_product_extras_fields_price_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_price_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>  
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_sku_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_sku_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_sku_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_sku_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_sku_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_sku_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_sku_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_sku_size" id="config_admin_product_extras_fields_sku_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_sku_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>  
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_upc_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_upc_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_upc_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_upc_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_upc_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_upc_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_upc_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_upc_size" id="config_admin_product_extras_fields_upc_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_upc_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>  
+
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_ean_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_ean_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_ean_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_ean_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_ean_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_ean_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_ean_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_ean_size" id="config_admin_product_extras_fields_ean_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_ean_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_jan_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_jan_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_jan_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_jan_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_jan_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_jan_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_jan_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_jan_size" id="config_admin_product_extras_fields_jan_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_jan_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_isbn_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_isbn_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_isbn_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_isbn_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_isbn_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_isbn_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_isbn_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_isbn_size" id="config_admin_product_extras_fields_isbn_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_isbn_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_mpn_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_mpn_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_mpn_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_mpn_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_mpn_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_mpn_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_mpn_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_mpn_size" id="config_admin_product_extras_fields_mpn_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_mpn_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_location_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_location_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_location_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_location_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_location_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_location_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_location_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_location_size" id="config_admin_product_extras_fields_location_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_location_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>
+                </div>
+            
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_quantity_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_quantity_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_quantity_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_quantity_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_quantity_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_quantity_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_quantity_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_quantity_size" id="config_admin_product_extras_fields_quantity_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_quantity_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_minimum_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_minimum_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_minimum_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_minimum_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_minimum_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_minimum_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_minimum_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_minimum_size" id="config_admin_product_extras_fields_minimum_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_minimum_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_subtract_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_subtract_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_subtract_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_subtract_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_subtract_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_subtract_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_subtract_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_subtract_size" id="config_admin_product_extras_fields_subtract_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_subtract_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_stockstatus_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_stockstatus_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_stockstatus_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_stockstatus_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_stockstatus_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_stockstatus_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_stockstatus_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_stockstatus_size" id="config_admin_product_extras_fields_stockstatus_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_stockstatus_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_shipping_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_shipping_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_shipping_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_shipping_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_shipping_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_shipping_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_shipping_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_shipping_size" id="config_admin_product_extras_fields_shipping_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_shipping_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_dateavailable_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_dateavailable_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_dateavailable_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_dateavailable_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_dateavailable_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_dateavailable_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_dateavailable_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_dateavailable_size" id="config_admin_product_extras_fields_dateavailable_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_dateavailable_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_sortorder_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_sortorder_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_sortorder_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_sortorder_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_sortorder_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_sortorder_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_sortorder_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_size }}</label>
+                  <div class="col-sm-2">
+                    <select name="config_admin_product_extras_fields_sortorder_size" id="config_admin_product_extras_fields_sortorder_size" class="form-control">
+                        {% for item in items %}
+                            {% if config_admin_product_extras_fields_sortorder_size == item %}
+                            <option value="{{ item }}" selected="selected">{{ item }}</option>
+                            {% else %}
+                            <option value="{{ item }}">{{ item }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                  </div>
+                </div>
+                <!--CAMPOS ENLACES-->
+                <legend style="margin-top: 18px;">{{ text_admin_legend_fields_links }}</legend>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">{{ text_admin_product_extras_fields_manufacturer_auth }}</label>
+                  <div class="col-sm-2">
+                    <label class="radio-inline"> {% if config_admin_product_extras_fields_manufacturer_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_manufacturer_auth" value="1" checked="checked" />
+                      {{ text_yes }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_manufacturer_auth" value="1" />
+                      {{ text_yes }}
+                      {% endif %} </label>
+                    <label class="radio-inline"> {% if not config_admin_product_extras_fields_manufacturer_auth %}
+                      <input type="radio" name="config_admin_product_extras_fields_manufacturer_auth" value="0" checked="checked" />
+                      {{ text_no }}
+                      {% else %}
+                      <input type="radio" name="config_admin_product_extras_fields_manufacturer_auth" value="0" />
+                      {{ text_no }}
+                      {% endif %} </label>
+                  </div>
+                </div>
+
+                </fieldset>
+			</div>]]>
+			</add>
+		</operation>
+	</file>
+	<file path="admin/language/en-gb/setting/setting.php">
+		<operation>
+			<search><![CDATA[$_['text_general']]]></search>
+			<add position="before"><![CDATA[
+                $_['text_admin_product_extras']                = 'Product Extras';
+                
+                $_['text_admin_legend_save_view']                = 'Save & Continue / View';
+                $_['text_admin_product_extras_save_auth']                = 'Active Save & Continue';
+                $_['help_admin_product_extras_save_auth']                = 'Active Save & Continue button in Product form';
+                $_['text_admin_product_extras_view_auth']                = 'Active View Button';
+                $_['help_admin_product_extras_view_auth']                = 'Active View Button in Product form';
+                //pestañas
+                $_['text_admin_legend_tab']                = 'Show / Hide Tabs';
+                $_['text_admin_product_tab_attribute_auth']                = 'Show Attributes';
+                $_['text_admin_product_tab_option_auth']                = 'Show Options';
+                $_['text_admin_product_tab_recurring_auth']                = 'Show Recurring';
+                $_['text_admin_product_tab_discount_auth']                = 'Show Discount';
+                $_['text_admin_product_tab_special_auth']                = 'Show Special';
+                $_['text_admin_product_tab_image_auth']                = 'Show Image';
+                $_['text_admin_product_tab_reward_auth']                = 'Show Rewards';
+                $_['text_admin_product_tab_seo_auth']                = 'Show SEO';
+                $_['text_admin_product_tab_design_auth']                = 'Show Design';
+
+                //campos
+                $_['text_admin_legend_fields_data']                = 'Show / Hide Data fields'; 
+                $_['text_admin_product_extras_fields_size']                = 'Size field'; 
+                $_['text_admin_product_extras_fields_model_auth']                = 'Show Model';
+                $_['text_admin_product_extras_fields_model_auth']                = 'Show Price';
+                $_['text_admin_product_extras_fields_sku_auth']                = 'Show SKU';
+                $_['text_admin_product_extras_fields_upc_auth']                = 'Show UPC';
+                $_['text_admin_product_extras_fields_ean_auth']                = 'Show EAN';
+                $_['text_admin_product_extras_fields_jan_auth']                = 'Show JAN';
+                $_['text_admin_product_extras_fields_isbn_auth']                = 'Show ISBN';
+                $_['text_admin_product_extras_fields_mpn_auth']                = 'Show MPN';
+                $_['text_admin_product_extras_fields_location_auth']                = 'Show Location';
+                $_['text_admin_product_extras_fields_quantity_auth']                = 'Show Quantity';
+                $_['text_admin_product_extras_fields_minimum_auth']                = 'Show Minimum';
+                $_['text_admin_product_extras_fields_subtract_auth']                = 'Show Subtract';
+                $_['text_admin_product_extras_fields_stockstatus_auth']                = 'Show Stock Status';
+                $_['text_admin_product_extras_fields_dateavailable_auth']                = 'Show Date Available';
+                $_['text_admin_product_extras_fields_shipping_auth']                = 'Show Shipping';
+                $_['text_admin_product_extras_fields_sortorder_auth']                = 'Show Sort Order';
+				]]>
+			</add>
+		</operation>
+	</file>
+    <file path="admin/language/es-es/setting/setting.php">
+		<operation>
+			<search><![CDATA[$_['text_general']]]></search>
+			<add position="before"><![CDATA[
+				$_['text_admin_product_extras']                = 'Productos Extras';
+                
+                $_['text_admin_legend_save_view']                = 'Guardar y Continuar / Ver';
+                $_['text_admin_product_extras_save_auth']                = 'Activar Guardar y Continuar';
+                $_['help_admin_product_extras_save_auth']                = 'Activar botón Guardar y Continuar en el formulario de Producto.';
+                $_['text_admin_product_extras_view_auth']                = 'Activar Ver botón';
+                $_['help_admin_product_extras_view_auth']                = 'Activar botón Ver en el formulario de Producto.';
+                //pestañas
+                $_['text_admin_legend_tab']                = 'Mostrar / Ocultar Pestañas';
+                $_['text_admin_product_tab_attribute_auth']                = 'Mostrar Pestaña Atributos';
+                $_['text_admin_product_tab_option_auth']                = 'Mostrar Pestaña Opciones';
+                $_['text_admin_product_tab_recurring_auth']                = 'Mostrar Pestaña Pagos A.';
+                $_['text_admin_product_tab_discount_auth']                = 'Mostrar Pestaña Descuentos';
+                $_['text_admin_product_tab_special_auth']                = 'Mostrar Pestaña Especial';
+                $_['text_admin_product_tab_image_auth']                = 'Mostrar Pestaña Imagen';
+                $_['text_admin_product_tab_reward_auth']                = 'Mostrar Pestaña Puntos';
+                $_['text_admin_product_tab_seo_auth']                = 'Mostrar Pestaña SEO';
+                $_['text_admin_product_tab_design_auth']                = 'Mostrar Pestaña Diseño';
+                //campos
+                $_['text_admin_legend_fields_data']                = 'Mostrar / Ocultar Campos de Datos';     
+                $_['text_admin_product_extras_fields_size']                = 'Tamaño del Campo';        
+                $_['text_admin_product_extras_fields_model_auth']                = 'Mostrar Modelo';
+                $_['text_admin_product_extras_fields_price_auth']                = 'Mostrar Precio';
+                $_['text_admin_product_extras_fields_sku_auth']                = 'Mostrar SKU';
+                $_['text_admin_product_extras_fields_upc_auth']                = 'Mostrar UPC';
+                $_['text_admin_product_extras_fields_ean_auth']                = 'Mostrar EAN';
+                $_['text_admin_product_extras_fields_jan_auth']                = 'Mostrar JAN';
+                $_['text_admin_product_extras_fields_isbn_auth']                = 'Mostrar ISBN';
+                $_['text_admin_product_extras_fields_mpn_auth']                = 'Mostrar MPN';
+                $_['text_admin_product_extras_fields_location_auth']                = 'Mostrar Location';
+                $_['text_admin_product_extras_fields_quantity_auth']                = 'Mostrar Cantidad';
+                $_['text_admin_product_extras_fields_minimum_auth']                = 'Mostrar Mínimo';
+                $_['text_admin_product_extras_fields_subtract_auth']                = 'Mostrar Restar de stock';
+                $_['text_admin_product_extras_fields_stockstatus_auth']                = 'Mostrar Fuera de stock';
+                $_['text_admin_product_extras_fields_dateavailable_auth']                = 'Mostrar Fecha de disp.';
+                $_['text_admin_product_extras_fields_shipping_auth']                = 'Mostrar Requiere envío';
+                $_['text_admin_product_extras_fields_sortorder_auth']                = 'Mostrar Orden';
+                //campos enlaces
+                $_['text_admin_legend_fields_links']                = 'Mostrar / Ocultar Campos de Enlaces';     
+                $_['text_admin_product_extras_fields_manufacturer_auth']                = 'Mostrar Marca';
+                $_['text_admin_product_extras_fields_category_auth']                = 'Mostrar Categoria';
+				]]>
+			</add>
+		</operation>
+	</file>
+    <!--productlist-->
+	<file name="admin/view/template/catalog/product_list.twig">
+        <!--NO RESULTS-->
+        <operation error="log">
+			<search position="replace"><![CDATA[<td class="text-center" colspan="8">{{ text_no_results }}</td>]]></search>
+			<add><![CDATA[<td class="text-center" colspan="11">{{ text_no_results }}</td>]]></add>
+		</operation>
+        <!--STATUS
+        <operation error="log">
+			<search position="replace"><![CDATA[<td class="text-left">{{ product.status }}</td>]]></search>
+			<add><![CDATA[<td class="text-right">{% if product.status_id == 0 %} <span class="label label-danger">{{ product.status }}</span> {% else %} <span class="label label-success">{{ product.status }}</span> {% endif %}</td>]]></add>
+		</operation>-->
+        <operation error="log">
+			<search position="replace"><![CDATA[<option value=""></option>]]></search>
+			<add><![CDATA[<option value="" selected>{{ entry_status_select }}</option>]]></add>
+		</operation>
+        <!--CHANGE COLOR QUANTITY-->
+        <operation error="log">
+			<search position="replace"><![CDATA[<td class="text-right">{% if product.quantity <= 0 %} <span class="label label-warning">{{ product.quantity }}</span> {% elseif product.quantity <= 5 %} <span class="label label-danger">{{ product.quantity }}</span> {% else %} <span class="label label-success">{{ product.quantity }}</span> {% endif %}</td>]]></search>
+			<add><![CDATA[<td class="text-right">{% if product.quantity <= 0 %} <span class="label label-danger">{{ product.quantity }}</span> {% elseif product.quantity <= 5 %} <span class="label label-warning">{{ product.quantity }}</span> {% else %} <span class="label label-success">{{ product.quantity }}</span> {% endif %}</td>]]></add>
+		</operation>
+        <!--ORDER BY ID-->
+		<operation error="log">
+			<search position="before"><![CDATA[ <td class="text-center">{{ column_image }}</td> ]]></search>
+			<add><![CDATA[<td class="text-center">{% if sort=="p.product_id" %}<a href="{{ sort_product_id }}" class="{{ 'order'|lower }}">{{ column_id }}</a>{% else %}<a href="{{ sort_product_id }}">{{ column_id }}</a>{% endif %}</td>]]></add>
+		</operation>
+		<operation error="log">
+			<search position="before"><![CDATA[<td class="text-center">{% if product.image %} <img src="{{ product.image }}" alt="{{ product.name }}" class="img-thumbnail" /> {% else %} <span class="img-thumbnail list"><i class="fa fa-camera fa-2x"></i></span> {% endif %}</td>]]></search>
+			<add><![CDATA[<td class="text-center">{{ product.product_id }}</td>]]></add>
+		</operation>
+        <!--IMAGE LINK-->
+        <operation error="log">
+			<search position="replace"><![CDATA[<td class="text-center">{% if product.image %} <img src="{{ product.image }}" alt="{{ product.name }}" class="img-thumbnail" /> {% else %} <span class="img-thumbnail list"><i class="fa fa-camera fa-2x"></i></span> {% endif %}</td>]]></search>
+			<add><![CDATA[<td class="text-center"><a href="/index.php?route=product/product&product_id={{ product.product_id }}" data-toggle="tooltip" title="" target="_blank" data-original-title="{{ column_see }}">{% if product.image %} <img src="{{ product.image }}" alt="{{ product.name }}" class="img-thumbnail" /> {% else %} <span class="img-thumbnail list"><i class="fa fa-camera fa-2x"></i></span> {% endif %}</a></td>]]></add>
+		</operation>
+        <!--PRICE + VAT-->
+        <operation error="log">
+			<search position="after"><![CDATA[<td class="text-left">{% if sort == 'p.model' %} <a href="{{ sort_model }}" class="{{ order|lower }}">{{ column_model }}</a> {% else %} <a href="{{ sort_model }}">{{ column_model }}</a> {% endif %}</td>]]></search>
+			<add><![CDATA[{% if config_admin_product_extras_fields_price_auth %} <td class="text-right">{{ column_grossprice }}</td>{% endif %}]]></add>
+		</operation>
+        <operation error="log">
+			<search position="after"><![CDATA[<td class="text-left">{{ product.model }}</td>]]></search>
+			<add><![CDATA[
+                {% if config_admin_product_extras_fields_price_auth %}    
+                    <td class="text-right">{% if product.specialgrossprice %} <span style="text-decoration: line-through;">{{ product.grossprice }}</span><br/>
+                      <div class="text-danger">{{ product.specialgrossprice }}</div>
+                      {% else %}
+                      {{ product.grossprice }}
+                      {% endif %}
+                    </td>
+                {% endif %}
+                ]]></add>
+		</operation>
+        <operation error="log">
+			<search position="replace"><![CDATA[<td class="text-right">{% if product.special %} <span style="text-decoration: line-through;">{{ product.price }}</span><br/>]]></search>
+			<add><![CDATA[{% if config_admin_product_extras_fields_price_auth == 0 %}<td class="text-right" style="display:none">{% else %}<td class="text-right">{% endif %}{% if product.special %} <span style="text-decoration: line-through;">{{ product.price }}</span><br/>]]></add>
+		</operation>
+        <operation error="log">
+			<search position="after"><![CDATA[<td class="text-right">{% if sort == 'p.price' %} <a href="{{ sort_price }}" class="{{ order|lower }}">{{ column_price }}</a> {% else %} <a href="{{ sort_price }}">{{ column_price }}</a> {% endif %}</td>]]></search>
+			<add><![CDATA[{% if config_admin_product_extras_fields_price_auth %}<td class="text-right">{{ column_vat }}</td>{% endif %}]]></add>
+		</operation>
+        <operation error="log">
+			<search position="replace"><![CDATA[<td class="text-right">{% if sort == 'p.price' %} <a href="{{ sort_price }}" class="{{ order|lower }}">{{ column_price }}</a> {% else %} <a href="{{ sort_price }}">{{ column_price }}</a> {% endif %}</td>]]></search>
+			<add><![CDATA[{% if config_admin_product_extras_fields_price_auth %}<td class="text-right">{% if sort == 'p.price' %} <a href="{{ sort_price }}" class="{{ order|lower }}">{{ column_price }}</a> {% else %} <a href="{{ sort_price }}">{{ column_price }}</a> {% endif %}</td>{% endif %}]]></add>
+		</operation>
+        <operation error="log">
+			<search position="before"><![CDATA[<td class="text-right">{% if product.quantity <= 0 %} <span class="label label-danger">{{ product.quantity }}</span> {% elseif product.quantity <= 5 %} <span class="label label-warning">{{ product.quantity }}</span> {% else %} <span class="label label-success">{{ product.quantity }}</span> {% endif %}</td>]]></search>
+			<add><![CDATA[{% if config_admin_product_extras_fields_price_auth %}<td class="text-right">{% if product.rate == '0' %} {% else %}{{ product.rate }} {{ column_vat }}{% endif %}</td>{% endif %}]]></add>
+		</operation>
+        
+        <!--FILTER BY CATEGORY-->
+        <operation>
+            <search><![CDATA[var filter_quantity = $('input[name=\'filter_quantity\']').val();]]></search>
+            <add position="before"><![CDATA[var filter_category = $('select[name=\'filter_category\']').val();
+            if (filter_category != '*') {
+                url += '&filter_category=' + encodeURIComponent(filter_category);
+            }
+            ]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[<td class="text-left">{% if sort == 'p.model' %} <a href="{{ sort_model }}" class="{{ order|lower }}">{{ column_model }}</a> {% else %} <a href="{{ sort_model }}">{{ column_model }}</a> {% endif %}</td>]]></search>
+            <add position="after"><![CDATA[<td class="text-left">{{ column_category }}</td>]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[<td class="text-left">{{ product.model }}</td>]]></search>
+            <add position="after"><![CDATA[<td class="text-left">{% for category in categories %}{% if category.category_id in product.category %}{{ category.name }}<br>{% endif %}{% endfor %}</td>]]></add>
+        </operation>
+        <operation>
+            <search index="1"><![CDATA[<div class="form-group">]]></search>
+            <add position="before"><![CDATA[<div class="form-group col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                <label class="control-label" for="input-category">{{ column_category }}</label>
+                <select name="filter_category" id="input-category" class="form-control" >
+                    <option value="*">{{entry_all_categories}}</option>
+                    {% for category in categories %}
+                        {% if category.category_id == filter_category %}
+                            <option value="{{ category.category_id }}" selected="selected">{{ category.name }}</option>
+                        {% else %}
+                            <option value="{{ category.category_id }}"> {{ category.name }}</option>
+                        {% endif %}
+                    {% endfor %}
+                </select>
+            </div>]]></add>
+        </operation>
+        <!--MANUFACURER-->
+        <operation>
+            <search><![CDATA[<td class="text-left">{% if sort == 'p.model' %} <a href="{{ sort_model }}" class="{{ order|lower }}">{{ column_model }}</a> {% else %} <a href="{{ sort_model }}">{{ column_model }}</a> {% endif %}</td>]]></search>
+            <add position="after"><![CDATA[<td class="text-left">{{ column_manufacturer }}</td>]]></add>
+        </operation>
+        <operation error="log">
+			<search position="after"><![CDATA[<td class="text-left">{{ product.model }}</td>]]></search>
+			<add><![CDATA[<td class="text-left">{{ product.manufacturer }}</td>]]></add>
+		</operation>
+        <!--MODEL-->
+        <operation error="log">
+			<search position="replace"><![CDATA[<td class="text-left">{% if sort == 'p.model' %} <a href="{{ sort_model }}" class="{{ order|lower }}">{{ column_model }}</a> {% else %} <a href="{{ sort_model }}">{{ column_model }}</a> {% endif %}</td>]]></search>
+			<add><![CDATA[{% if config_admin_product_extras_fields_model_auth == 1 %}<td class="text-left">{% if sort == 'p.model' %} <a href="{{ sort_model }}" class="{{ order|lower }}">{{ column_model }}</a> {% else %} <a href="{{ sort_model }}">{{ column_model }}</a> {% endif %}</td>{% endif %}]]></add>
+		</operation>
+        <operation error="log">
+			<search position="replace"><![CDATA[<td class="text-left">{{ product.model }}</td>]]></search>
+			<add><![CDATA[{% if config_admin_product_extras_fields_model_auth == 1 %}<td class="text-left">{{ product.model }}</td>{% endif %}]]></add>
+		</operation>
+        <!--QUANTITY-->
+        <operation error="log">
+			<search position="replace"><![CDATA[<td class="text-right">{% if product.quantity <= 0 %} <span class="label label-danger">{{ product.quantity }}</span> {% elseif product.quantity <= 5 %} <span class="label label-warning">{{ product.quantity }}</span> {% else %} <span class="label label-success">{{ product.quantity }}</span> {% endif %}</td>]]></search>
+			<add><![CDATA[{% if config_admin_product_extras_fields_quantity_auth == 1 %}<td class="text-right">{% if product.quantity <= 0 %} <span class="label label-danger">{{ product.quantity }}</span> {% elseif product.quantity <= 5 %} <span class="label label-warning">{{ product.quantity }}</span> {% else %} <span class="label label-success">{{ product.quantity }}</span> {% endif %}</td>{% endif %}]]></add>
+		</operation>
+        <operation error="log">
+			<search position="replace"><![CDATA[<td class="text-right">{% if sort == 'p.quantity' %} <a href="{{ sort_quantity }}" class="{{ order|lower }}">{{ column_quantity }}</a> {% else %} <a href="{{ sort_quantity }}">{{ column_quantity }}</a> {% endif %}</td>]]></search>
+			<add><![CDATA[{% if config_admin_product_extras_fields_quantity_auth == 1 %}<td class="text-right">{% if sort == 'p.quantity' %} <a href="{{ sort_quantity }}" class="{{ order|lower }}">{{ column_quantity }}</a> {% else %} <a href="{{ sort_quantity }}">{{ column_quantity }}</a> {% endif %}</td>{% endif %}]]></add>
+		</operation>
+        <!--FILTER ON TOP-->
+        <operation>
+            <search><![CDATA[<div id="filter-product" class="col-md-3 col-md-push-9 col-sm-12 hidden-sm hidden-xs">]]></search>
+            <add position="replace"><![CDATA[<style>@media (min-width: 1200px){.form-group + .form-group {border-top: none;} }@media (min-width: 992px){.form-group + .form-group {border-top: none;} }@media (min-width: 768px){.form-group + .form-group {border-top: none;} }</style><div id="filter-product" class="col-md-12 col-sm-12 hidden-sm hidden-xs">]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[<div class="col-md-9 col-md-pull-3 col-sm-12">]]></search>
+            <add position="replace"><![CDATA[<div class="col-md-12 col-sm-12">]]></add>
+        </operation>
+        <operation>
+            <search index="1"><![CDATA[<div class="form-group">]]></search>
+            <add position="replace"><![CDATA[<div class="form-group col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">]]></add>
+        </operation>
+        <operation>
+            <search index="1"><![CDATA[<div class="form-group">]]></search>
+            <add position="replace"><![CDATA[<div class="form-group col-xl-2 col-lg-2 col-md-2 col-sm-6 col-12">]]></add>
+        </operation>
+        <operation>
+            <search index="3"><![CDATA[<div class="form-group">]]></search>
+            <add position="replace"><![CDATA[<div class="form-group col-xl-1 col-lg-1 col-md-2 col-sm-6 col-6">]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[<div class="form-group">]]></search>
+            <add position="replace"><![CDATA[<div class="form-group col-xl-1 col-lg-1 col-md-2 col-sm-6 col-6">]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[<div class="form-group text-right">]]></search>
+            <add position="replace"><![CDATA[<div class="form-group col-xl-1 col-lg-1 col-md-2 col-sm-6 col-6">&nbsp;<br>]]></add>
+        </operation>
+	</file>	
+    <file path="admin/view/template/catalog/product_form.twig">
+        <!--PRODUCT FORM NAME ON TOP-->
+        <operation error="log">
+            <search position="replace"><![CDATA[<h3 class="panel-title"><i class="fa fa-pencil"></i> {{ text_form }}</h3>]]></search>
+            <add><![CDATA[<h3 class="panel-title"><i class="fa fa-pencil"></i> {{ text_form }}</h3> - {% set break = false %}{% for language in languages if not break %}
+            <b>{{ product_description[language.language_id] ? product_description[language.language_id].name }} </b>{% set break = true %}
+            {% endfor %}</h3>]]></add> 
+        </operation>
+        <!--SAVE & CONTINUE || VIEW-->
+		<operation error="log">
+			<search><![CDATA[<button type="submit"]]></search>
+			<add position="before"><![CDATA[
+        {% if view %}
+            {% if config_admin_product_extras_view_auth == 1 %}
+            <a href="{{ view }}" data-toggle="tooltip" title="{{ button_view }}" class="btn btn-warning" target=_blank><i class="fa fa-eye"></i></a>
+            {% endif %}
+        {% endif %}
+      {% if pidqs %}
+        {% if config_admin_product_extras_save_auth == 1 %}
+        <button id="qsave" style="margin: 0 10px;" data-toggle="tooltip" title="{{ button_save_continue }}" class="btn btn-success"><i class="fa fa-save"></i></button>
+        {% endif %}
+	  {% endif %}]]></add>
+		</operation>
+		<operation error="log">
+			<search><![CDATA[{{ footer }}]]></search>
+			<add position="before"><![CDATA[<script type="text/javascript"><!--
+            //quicksave
+            $("#qsave").on("click",function(){for(var e=$(".note-editor").length,r=0;e>r;r++){var t=$(".note-editor").eq(r).parent().children("textarea").attr("id");if("function"==typeof $().code)var a=$("#"+t).code();else a=$("#"+t).summernote("code");$("#"+t).html(a)}$.ajax({type:"post",data:$("form").serialize(),url:"index.php?route=catalog/product/qsave&user_token={{ user_token }}&product_id={{ pidqs }}",dataType:"json",beforeSend:function(){$("#qsave").prop("disabled",!0)},complete:function(){$("#qsave").prop("disabled",!1)},success:function(e){if($(".alert").remove(),$(".text-danger").remove(),$("div").removeClass("has-error"),e.error){if(html='<div class="alert alert-danger">',html+=" "+e.error.warning+' <button type="button" class="close" data-dismiss="alert">&times;</button></br>',e.error.name){var t="";for(r in e.error.name){var a=$("#input-name"+r);$(a).after('<div class="text-danger">'+e.error.name[r]+"</div>"),$(a).parent().addClass("has-error"),t='</br><i class="fa fa-exclamation-circle"></i> '+e.error.name[r]}html+=t}if(e.error.meta_title){t="";for(r in e.error.meta_title){a=$("#input-meta-title"+r);$(a).after('<div class="text-danger">'+e.error.meta_title[r]+"</div>"),$(a).parent().addClass("has-error"),t='</br><i class="fa fa-exclamation-circle"></i> '+e.error.meta_title[r]}html+=t}if(e.error.model&&($("#input-model").after('<div class="text-danger">'+e.error.model+"</div>"),$("#input-model").parent().addClass("has-error"),html+='</br><i class="fa fa-exclamation-circle"></i> '+e.error.model),e.error.keyword){t="";for(s in e.error.keyword)for(r in e.error.keyword[s]){a=$('[name="product_seo_url['+s+"]["+r+']"]');$(a).parent().after('<div class="text-danger">'+e.error.keyword[s][r]+"</div>"),$(a).parent(".input-group").addClass("has-error"),t='</br><i class="fa fa-exclamation-circle"></i> '+e.error.keyword[s][r],html+=t}}html+=" </div>",$("#content > .container-fluid").prepend(html)}e.success&&$("#content > .container-fluid").prepend('<div class="alert alert-success"><i class="fa fa-check-circle"></i> '+e.success+'  <button type="button" class="close" data-dismiss="alert">&times;</button></div>')},error:function(e,r,t){alert(t+"\r\n"+e.statusText+"\r\n"+e.responseText)}})});
+            //quicksave end
+            //--></script>]]></add>
+		</operation>
+        
+        <!--GENERAL-->
+        <operation error="log">
+			<search><![CDATA[{{ footer }} ]]></search>
+            <add position="before"><![CDATA[<script>
+            $( window ).load(function() {
+// pestañas 
+{% if config_admin_product_tab_attribute_auth == 0 %}$("a[href*=#tab-attribute]").parent().css("display","none");{% endif %}
+{% if config_admin_product_tab_option_auth == 0 %}$("a[href*=#tab-option]").parent().css("display","none");{% endif %}
+{% if config_admin_product_tab_recurring_auth == 0 %}$("a[href*=#tab-recurring]").parent().css("display","none");{% endif %}
+{% if config_admin_product_tab_discount_auth == 0 %}$("a[href*=#tab-discount]").parent().css("display","none");{% endif %}
+{% if config_admin_product_tab_special_auth == 0 %}$("a[href*=#tab-special]").parent().css("display","none");{% endif %}
+{% if config_admin_product_tab_image_auth == 0 %}$("a[href*=#tab-image]").parent().css("display","none");{% endif %}
+{% if config_admin_product_tab_reward_auth == 0 %}$("a[href*=#tab-reward]").parent().css("display","none");{% endif %}
+{% if config_admin_product_tab_seo_auth == 0 %}$("a[href*=#tab-seo]").parent().css("display","none");{% endif %}
+{% if config_admin_product_tab_design_auth == 0 %}$("a[href*=#tab-design]").parent().css("display","none");{% endif %}
+// data
+{% if config_admin_product_extras_fields_model_auth == 0 %}$("#input-model").parent().parent().css("display","none");{% else %}$("#input-model").parent().addClass("{{ config_admin_product_extras_fields_model_size }}");{% endif %}
+{% if config_admin_product_extras_fields_price_auth == 0 %}
+    $("#input-price").parent().parent().css("display","none");
+    $("#input-tax-class").parent().parent().css("display","none");
+{% else %}
+    $("#input-price").parent().addClass("{{ config_admin_product_extras_fields_price_size }}");$
+    ("#input-tax-class").parent().addClass("{{ config_admin_product_extras_fields_price_size }}");
+{% endif %}
+{% if config_admin_product_extras_fields_sku_auth == 0 %}$("#input-sku").parent().parent().css("display","none");{% else %}$("#input-sku").parent().addClass("{{ config_admin_product_extras_fields_sku_size }}");{% endif %}
+{% if config_admin_product_extras_fields_upc_auth == 0 %}$("#input-upc").parent().parent().css("display","none");{% else %}$("#input-upc").parent().addClass("{{ config_admin_product_extras_fields_upc_size }}");{% endif %}
+{% if config_admin_product_extras_fields_ean_auth == 0 %}$("#input-ean").parent().parent().css("display","none");{% else %}$("#input-ean").parent().addClass("{{ config_admin_product_extras_fields_ean_size }}");{% endif %}
+{% if config_admin_product_extras_fields_jan_auth == 0 %}$("#input-jan").parent().parent().css("display","none");{% else %}$("#input-jan").parent().addClass("{{ config_admin_product_extras_fields_jan_size }}");{% endif %}
+{% if config_admin_product_extras_fields_isbn_auth == 0 %}$("#input-isbn").parent().parent().css("display","none");{% else %}$("#input-isbn").parent().addClass("{{ config_admin_product_extras_fields_isbn_size }}");{% endif %}
+{% if config_admin_product_extras_fields_mpn_auth == 0 %}$("#input-mpn").parent().parent().css("display","none");{% else %}$("#input-mpn").parent().addClass("{{ config_admin_product_extras_fields_mpn_size }}");{% endif %}
+{% if config_admin_product_extras_fields_location_auth == 0 %}$("#input-location").parent().parent().css("display","none");{% else %}$("#input-location").parent().addClass("{{ config_admin_product_extras_fields_location_size }}");{% endif %}
+
+{% if config_admin_product_extras_fields_quantity_auth == 0 %}$("#input-quantity").parent().parent().css("display","none");{% else %}$("#input-quantity").parent().addClass("{{ config_admin_product_extras_fields_quantity_size }}");{% endif %}
+{% if config_admin_product_extras_fields_minimum_auth == 0 %}$("#input-minimum").parent().parent().css("display","none");{% else %}$("#input-minimum").parent().addClass("{{ config_admin_product_extras_fields_minimum_size }}");{% endif %}
+{% if config_admin_product_extras_fields_subtract_auth == 0 %}$("#input-subtract").parent().parent().css("display","none");{% else %}$("#input-subtract").parent().addClass("{{ config_admin_product_extras_fields_subtract_size }}");{% endif %}
+{% if config_admin_product_extras_fields_stockstatus_auth == 0 %}$("#input-stock-status").parent().parent().css("display","none");{% else %}$("#input-stock-status").parent().addClass("{{ config_admin_product_extras_fields_stockstatus_size }}");{% endif %}
+{% if config_admin_product_extras_fields_dateavailable_auth == 0 %}$("#input-date-available").parent().parent().parent().css("display","none");{% else %}$("#input-date-available").parent().parent().addClass("{{ config_admin_product_extras_fields_dateavailable_size }}");{% endif %}
+{% if config_admin_product_extras_fields_sortorder_auth == 0 %}$("#input-sort-order").parent().parent().css("display","none");{% else %}$("#input-sort-order").parent().addClass("{{ config_admin_product_extras_fields_sortorder_size }}");{% endif %}
+{% if config_admin_product_extras_fields_shipping_auth == 0 %}
+    $("input[name=shipping]").parent().parent().parent().css("display","none");
+{% else %}
+    $("input[name=shipping]").parent().parent().addClass("{{ config_admin_product_extras_fields_shipping_size }}");
+{% endif %}
+            
+            $("#wrapper input[type=button]")
+            //$("#input-sort-order").parent().addClass("col-md-3");
+            
+            $("#input-weight-class").parent().addClass("col-md-3");
+            $("#input-weight-class").parent().parent().css("display","none");
+            $("#input-weight").parent().addClass("col-md-3");
+            $("#input-weight").parent().parent().css("display","none");
+            
+            $("#input-length-class").parent().addClass("col-md-3");
+            $("#input-length-class").parent().parent().css("display","none");
+            $("#input-length").parent().addClass("col-md-3");
+            $("#input-length").parent().parent().parent().parent().css("display","none");
+            
+            $("#input-status").parent().addClass("col-md-3");
+            //$("#input-tax-class").parent().addClass("col-md-3");
+            //$("#input-subtract").parent().addClass("col-md-3");
+            //$("#input-stock-status").parent().addClass("col-md-3");
+            });
+            $(document).ready(function(){
+                $('#input-quantity').on('change keyup', function() {
+                    var a = $("#input-quantity").val();
+                    $("#input-quantity").removeClass();
+                    if ( a <= 0 ){
+                        $("#input-quantity").addClass( "form-control label-danger" );
+                        $("#input-quantity").val(0);
+                    } else if ( a <= 5  && a > 0 ) {
+                        $("#input-quantity").addClass( "form-control label-warning" );
+                    } else {
+                        $("#input-quantity").addClass( "form-control label-success" );
+                    }
+                }); 
+                $('#input-minimum').on('change keyup', function() {
+                    var a = $("#input-minimum").val();
+                    $("#input-minimum").removeClass();
+                    if ( a <= 0 ){
+                        $("#input-minimum").addClass( "form-control label-danger" );
+                        $("#input-minimum").val(0);
+                    } else {
+                        $("#input-minimum").addClass( "form-control label-success" );
+                    }
+                });
+            });
+            function changeStatusC(a){
+                if ( a == 1 ){
+                    $("#input-status").removeClass( "label-danger" ).addClass( "label-success" );
+                } else {
+                    $("#input-status").removeClass( "label-success" ).addClass( "label-danger" );
+                }
+            } 
+		{% for language in languages %}
+		$('#input-name{{ language.language_id }}').on({
+			'keydown': function() {
+				$('#input-meta-title{{ language.language_id }}').css('border-color', '#F60');
+                max_title('{{ language.language_id }}');
+			},
+			'keyup': function() {
+				$('#input-meta-title{{ language.language_id }}').val($(this).val()).css('border-color', '');
+                max_title('{{ language.language_id }}');
+			}
+		}).trigger('keyup');
+		{% endfor %}
+        
+{% for language in languages %}    
+  max_title('{{ language.language_id }}');
+  max_descr('{{ language.language_id }}'); 
+{% endfor %}
+
+function max_title(input) {
+total = 67;
+tam = 0;
+lista = document.getElementsByName('product_description['+input+'][meta_title]');
+  for (i=0; i<lista.length; i++) {
+    tam += lista[i].value.length;
+    meta = total - tam;
+    if (meta >= 1){
+        $("#input-meta-title"+input+"-remain").html("<font color='green'> "+meta+" chars left</font>");
+    } else {
+        $("#input-meta-title"+input+"-remain").html("<font color='red'> "+meta+" chars left</font>");
+    }
+  }
+
+}
+function max_descr(input) {
+total = 156;
+tam = 0;
+lista = document.getElementsByName('product_description['+input+'][meta_description]');
+  for (i=0; i<lista.length; i++) {
+    tam += lista[i].value.length;
+    meta = total - tam;
+    if (meta >= 1){
+        $("#input-meta-descr"+input+"-remain").html("<font color='green'> "+meta+" chars left</font>");
+    } else {
+        $("#input-meta-descr"+input+"-remain").html("<font color='red'> "+meta+" chars left</font>");
+    }
+  }
+
+}
+// auto slug
+{% for store in stores %}
+    {% for language in languages %}
+        $('#input-name{{ language.language_id }}').on({
+			'keydown': function() {
+                string_to_slug('{{ store.store_id }}','{{ language.language_id }}');
+			},
+			'keyup': function() {
+                string_to_slug('{{ store.store_id }}','{{ language.language_id }}');
+			}
+		}).trigger('keyup');
+    {% endfor %}
+{% endfor %}
+function string_to_slug(store,language) {
+  str = $('#input-name'+language+'').val();
+  str = str.toString().replace(/^\s+|\s+$/g, ''); // trim
+  str = str.toLowerCase();
+
+  // remove accents, swap ñ for n, etc
+  var from = "àáäâèéëêìíïîòóöôùúüûñç·/_,:;";
+  var to   = "aaaaeeeeiiiioooouuuunc------";
+  for (var i=0, l=from.length ; i<l ; i++) {
+    str = str.toString().replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+  }
+
+  str = str.toString().replace(/[^a-z0-9 -]/g, '') // remove invalid chars
+    .replace(/\s+/g, '-') // collapse whitespace and replace by -
+    .replace(/-+/g, '-'); // collapse dashes
+  //$('#product-seo-url-'+store+'-'+language+'').val(str);
+
+    
+  //return str;
+}
+
+//PRECIO CON IVA (SI ESTA ACTIVADO PRECIO)
+{% if config_admin_product_extras_fields_price_auth == 1 %}
+// http://demo1.partneris.net/price-input-helper3/admin/ demo demo
+
+function doRound(x, places) {
+  return Math.round(x * Math.pow(10, places)) / Math.pow(10, places);
+}
+
+//var allTaxRates = {"9":[{"tax_rate_id":"88","name":"VAT 21%","rate":21,"type":"P","priority":"0"}]};
+var allTaxRates = {{ tax_rates_list }};
+var autodetect = 1;
+var multiplyer = 1.21;
+var entryHelperPrice = 'Price with TAX';
+var entryHelperHelp = 'Enter your price including tax. This field will not be saved. It is always calculated';
+var entryIncludingTax = 'with TAX';
+var textIncludingTax = 'incl.tax';
+
+$(document).ready(function() {
+	if (autodetect) {entryAdd = ' ' + entryIncludingTax;} else {entryAdd= ' &times; ' + multiplyer;}
+	
+	addHelpers();
+	
+	$('select[name="tax_class_id"]').change(function(){
+		$('input[name="price"], :input[name^="price"],:input[name$="[price]"], :input[name$="[bproduct_discount]"]').each(function(index,obj){
+			value = $(obj).val();
+			newName = 'helper_' + $(obj).prop('name');
+			var newValue = getTaxed(value);
+			$('input[name="' + newName +'"]').val(newValue);
+		});
+	});
+	
+	$('body').delegate('table[id^="option-value"] tfoot button, table[id="discount"] tfoot button, table[id="bproduct"] tfoot button, table[id="special"] tfoot button', 'click', function() {
+		
+		addHelpers();
+	});
+	
+	$('body').delegate('input[name^="price"],input[name$="[price]"], input[name$="[bproduct_discount]"], :input[name^="helper_"]', 'change', function() {
+		var taxClass = $('select[name="tax_class_id"]').val(); 
+		var trigger = $(this).attr('name');
+		var trigger_value = parseFloat($(this).val());
+
+		if (trigger.indexOf('helper_') == -1) {
+			// calculate helper
+			target = 'helper_' + trigger;
+			value = getTaxed(trigger_value);
+		} else {
+			//calculate price
+			target = trigger.replace('helper_', '');
+			value = getDetaxed(trigger_value);
+		}
+		$('input[name="' + target + '"]').val(value);
+	});
+	
+});
+
+function addHelpers() {
+	$('input[name="price"]').each(function(index,obj){
+		
+		var newName = 'helper_' + $(obj).prop('name');
+		
+		if (!$(':input[name="'+ newName +'"]').length) {
+		//if helper field not yet exists
+			var value = $(obj).val();
+			var newValue=0;
+			if (value) {
+				var newValue = getTaxed(value);
+			}  
+
+            var 
+			newElement  = '  <div class="form-group">';
+			newElement += '    <label class="col-sm-2 control-label" for="input-price-input-helper">';
+			newElement += '      <span data-toggle="tooltip" title="" data-original-title="' + entryHelperHelp + '">' + entryHelperPrice + '</span>';
+			newElement += '    </label>';
+            newElement += '    <div class="col-md-3 col-sm-10">';
+            newElement += '      <span class="price-input-helper"><input type="text" name="' + newName + '" value="' + newValue + '" placeholder="' + entryHelperPrice + '" id="" class="form-control price-input-helper" /></span>';
+            newElement += '    </div>';
+            newElement += '  </div>';
+			
+			$(obj).parent().parent('div').after(newElement);
+		}
+	});
+	
+	var objects = $(':input[name$="[price]"], :input[name$="[bproduct_discount]"], :input[name$="[display_full_price]"]');
+	$(objects).each(function(index, obj){
+		var name = $(this).prop('name');
+		
+		var newName = 'helper_' + name;
+		if ( $(':input[name="'+ newName +'"]').length == 0 && name.indexOf('helper_') != 0 ) {
+		//if helper field not yet exists
+			var value = $(this).val();
+			var newValue=0;
+			if (value) {
+				var newValue = getTaxed(value);
+			}
+			var 
+			newElement =  '<span class="price-input-helper">'+ textIncludingTax + '</span>';
+			newElement += '<input class="form-control price-input-helper" type="text" name="' + newName + '" value="' + newValue + '"/>';
+			
+			$(this).after(newElement);
+		}
+		$('input[name$="[display_full_price]"]').prop('disabled', true);
+		
+	});
+}
+
+function getDetaxed(value) {
+	var taxClass= $('select[name="tax_class_id"]').val();
+	if (taxClass == 0) return value;
+	value = parseFloat(value);
+	if (value == 0 ) return 0;
+	var deTaxed;
+	if (autodetect) {
+		var taxRates = allTaxRates[taxClass];
+		var index;
+		var taxP = 0, taxF = 0;
+		for (index in taxRates) {
+			if (taxRates[index].type == 'F') {
+				taxF += taxRates[index].rate;
+			} else if (taxRates[index].type == 'P') {
+				taxP += taxRates[index].rate/100;
+			}
+		}
+		deTaxed = (value - taxF)/(1+taxP);
+	} else {
+		deTaxed = value / multiplyer;
+	}
+	return doRound(deTaxed,4);
+}
+	
+function getTaxed(value) {
+	var taxClass= $('select[name="tax_class_id"]').val();
+	if ((autodetect)&&(taxClass == 0)) return value;
+	value = parseFloat(value);
+	if (value == 0 ) return 0;
+	var taxed;
+	
+	if (autodetect) {
+		var taxRates = allTaxRates[taxClass];
+		var index;
+		var tax = 0;
+		for (index in taxRates) {
+			if (taxRates[index].type == 'F') {
+				tax += taxRates[index].rate;
+			} else if (taxRates[index].type == 'P') {
+				tax += (value / 100 * taxRates[index].rate);
+			}
+		}
+		taxed = value + tax;
+	} else {
+		taxed = value * multiplyer;
+	}
+	return doRound(taxed,4);
+}
+//this code is if for some reason helpers do not load on options
+// on waabay multi-vendor dropshipper http://www.waabay.com/multi-vendor-dropshipper-20-module-opencart-addon-vqmod.html
+// $(document).ready(function() {
+// 	setTimeout(function() {
+// 			//do something special
+// 			addHelpers();
+// 		}, 5000
+// 	);
+// 	
+// });
+{% endif %}
+            </script>]]></add>
+		</operation>
+        
+        <!--META TITLE & DESCRIPTION COUNT-->
+        <operation>
+            <search><![CDATA[<input type="text" name="product_description[{{ language.language_id }}][meta_title]" value="{{ product_description[language.language_id] ? product_description[language.language_id].meta_title }}" placeholder="{{ entry_meta_title }}" id="input-meta-title{{ language.language_id }}" class="form-control"/>]]></search>
+            <add position="replace"><![CDATA[<input type="text" name="product_description[{{ language.language_id }}][meta_title]" value="{{ product_description[language.language_id] ? product_description[language.language_id].meta_title }}" placeholder="{{ entry_meta_title }}" id="input-meta-title{{ language.language_id }}" class="form-control" onload="max_title('{{ language.language_id }}')" onkeyup="max_title('{{ language.language_id }}')" onkeypress="max_title('{{ language.language_id }}')"/><br>Google will truncate your <code>meta-title</code> tag after &plusmn;67 chars. <span id="input-meta-title{{ language.language_id }}-remain" class="counter"></span>]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[<textarea name="product_description[{{ language.language_id }}][meta_description]" rows="5" placeholder="{{ entry_meta_description }}" id="input-meta-description{{ language.language_id }}" class="form-control">{{ product_description[language.language_id] ? product_description[language.language_id].meta_description }}</textarea>]]></search>
+            <add position="replace"><![CDATA[<textarea name="product_description[{{ language.language_id }}][meta_description]" rows="5" placeholder="{{ entry_meta_description }}" id="input-meta-description{{ language.language_id }}" class="form-control" onload="max_descr('{{ language.language_id }}')" onkeyup="max_descr('{{ language.language_id }}')" onkeypress="max_descr('{{ language.language_id }}')"/>{{ product_description[language.language_id] ? product_description[language.language_id].meta_description }}</textarea><br>Google will truncate your <code>meta-description</code> tag after &plusmn;156 chars. <span id="input-meta-descr{{ language.language_id }}-remain" class="counter"></span>]]></add>
+        </operation>
+        <!--AUTO SLUG-->
+        <operation>
+            <search><![CDATA[<input type="text" name="product_seo_url[{{ store.store_id }}][{{ language.language_id }}]" value="{% if product_seo_url[store.store_id][language.language_id] %}{{ product_seo_url[store.store_id][language.language_id] }}{% endif %}" placeholder="{{ entry_keyword }}" class="form-control"/>]]></search>
+            <add position="replace"><![CDATA[<input type="text" name="product_seo_url[{{ store.store_id }}][{{ language.language_id }}]" id="product-seo-url-{{ store.store_id }}-{{ language.language_id }}" value="{% if product_seo_url[store.store_id][language.language_id] %}{{ product_seo_url[store.store_id][language.language_id] }}{% endif %}" placeholder="{{ entry_keyword }}" class="form-control"/>]]></add>
+        </operation>
+        
+        <!--MODEL NOT REQUIRED-->
+        <operation>
+            <search><![CDATA[<label class="col-sm-2 control-label" for="input-model">{{ entry_model }}</label>]]></search>
+            <add position="before"><![CDATA[<script>$( document ).ready(function() { $("label[for='input-model']").parent().removeClass("required"); });</script>]]></add>
+        </operation>
+        <!--INPUT TYPE NUMERIC
+        <td class="text-right">{% if product.quantity <= 0 %} <span class="label label-danger">{{ product.quantity }}</span> {% elseif product.quantity <= 5 %} <span class="label label-warning">{{ product.quantity }}</span> {% else %} <span class="label label-success">{{ product.quantity }}</span> {% endif %}</td>-->
+        <operation>
+            <search><![CDATA[<input type="text" name="quantity" value="{{ quantity }}" placeholder="{{ entry_quantity }}" id="input-quantity" class="form-control"/>]]></search>
+            <add position="replace"><![CDATA[<input type="number" name="quantity" value="{{ quantity }}" placeholder="{{ entry_quantity }}" id="input-quantity" class="form-control {% if quantity <= 0 %}label-danger{% elseif quantity <= 5 %}label-warning{% else %}label-success{% endif %}" style="color:#FFFFFF;font-weight:500;" />]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[<input type="text" name="minimum" value="{{ minimum }}" placeholder="{{ entry_minimum }}" id="input-minimum" class="form-control"/>]]></search>
+            <add position="replace"><![CDATA[<input type="number" name="minimum" value="{{ minimum }}" placeholder="{{ entry_minimum }}" id="input-minimum" class="form-control {% if minimum <= 0 %}label-danger{% else %}label-success{% endif %}" style="color:#FFFFFF;font-weight:500;"/>]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[<input type="text" name="sort_order" value="{{ sort_order }}" placeholder="{{ entry_sort_order }}" id="input-sort-order" class="form-control"/>]]></search>
+            <add position="replace"><![CDATA[<input type="number" name="sort_order" value="{{ sort_order }}" placeholder="{{ entry_sort_order }}" id="input-sort-order" class="form-control"/>]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[<select name="status" id="input-status" class="form-control">]]></search>
+            <add position="replace"><![CDATA[<select name="status" id="input-status" class="form-control {% if status %}label-success{% else %}label-danger{% endif %}"  style="color:#FFFFFF;font-weight:500;" onchange="changeStatusC(this.value);">]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[<option value="1" selected="selected">{{ text_enabled }}</option>]]></search>
+            <add position="replace"><![CDATA[<option value="1" selected="selected" class="label-success" style="color:#FFFFFF;font-weight:500;">{{ text_enabled }}</option>]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[<option value="1">{{ text_enabled }}</option>]]></search>
+            <add position="replace"><![CDATA[<option value="1" class="label-success" style="color:#FFFFFF;font-weight:500;">{{ text_enabled }}</option>]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[<option value="0" selected="selected">{{ text_disabled }}</option>]]></search>
+            <add position="replace"><![CDATA[<option value="0" selected="selected" class="label-danger" style="color:#FFFFFF;font-weight:500;">{{ text_disabled }}</option>]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[<option value="0">{{ text_disabled }}</option>]]></search>
+            <add position="replace"><![CDATA[<option value="0" class="label-danger" style="color:#FFFFFF;font-weight:500;">{{ text_disabled }}</option>]]></add>
+        </operation>
+        <!--MULTIPLE SELECT CATEGORY-->
+        <operation>
+            <search><![CDATA[
+            {{ entry_category }}</span></label>
+            ]]></search>
+            <add position="replace" offset = "7"><![CDATA[
+            {{ entry_category }}</span></label>
+                <div class="col-sm-10">
+                    <div id="product-category" class="well well-sm" style="height: 400px; overflow: auto;"> {% for category in categories_tree %}
+                      <div id="product-category{{ category.category_id }}">
+                        <input type="checkbox" name="product_category[]" {{ category.check }} value="{{ category.category_id }}"> {{ category.name }}<br>
+                      </div>
+                    {% endfor %}</div>
+            ]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[
+            $('input[name=\'manufacturer\']').autocomplete({
+            ]]></search>
+            <add position="before" offset = "1"><![CDATA[
+              sortSelectedOptions();
+              $("#product-category").on("click", ":checkbox", function() {
+              sortSelectedOptions();
+              });
+              function sortSelectedOptions() {
+              var options = $("#product-category");
+              var original_order = options.children();
+              var i, checked = document.createDocumentFragment();
+              var unchecked = document.createDocumentFragment();
+
+              for (i = 0; i < original_order.length; i++) {
+              if (original_order[i].getElementsByTagName("input")[0].checked) {
+              checked.appendChild(original_order[i]);
+              } else {
+              unchecked.appendChild(original_order[i]);
+              }
+              }
+              options.append(checked).append(unchecked);
+              }
+            ]]></add>
+        </operation>
+        <!--Attribute Group Visible-->
+        <operation>
+            <search><![CDATA[html += '  <td class="text-left" style="width: 20%;"><input type="text" name="product_attribute[' + attribute_row + '][name]" value="" placeholder="{{ entry_attribute }}" class="form-control" /><input type="hidden" name="product_attribute[' + attribute_row + '][attribute_id]" value="" /></td>';]]></search>
+            <add position="replace"><![CDATA[html += '  <td class="text-left" style="width: 20%;"><input type="text" name="product_attribute[' + attribute_row + '][name]" value="" placeholder="{{ entry_attribute }}" class="form-control" /><input type="hidden" name="product_attribute[' + attribute_row + '][attribute_id]" value="" /><input type="text" name="product_attribute[' + attribute_row + '][attribute_group]" value="" disabled style="background-color: transparent;padding: 0px;border: initial;font: inherit;margin: 5px 0px 0px 0px;font-weight: bold;font-size: 12px;"/></td>';]]></add>        
+        </operation>
+	    <operation>
+            <search><![CDATA[$('input[name=\'product_attribute[' + attribute_row + '][attribute_id]\']').val(item['value']);]]></search>
+            <add position="after"><![CDATA[$('input[name=\'product_attribute[' + attribute_row + '][attribute_group]\']').val(item['category']);]]></add>        
+        </operation>
+        <operation>
+            <search><![CDATA[<td class="text-left" style="width: 40%;"><input type="text" name="product_attribute[{{ attribute_row }}][name]" value="{{ product_attribute.name }}" placeholder="{{ entry_attribute }}" class="form-control"/> <input type="hidden" name="product_attribute[{{ attribute_row }}][attribute_id]" value="{{ product_attribute.attribute_id }}"/></td>]]></search>
+            <add position="replace"><![CDATA[<td class="text-left" style="width: 40%;"><input type="text" name="product_attribute[{{ attribute_row }}][name]" value="{{ product_attribute.name }}" placeholder="{{ entry_attribute }}" class="form-control"/> <input type="hidden" name="product_attribute[{{ attribute_row }}][attribute_id]" value="{{ product_attribute.attribute_id }}"/><input type="text" name="product_attribute[{{ attribute_row }}][attribute_group]" value="{{ product_attribute.attribute_group }}" disabled style="background-color: transparent;padding: 0px;border: initial;font: inherit;margin: 5px 0px 0px 0px;font-weight: bold;font-size: 12px;"/></td>]]></add>        
+        </operation>
+        <!--product_attribute 3 ROWS -->
+        <operation error="log">
+			<search><![CDATA[<div class="input-group"><span class="input-group-addon"><img src="language/{{ language.code }}/{{ language.code }}.png" title="{{ language.name }}"/></span> <textarea name="product_attribute[{{ attribute_row }}][product_attribute_description][{{ language.language_id }}][text]" rows="5" placeholder="{{ entry_text }}" class="form-control">{{ product_attribute.product_attribute_description[language.language_id] ? product_attribute.product_attribute_description[language.language_id].text }}</textarea>]]></search>
+			<add position="replace"><![CDATA[<div class="input-group"><span class="input-group-addon"><img src="language/{{ language.code }}/{{ language.code }}.png" title="{{ language.name }}"/></span> <textarea name="product_attribute[{{ attribute_row }}][product_attribute_description][{{ language.language_id }}][text]" rows="{{ config_admin_product_fields_attribute_size }}" placeholder="{{ entry_text }}" class="form-control">{{ product_attribute.product_attribute_description[language.language_id] ? product_attribute.product_attribute_description[language.language_id].text }}</textarea>]]></add>
+		</operation>
+        <operation error="log">
+			<search><![CDATA[html += '<div class="input-group"><span class="input-group-addon"><img src="language/{{ language.code }}/{{ language.code }}.png" title="{{ language.name }}" /></span><textarea name="product_attribute[' + attribute_row + '][product_attribute_description][{{ language.language_id }}][text]" rows="5" placeholder="{{ entry_text }}" class="form-control"></textarea></div>';]]></search>
+			<add position="replace"><![CDATA[html += '<div class="input-group"><span class="input-group-addon"><img src="language/{{ language.code }}/{{ language.code }}.png" title="{{ language.name }}" /></span><textarea name="product_attribute[' + attribute_row + '][product_attribute_description][{{ language.language_id }}][text]" rows="{{ config_admin_product_fields_attribute_size }}" placeholder="{{ entry_text }}" class="form-control"></textarea></div>';]]></add>
+		</operation>
+	</file>
+    <!--ATRIBUTO CON EDITOR HTML-->
+    <file path="admin/view/template/catalog/product_form.twig">
+	<operation>
+		<search position="before"><![CDATA[
+			var attribute_row = {{ attribute_row }};
+		]]></search>
+		<add position="before"><![CDATA[
+			$('textarea[name^="product_attribute["]').each(function(i,e) {
+				$(this).summernote();
+			});
+		]]></add>
+	</operation>
+	<operation>
+		<search position="after"><![CDATA[
+			$('#attribute tbody').append(html);
+		]]></search>
+		<add position="after"><![CDATA[
+			$('textarea[name^="product_attribute[' + attribute_row + ']["]').each(function(i,e) {
+				$(this).summernote();
+			});
+		]]></add>
+	</operation>
+    </file>
+    <file path="catalog/model/catalog/product.php">
+        <operation>
+            <search position="after"><![CDATA[
+                => $product_attribute['text']
+            ]]></search>
+            <add position="after"><![CDATA[
+                ,
+                'text' => html_entity_decode($product_attribute['text'], ENT_QUOTES, 'UTF-8')
+            ]]></add>
+        </operation>
+    </file>
+    <!--INICIO ATRIBUTO GRUPO-->
+    <file path="admin/model/catalog/attribute.php">
+        <operation>
+            <search><![CDATA[public function getAttributes($data = array()) {]]></search>
+            <add position="before"><![CDATA[
+            public function getAttributeGroup($attribute_id) {
+                $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "attribute_group_description a LEFT JOIN " . DB_PREFIX . "attribute ad ON (a.attribute_group_id = ad.attribute_group_id) WHERE ad.attribute_id = '" . (int)$attribute_id . "' AND a.language_id = '" . (int)$this->config->get('config_language_id') . "'");
+                return $query->row;
+            }
+            ]]></add>        
+        </operation>
+    </file>
+    <file path="admin/controller/catalog/product.php">
+        <operation>
+            <search><![CDATA[$attribute_info = $this->model_catalog_attribute->getAttribute($product_attribute['attribute_id']);]]></search>
+            <add position="after"><![CDATA[$attribute_groupid = $this->model_catalog_attribute->getAttributeGroup($product_attribute['attribute_id']);]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA['attribute_id'                  => $product_attribute['attribute_id'],]]></search>
+            <add position="after"><![CDATA['attribute_group'     => $attribute_groupid['name'],]]></add>
+        </operation>
+    </file>
+    <!--SELECTOR ATRIBUTO GRUPO-->
+    <file path="admin/model/catalog/attribute_group.php">
+		<operation>
+		<search><![CDATA[public function getAttributeGroups($data = array()) {]]></search>
+			<add position="before"><![CDATA[
+    public function getAttributeGroupsNum($data = array()) {
+		$sql = "SELECT *,(SELECT count(*) FROM " . DB_PREFIX . "attribute a where a.attribute_group_id=ag.attribute_group_id GROUP by a.attribute_group_id ) as num FROM " . DB_PREFIX . "attribute_group ag LEFT JOIN " . DB_PREFIX . "attribute_group_description agd ON (ag.attribute_group_id = agd.attribute_group_id) WHERE agd.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+
+		$sort_data = array(
+			'agd.name',
+			'ag.sort_order'
+		);
+
+		if (isset($data['sort']) && in_array($data['sort'], $sort_data)) {
+			$sql .= " ORDER BY " . $data['sort'];
+		} else {
+			$sql .= " ORDER BY agd.name";
+		}
+
+		if (isset($data['order']) && ($data['order'] == 'DESC')) {
+			$sql .= " DESC";
+		} else {
+			$sql .= " ASC";
+		}
+
+		if (isset($data['start']) || isset($data['limit'])) {
+			if ($data['start'] < 0) {
+				$data['start'] = 0;
+			}
+
+			if ($data['limit'] < 1) {
+				$data['limit'] = 20;
+			}
+
+			$sql .= " LIMIT " . (int)$data['start'] . "," . (int)$data['limit'];
+		}
+
+		$query = $this->db->query($sql);
+
+		return $query->rows;
+	}
+  			]]></add>
+		</operation>
+	  	
+	</file>
+    <file path="admin/controller/catalog/product.php">
+		<operation>
+		<search><![CDATA[$this->load->model('catalog/attribute');]]></search>
+			<add position="after"><![CDATA[
+$this->load->model('catalog/attribute_group');
+$data['attribute_groups'] = $this->model_catalog_attribute_group->getAttributeGroupsNum();
+  			]]></add>
+		</operation>
+	  	<operation>
+		<search><![CDATA[public function index() {]]></search>
+			<add position="before"><![CDATA[
+public function getattributesbygroup() {
+	$json = array();
+	
+	if (isset($this->request->get['attribute_group_id']) and $this->request->get['attribute_group_id'] > 0) {
+		$this->load->model('catalog/attribute');
+		$json = $this->model_catalog_attribute->getAttributes(array('filter_attribute_group_id' => $this->request->get['attribute_group_id'],'sort' => 'a.sort_order'));
+	}
+	$this->response->addHeader('Content-Type: application/json');
+	$this->response->setOutput(json_encode($json));
+}
+			]]></add>
+		</operation>
+	  
+	</file>
+  	<file path="admin/view/template/catalog/product_form.twig">
+		<operation>
+		<search><![CDATA[<div class="tab-pane" id="tab-attribute">]]></search>
+			<add position="after"><![CDATA[
+<div class="form-group">
+  <label class="col-sm-2 control-label" for="input-attribute_group_id">{{ entry_attribute_group }}</label>
+  <div class="col-sm-10">
+	<select name="attribute_group_id" id="input-attribute_group_id" class="form-control" onchange="addAttributeByGroupID($(this).val());">
+	<option value="">{{ text_select }}</option>
+	{% for attribute_group in attribute_groups %}
+ <option value="{{ attribute_group.attribute_group_id }}">{{ attribute_group.name }} ({{ entry_attribute }}: {{ attribute_group.num }})</option>
+	{% endfor %}
+	</select>
+  </div>
+</div>
+			]]></add>
+		</operation>
+	  	<operation>
+		<search><![CDATA[function addAttribute() {]]></search>
+			<add position="before"><![CDATA[
+function addAttributeByGroupID(attribute_group_id) {
+$.ajax({
+url: 'index.php?route=catalog/product/getattributesbygroup&user_token={{ user_token }}&attribute_group_id=' +  encodeURIComponent(attribute_group_id),
+dataType: 'json',
+beforeSend: function(){
+	$('#input-attribute_group_id').after('<i class="fa fa-spinner fa-spin" id="attribute-group-loading"></i>');
+},
+success: function(json) {
+	if(json.length > 0){	
+		for(var i=0;i<json.length;i++){
+		html  = '<tr id="attribute-row' + attribute_row + '">';
+	  	html += '<td class="text-left" style="width: 20%;"><input type="text" name="product_attribute[' + attribute_row + '][name]" value="'+json[i].name+'" placeholder="{{ entry_attribute }}" class="form-control" /><input type="hidden" name="product_attribute[' + attribute_row + '][attribute_id]" value="'+json[i].attribute_id+'" /></td>';
+	 	html += '  <td class="text-left">';
+	   {% for language in languages %}
+	  html += '<div class="input-group"><span class="input-group-addon"><img src="language/{{ language.code }}/{{ language.code }}.png" title="{{ language.name }}" /></span><textarea name="product_attribute[' + attribute_row + '][product_attribute_description][{{ language.language_id }}][text]" rows="{{ config_admin_product_fields_attribute_size }}" placeholder="{{ entry_text }}" class="form-control"></textarea></div>';
+	   {% endfor %}
+	  	html += '  </td>';
+	  	html += '  <td class="text-right"><button type="button" onclick="$(\'#attribute-row' + attribute_row + '\').remove();" data-toggle="tooltip" title="{{ button_remove }}" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';
+	  	html += '</tr>';
+	  	$('#attribute tbody').append(html);
+	  	attributeautocomplete(attribute_row);
+	  	attribute_row++;
+		}
+	}
+	$('#attribute-group-loading').remove();
+}
+});
+}
+			]]></add>
+		</operation>
+	</file>
+    <!--FIN ATRIBUTO GRUPO-->
+	<file name="admin/controller/catalog/product.php">
+        <!--PRODUCT LIST-->
+        <operation>
+		    <search><![CDATA[protected function getList() {]]></search>
+		    <add position="after"><![CDATA[
+                // data
+                $data['config_admin_product_extras_fields_model_auth'] = $this->config->get('config_admin_product_extras_fields_model_auth');
+                $data['config_admin_product_extras_fields_price_auth'] = $this->config->get('config_admin_product_extras_fields_price_auth');
+                $data['config_admin_product_extras_fields_quantity_auth'] = $this->config->get('config_admin_product_extras_fields_quantity_auth');
+            ]]></add>
+		</operation>
+        <!--PRODUCT FORM-->
+        <operation>
+		    <search><![CDATA[protected function getForm() {]]></search>
+		    <add position="after"><![CDATA[
+                $data['config_admin_product_extras_save_auth'] = $this->config->get('config_admin_product_extras_save_auth');
+                $data['config_admin_product_extras_view_auth'] = $this->config->get('config_admin_product_extras_view_auth');
+                // data
+                $data['config_admin_product_extras_fields_model_auth'] = $this->config->get('config_admin_product_extras_fields_model_auth');
+                $data['config_admin_product_extras_fields_model_size'] = $this->config->get('config_admin_product_extras_fields_model_size');
+                $data['config_admin_product_extras_fields_price_auth'] = $this->config->get('config_admin_product_extras_fields_price_auth');
+                $data['config_admin_product_extras_fields_price_size'] = $this->config->get('config_admin_product_extras_fields_price_size');
+                $data['config_admin_product_extras_fields_sku_auth'] = $this->config->get('config_admin_product_extras_fields_sku_auth');
+                $data['config_admin_product_extras_fields_sku_size'] = $this->config->get('config_admin_product_extras_fields_sku_size');
+                $data['config_admin_product_extras_fields_upc_auth'] = $this->config->get('config_admin_product_extras_fields_upc_auth');
+                $data['config_admin_product_extras_fields_upc_size'] = $this->config->get('config_admin_product_extras_fields_upc_size');
+                $data['config_admin_product_extras_fields_ean_auth'] = $this->config->get('config_admin_product_extras_fields_ean_auth');
+                $data['config_admin_product_extras_fields_ean_size'] = $this->config->get('config_admin_product_extras_fields_ean_size');
+                $data['config_admin_product_extras_fields_jan_auth'] = $this->config->get('config_admin_product_extras_fields_jan_auth');
+                $data['config_admin_product_extras_fields_jan_size'] = $this->config->get('config_admin_product_extras_fields_jan_size');
+                $data['config_admin_product_extras_fields_isbn_auth'] = $this->config->get('config_admin_product_extras_fields_isbn_auth');
+                $data['config_admin_product_extras_fields_isbn_size'] = $this->config->get('config_admin_product_extras_fields_isbn_size');
+                $data['config_admin_product_extras_fields_mpn_auth'] = $this->config->get('config_admin_product_extras_fields_mpn_auth');
+                $data['config_admin_product_extras_fields_mpn_size'] = $this->config->get('config_admin_product_extras_fields_mpn_size');
+                $data['config_admin_product_extras_fields_location_auth'] = $this->config->get('config_admin_product_extras_fields_location_auth');
+                $data['config_admin_product_extras_fields_location_size'] = $this->config->get('config_admin_product_extras_fields_location_size');
+                $data['config_admin_product_extras_fields_quantity_auth'] = $this->config->get('config_admin_product_extras_fields_quantity_auth');
+                $data['config_admin_product_extras_fields_quantity_size'] = $this->config->get('config_admin_product_extras_fields_quantity_size');
+                $data['config_admin_product_extras_fields_minimum_auth'] = $this->config->get('config_admin_product_extras_fields_minimum_auth');
+                $data['config_admin_product_extras_fields_minimum_size'] = $this->config->get('config_admin_product_extras_fields_minimum_size');
+                $data['config_admin_product_extras_fields_subtract_auth'] = $this->config->get('config_admin_product_extras_fields_subtract_auth');
+                $data['config_admin_product_extras_fields_subtract_size'] = $this->config->get('config_admin_product_extras_fields_subtract_size');
+                $data['config_admin_product_extras_fields_stockstatus_auth'] = $this->config->get('config_admin_product_extras_fields_stockstatus_auth');
+                $data['config_admin_product_extras_fields_stockstatus_size'] = $this->config->get('config_admin_product_extras_fields_stockstatus_size');
+                $data['config_admin_product_extras_fields_dateavailable_auth'] = $this->config->get('config_admin_product_extras_fields_dateavailable_auth');
+                $data['config_admin_product_extras_fields_dateavailable_size'] = $this->config->get('config_admin_product_extras_fields_dateavailable_size');
+                $data['config_admin_product_extras_fields_sortorder_auth'] = $this->config->get('config_admin_product_extras_fields_sortorder_auth');
+                $data['config_admin_product_extras_fields_sortorder_size'] = $this->config->get('config_admin_product_extras_fields_sortorder_size');
+                $data['config_admin_product_extras_fields_shipping_auth'] = $this->config->get('config_admin_product_extras_fields_shipping_auth');
+                $data['config_admin_product_extras_fields_shipping_size'] = $this->config->get('config_admin_product_extras_fields_shipping_size');
+
+                //tabs 
+                $data['config_admin_product_tab_attribute_auth'] = $this->config->get('config_admin_product_tab_attribute_auth');
+                $data['config_admin_product_fields_attribute_size'] = $this->config->get('config_admin_product_fields_attribute_size');
+                $data['config_admin_product_tab_option_auth'] = $this->config->get('config_admin_product_tab_option_auth');
+                $data['config_admin_product_tab_recurring_auth'] = $this->config->get('config_admin_product_tab_recurring_auth');
+                $data['config_admin_product_tab_discount_auth'] = $this->config->get('config_admin_product_tab_discount_auth');
+                $data['config_admin_product_tab_special_auth'] = $this->config->get('config_admin_product_tab_special_auth');
+                $data['config_admin_product_tab_image_auth'] = $this->config->get('config_admin_product_tab_image_auth');
+                $data['config_admin_product_tab_reward_auth'] = $this->config->get('config_admin_product_tab_reward_auth');
+                $data['config_admin_product_tab_seo_auth'] = $this->config->get('config_admin_product_tab_seo_auth');
+                $data['config_admin_product_tab_design_auth'] = $this->config->get('config_admin_product_tab_design_auth');
+            ]]></add>
+		</operation>        
+        <!--GET TAXES-->
+        <operation>
+		    <search><![CDATA[$this->load->model('localisation/tax_class');]]></search>
+		    <add position="before"><![CDATA[$tax_rates_list_array = $this->model_catalog_product->getTaxList();
+            $tax_rates_list="";
+            foreach ($tax_rates_list_array as $tax_rate) {
+			    if ($tax_rates_list != "" ) {$tax_rates_list.=",";}
+                $tax_rates_list.="\"".$tax_rate["tax_class_id"]."\":[{\"tax_rate_id\":\"".$tax_rate["tax_rate_id"]."\",\"name\":\"".$tax_rate["name"]."\",\"rate\":".$tax_rate["rate"].",\"type\":\"".$tax_rate["type"]."\",\"priority\":\"".$tax_rate["priority"]."\"}]";
+		    }
+            $tax_rates_list="{".$tax_rates_list."}";
+            $data['tax_rates_list'] = $tax_rates_list;
+            ]]></add>
+		</operation>
+        <!--SAVE & CONTINUE || VIEW-->
+        <operation>
+		    <search><![CDATA[public function edit() {]]></search>
+		    <add position="after"><![CDATA[$data['button_view'] = $this->language->get('button_view');]]></add>
+		</operation>
+		<operation>
+		    <search><![CDATA[$data['cancel']]]></search>
+		    <add position="before"><![CDATA[if (isset($this->request->get['product_id'])) {
+                $data['view'] = '/index.php?route=product/product&product_id='.$this->request->get['product_id'];
+            }]]></add>
+		</operation> 
+        <operation error="log">
+			<search><![CDATA[public function index() {]]></search>
+			<add position="before"><![CDATA[//quicksave
+	    public function qsave() {
+		    $this->language->load('catalog/product');
+    		$this->load->model('catalog/product');
+    		$json = array();
+    		if ($this->validateForm()) {
+    			$this->model_catalog_product->editProduct($this->request->get['product_id'], $this->request->post);
+    			$json['success'] = ($this->language->get('text_success')).' --- '.(date("Y-m-d - H:i:s"));
+    		} else {
+    			$json['error'] = $this->error;
+    		}
+    		$this->response->addHeader('Content-Type: application/json; charset=utf-8');
+    		$this->response->setOutput(json_encode($json));
+    	}
+        //quicksave end]]></add>
+		</operation>
+		<operation error="log">
+			<search><![CDATA[$data['cancel']]]></search>
+			<add position="before"><![CDATA[//quicksave
+        $data['pidqs'] = isset($this->request->get['product_id']) ? $this->request->get['product_id'] : '';
+        //quicksave end]]></add>
+		</operation>
+        <!--ORDER BY ID-->
+		<operation error="log">
+			<search position="before"><![CDATA[ $data['sort_name'] = $this->url->link('catalog/product', 'user_token=' . $this->session->data['user_token'] . '&sort=pd.name' . $url, true); ]]></search>
+			<add><![CDATA[$data['sort_product_id'] = $this->url->link('catalog/product', 'user_token=' . $this->session->data['user_token'] . '&sort=p.product_id' . $url, true);]]></add>
+		</operation>
+        <!--STATUS-->
+        <operation error="log">
+			<search position="before"><![CDATA['status'     => $result['status'] ? $this->language->get('text_enabled') : $this->language->get('text_disabled'),]]></search>
+			<add><![CDATA['status_id'     => $result['status'],]]></add>
+		</operation>
+        <!--PRICE + VAT-->
+        <operation error="log">
+			<search position="before"><![CDATA[$special = false;]]></search>
+			<add><![CDATA[$specialgrossprice = false;]]></add>
+		</operation>
+        <operation error="log">
+			<search position="before"><![CDATA[$special = $this->currency->format($product_special['price'], $this->config->get('config_currency'));]]></search>
+			<add><![CDATA[$specialgrossprice = $this->currency->format((($result['rate']/100)+1)*$product_special['price'], $this->config->get('config_currency'));]]></add>
+		</operation>
+        <operation error="log">
+			<search position="before"><![CDATA['price'      => $this->currency->format($result['price'], $this->config->get('config_currency')),]]></search>
+			<add><![CDATA['grossprice' => $this->currency->format((($result['rate']/100)+1)*$result['price'], $this->config->get('config_currency')),
+'specialgrossprice' => $specialgrossprice,
+'rate'     =>  $result['rate'] ? number_format($result['rate'], 0, ',', '').'%' : '0',
+]]></add>
+		</operation>
+        <!--FILTER BY CATEGORY-->
+        <operation error="log">
+            <search><![CDATA[$url = '';]]></search>
+            <add position="after"><![CDATA[if (isset($this->request->get['filter_category'])) {
+                $url .= '&filter_category=' . $this->request->get['filter_category'];
+            }]]></add>
+        </operation>
+        <operation error="log">
+            <search><![CDATA[protected function getList() {]]></search>
+            <add position="after"><![CDATA[if (isset($this->request->get['filter_category'])) {
+            $filter_category = $this->request->get['filter_category'];
+        } else {
+            $filter_category = '';
+        }]]></add>
+        </operation>
+        <operation error="log">
+            <search><![CDATA['filter_name'	  => $filter_name,]]></search>
+            <add position="after"><![CDATA['filter_category' => $filter_category,]]></add>
+        </operation>
+        <operation error="log">
+            <search><![CDATA[$product_total = $this->model_catalog_product->getTotalProducts($filter_data);]]></search>
+            <add position="after"><![CDATA[$this->load->model('catalog/category');
+        $data['categories'] = $this->model_catalog_category->getCategories(0);]]></add>
+        </operation>
+        <operation error="log">
+            <search><![CDATA[$data['products'][] = array(]]></search>
+            <add position="before"><![CDATA[$category =  $this->model_catalog_product->getProductCategories($result['product_id']);]]></add>
+        </operation>
+        <operation error="log">
+            <search><![CDATA['name'       => $result['name'],]]></search>
+            <add position="before"><![CDATA['category'   => $category,]]></add>
+        </operation>
+        <operation error="log">
+            <search><![CDATA[$data['filter_name'] = $filter_name;]]></search>
+            <add position="before"><![CDATA[$data['column_category'] = $this->language->get('column_category');
+        $data['entry_all_categories'] = $this->language->get('entry_all_categories');
+		$data['filter_category'] = $filter_category;]]></add>
+        </operation>
+        <operation error="log">
+            <search><![CDATA[$data['sort_name'] = $this->url->link('catalog/product', 'user_token=' . $this->session->data['user_token'] . '&sort=pd.name' . $url, true);]]></search>
+            <add position="before"><![CDATA[$data['sort_category'] = $this->url->link('catalog/product', 'user_token=' . $this->session->data['user_token'] . '&sort=p2c.category' . $url, true);]]></add>
+        </operation>
+        <!--MANUFACURER-->
+        <operation error="log">
+			<search position="before"><![CDATA['status'     => $result['status'] ? $this->language->get('text_enabled') : $this->language->get('text_disabled'),]]></search>
+			<add><![CDATA['manufacturer'     => $result['manufacturer'],]]></add>
+		</operation>
+        <!--MODEL NOT REQUIRED-->
+        <operation>
+         <search><![CDATA[(utf8_strlen($this->request->post['model']) < 1) ||]]></search>
+         <add position="replace"><![CDATA[]]></add>
+        </operation>
+        <!--MULTIPLE SELECT CATEGORY-->
+        <operation>
+            <search><![CDATA[
+            $data['product_categories'] = array();
+            ]]></search>
+            <add position="before"><![CDATA[
+                $filter = array(
+                'sort'        => 'name',
+                'order'       => 'ASC',
+                );
+                $results = $this->model_catalog_category->getCategories($filter);
+                foreach ($results as $result) {
+                $check = "";
+                if (in_array($result['category_id'], $categories)) {
+                $check = "checked";
+                }
+                $categories_tree[] = array(
+                'category_id'   => $result['category_id'],
+                'name'          => strip_tags(html_entity_decode($result['name'], ENT_QUOTES, 'UTF-8')),
+                'check'         => $check
+                );
+                }
+                $data['categories_tree'] = $categories_tree;
+            ]]></add>
+        </operation>
+	</file>	
+
+	<file name="admin/model/catalog/product.php">
+        <!--GET TAXES-->
+        <operation>
+		    <search><![CDATA[public function getProductsByCategoryId($category_id) {]]></search>
+		    <add position="before"><![CDATA[public function getTaxList() {
+            $query = $this->db->query("SELECT TC.tax_class_id,TR.*,TRU.priority FROM " . DB_PREFIX . "tax_rate TR, " . DB_PREFIX . "tax_class TC, " . DB_PREFIX . "tax_rule TRU where TRU.tax_class_id=TC.tax_class_id and TR.tax_rate_id=TRU.tax_rate_id order by TC.tax_class_id asc, TRU.priority asc");
+
+		    return $query->rows;
+
+            }]]></add>
+		</operation>
+        <!--ORDER BY ID-->
+		<operation error="log">
+			<search position="after"><![CDATA[ $sort_data = array( ]]></search>
+			<add><![CDATA['p.product_id',]]></add>
+		</operation>
+        <!--PRICE + VAT || FILTER BY CATEGORY-->
+        <operation>
+            <search><![CDATA[$sql = "SELECT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";]]></search>
+            <add position="replace"><![CDATA[$sql = "SELECT p.*, pd.*,M.name as manufacturer,tr.rate FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id)  LEFT JOIN " . DB_PREFIX . "tax_class tc ON p.tax_class_id = tc.tax_class_id LEFT JOIN " . DB_PREFIX . "tax_rule r ON tc.tax_class_id = r.tax_class_id LEFT JOIN " . DB_PREFIX . "tax_rate tr ON tr.tax_rate_id = r.tax_rate_id LEFT JOIN " . DB_PREFIX . "manufacturer M ON (p.manufacturer_id = M.manufacturer_id)";
+        if (!empty($data['filter_category'])) {
+            $sql= "SELECT p.*, pd.*,M.name as manufacturer,tr.rate FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id)  LEFT JOIN " . DB_PREFIX . "tax_class tc ON p.tax_class_id = tc.tax_class_id LEFT JOIN " . DB_PREFIX . "tax_rule r ON tc.tax_class_id = r.tax_class_id LEFT JOIN " . DB_PREFIX . "tax_rate tr ON tr.tax_rate_id = r.tax_rate_id LEFT JOIN " . DB_PREFIX . "product_to_category p2c ON (p.product_id = p2c.product_id) LEFT JOIN " . DB_PREFIX . "manufacturer M ON (p.manufacturer_id = M.manufacturer_id)";
+        }
+        $sql .= " WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'";]]></add>
+        </operation>
+        <!--FILTER BY CATEGORY-->
+        <operation>
+            <search><![CDATA[$sql = "SELECT COUNT(DISTINCT p.product_id) AS total FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id)";]]></search>
+            <add position="after"><![CDATA[if (!empty($data['filter_category'])) {
+		    $sql .= " LEFT JOIN " . DB_PREFIX . "product_to_category p2c ON (p.product_id = p2c.product_id)";
+        }]]></add>
+        </operation>
+        <!--<operation>
+            <search index="1"><![CDATA[$sql .= " AND p.status = '" . (int)$data['filter_status'] . "'";]]></search>
+            <add position="after" offset="1"><![CDATA[if (!empty($data['filter_category'])) {
+			$sql .= " AND p2c.category_id = '" . (int)$data['filter_category'] . "'";
+		}]]></add>
+        </operation>-->
+        <operation>
+            <search><![CDATA[if (isset($data['filter_status']) && $data['filter_status'] !== '') {]]></search>
+            <add position="before"><![CDATA[
+        if (!empty($data['filter_category'])) {
+			$sql .= " AND p2c.category_id = '" . (int)$data['filter_category'] . "'";
+		}]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA['p.price',]]></search>
+            <add position="after"><![CDATA[			'p2c.category_id',]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[$sql .= " GROUP BY p.product_id";]]></search>
+            <add position="before"><![CDATA[if (!empty($data['filter_category'])) {
+            if (!empty($data['filter_sub_category'])) {
+                $implode_data = array();
+                $implode_data[] = "category_id = '" . (int)$data['filter_category'] . "'";
+                $this->load->model('catalog/category');
+                $categories = $this->model_catalog_category->getCategories($data['filter_category']);
+                foreach ($categories as $category) {
+                    $implode_data[] = "p2c.category_id = '" . (int)$category['category_id'] . "'";
+                }
+                $sql .= " AND (" . implode(' OR ', $implode_data) . ")";
+            } else {
+                $sql .= " AND p2c.category_id = '" . (int)$data['filter_category'] . "'";
+            }
+        }]]></add>
+        </operation>
+        <!--FILTER PRODUCT NAME %% -->
+        <operation>
+            <search><![CDATA[$sql .= " AND pd.name LIKE '" . $this->db->escape($data['filter_name']) . "%'";]]></search>
+            <add position="replace"><![CDATA[$sql .= " AND pd.name LIKE '%" . $this->db->escape($data['filter_name']) . "%'";]]></add>
+        </operation>
+	</file>
+    <file name="admin/model/catalog/category.php">
+        <!--FILTER BY CATEGORY-->
+        <operation>
+            <search><![CDATA[$sql .= " ORDER BY sort_order";]]></search>
+            <add position="replace"><![CDATA[$sql .= " ORDER BY name";]]></add>
+        </operation>
+    </file>
+    <file name="admin/language/en-gb/catalog/product.php">
+		<operation>
+			<search position="after"><![CDATA[// Column]]></search>
+			<add><![CDATA[$_['column_see']       = 'See';
+$_['column_id']       = 'ID';
+$_['column_grossprice']       = 'Price + VAT';
+$_['column_manufacturer']       = 'Manufacturer';
+$_['column_vat']       = 'VAT';]]></add>
+		</operation>
+        <!--SAVE & CONTINUE-->
+        <operation>
+			<search position="before"><![CDATA[// Column]]></search>
+			<add><![CDATA[$_['button_save_continue']       = 'Save & Continue';]]></add>
+		</operation>
+        <!--FILTER BY CATEGORY -->
+        <operation>
+            <search><![CDATA[$_['column_name']]]></search>
+            <add position="before"><![CDATA[$_['column_category']        = 'Categories';]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[$_['entry_category']]]></search>
+            <add position="after"><![CDATA[$_['entry_all_categories']   = 'All Categories';]]></add>
+        </operation>
+        <!--STATUS-->
+        <operation>
+            <search><![CDATA[$_['entry_status']           = 'Status';]]></search>
+            <add position="after"><![CDATA[$_['entry_status_select']           = 'All Status';]]></add>
+        </operation>
+        
+	</file>
+    <file name="admin/language/es-es/catalog/product.php">
+		<operation>
+			<search position="after"><![CDATA[// Column]]></search>
+			<add><![CDATA[$_['column_see']       = 'Ver';
+$_['column_id']       = 'ID';
+$_['column_grossprice']       = 'Precio + IVA';
+$_['column_manufacturer']       = 'Marca';
+$_['column_vat']       = 'IVA';]]></add>
+		</operation>
+        <!--SAVE & CONTINUE-->
+        <operation>
+			<search position="before"><![CDATA[// Column]]></search>
+			<add><![CDATA[$_['button_save_continue']       = 'Guardar & Continuar';]]></add>
+		</operation>
+        <!--FILTER BY CATEGORY -->
+        <operation>
+            <search><![CDATA[$_['column_name']]]></search>
+            <add position="before"><![CDATA[$_['column_category']        = 'Categorías';]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[$_['entry_category']]]></search>
+            <add position="after"><![CDATA[$_['entry_all_categories']   = 'Todas las Categorías';]]></add>
+        </operation>
+        <!--STATUS-->
+        <operation>
+            <search><![CDATA[$_['entry_status'] 		= 'Estado';]]></search>
+            <add position="after"><![CDATA[$_['entry_status_select']           = 'Todos los Estados';]]></add>
+        </operation>
+	</file>
+    <!--Toggle Product Status-->
+    <file path="admin/controller/catalog/product.php" error="skip">
+      <operation error="skip">
+        <search>
+          <![CDATA[function index() {]]>
+        </search>
+        <add position="before">
+          <![CDATA[ public function toggle_status(){
+            $json = array();
+
+            if (isset($this->request->post['product_id'])) {
+            $this->db->query("UPDATE " . DB_PREFIX . "product SET status = IF (status = 1, 0, 1) WHERE product_id = '" . (int)$this->request->post['product_id'] . "'");
+
+            if ($this->db->countAffected()) {
+            $json['success'] = true;
+            }
+            }
+
+            $this->response->addHeader('Content-Type: application/json');
+            $this->response->setOutput(json_encode($json));
+            } ]]>
+        </add>
+      </operation>
+    </file>
+    <file path="admin/view/template/catalog/product_list.twig" error="skip">
+      <operation error="skip">
+        <search>
+          <![CDATA[<div id="content">]]>
+        </search>
+        <add position="after">
+          <![CDATA[ <style type="text/css">
+            [data-toggle-id] i {
+            font-size: 20px;
+            cursor: pointer;
+            }
+            [data-toggle-id] i.disabled::before {
+            display: none;
+            }
+            [data-toggle-id] .fa-spinner {
+            color: #000;
+            }
+            [data-toggle-id] .fa-check-circle {
+            color: #4cb64c;
+            }
+            [data-toggle-id] .fa-times-circle {
+            color: #e3503e;
+            }
+            [data-toggle-id] .fa-exclamation-circle {
+            color: #f3a638;
+            }
+            </style> ]]>
+        </add>
+      </operation>
+      <operation error="skip">
+        <search>
+          <![CDATA[<td class="text-left">{{ product.status }}]]>
+        </search>
+        <add position="replace">
+          <![CDATA[ <td class="text-center"><a data-toggle-id="{{ product.product_id }}"><i data-loading-text="<i class='fa fa-spin fa-spinner'></i>" class="fa fa-{% if product.status == text_enabled %}check{% else %}times{% endif %}-circle"></i></a> ]]>
+        </add>
+      </operation>
+      <operation error="skip">
+        <search>
+          <![CDATA[{{ footer }}]]>
+        </search>
+        <add position="before">
+          <![CDATA[ <script type="text/javascript"><!--
+            $('[data-toggle-id]').on('click', function() {
+            var element = $(this);
+            var i = element.find('i');
+
+            $.ajax({
+            url: 'index.php?route=catalog/product/toggle_status&user_token={{ user_token }}',
+            type: 'post',
+            data: {
+            product_id: element.data('toggle-id')
+            },
+            dataType: 'json',
+            beforeSend: function() {
+            i.button('loading');
+            },
+            complete: function() {
+            i.button('reset');
+            },
+            success: function(json) {
+            if (json['success']) {
+            i.toggleClass('fa-check-circle fa-times-circle');
+            } else {
+            i.addClass('fa-exclamation-circle');
+            }
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+            console.log(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+            }
+            });
+            });
+            //--></script> ]]>
+        </add>
+      </operation>
+    </file>
+</modification>

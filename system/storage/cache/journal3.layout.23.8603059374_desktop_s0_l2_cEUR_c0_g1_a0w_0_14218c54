@@ -1,0 +1,335 @@
+<?php $val = array (
+  'settings' => 
+  array (
+    'column_left' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'column_right' => 
+    array (
+      'rows' => 
+      array (
+        1 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-column-right-1',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-column-right-1-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-column-right-1-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '44',
+                    'name' => 'Blog Search',
+                    'type' => 'blog_search',
+                  ),
+                ),
+              ),
+            ),
+            2 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-column-right-1-2',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-column-right-1-2-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '42',
+                    'name' => 'Blog Categories',
+                    'type' => 'blog_categories',
+                  ),
+                ),
+              ),
+            ),
+            3 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-column-right-1-3',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-column-right-1-3-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '331',
+                    'name' => 'Popular Articles Copy',
+                    'type' => 'blog_side_posts',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_bottom' => 
+    array (
+      'rows' => 
+      array (
+        1 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-content-bottom-1',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-content-bottom-1-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-content-bottom-1-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '180',
+                    'name' => 'Casos de éxito - Testimonials',
+                    'type' => 'testimonials',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'top' => 
+    array (
+      'rows' => 
+      array (
+        1 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-1',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-1-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-top-1-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '330',
+                    'name' => 'Blog Cabecera Title - Casos de Éxito',
+                    'type' => 'title',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'bottom' => 
+    array (
+      'rows' => 
+      array (
+        1 => 
+        array (
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-bottom-1',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-bottom-1-1',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-item-bottom-1-1-1',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '332',
+                    'name' => 'Código Strong - bloques servicios Copy',
+                    'type' => 'blocks',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'header_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+  ),
+  'php' => 
+  array (
+    'pageStyleBoxedLayout' => 'fullwidth',
+    'pageStyleContentWidth' => '',
+    'pageStyleContainerWidth' => '1000',
+    'pageStyleColumnsWidth' => '',
+    'headerDesktop' => '',
+    'headerMobile' => '',
+    'footerMenu' => '',
+    'footerMenuPhone' => '',
+  ),
+  'js' => 
+  array (
+  ),
+  'fonts' => 
+  array (
+  ),
+  'css' => '.layout-23 .boxed-layout .site-wrapper{overflow:hidden}.layout-23 .site-wrapper > .container, .layout-23 .site-wrapper>h1.page-title>span{max-width:1000px}.layout-23 .page-title{display:block;display:none !important}.grid-row-column-right-1::before{display:block;left:0;width:100vw}.grid-row-column-right-1 .wave-top{display:block}.grid-row-column-right-1 .wave-bottom{display:block}.grid-col-column-right-1-1{width:100%;margin-top:10px}.grid-col-column-right-1-1 .grid-item{height:auto}.grid-col-column-right-1-1 .grid-items{justify-content:flex-start}.grid-item-column-right-1-1-1{width:100%}.grid-col-column-right-1-2{width:100%;margin-top:30px}.grid-col-column-right-1-2 .grid-item{height:auto}.grid-col-column-right-1-2 .grid-items{justify-content:flex-start}.grid-item-column-right-1-2-1{width:100%}.grid-col-column-right-1-3{width:100%;margin-top:30px}.grid-col-column-right-1-3 .grid-item{height:auto}.grid-col-column-right-1-3 .grid-items{justify-content:flex-start}.grid-item-column-right-1-3-1{width:100%}.grid-row-content-bottom-1{background:rgba(238,238,238,1);padding-top:50px;padding-bottom:50px;margin-top:50px}.grid-row-content-bottom-1::before{display:block;left:0;width:100vw}.grid-row-content-bottom-1 .wave-top{display:block}.grid-row-content-bottom-1 .wave-bottom{display:block}.grid-col-content-bottom-1-1{width:100%;padding-right:20px;padding-left:20px}.grid-col-content-bottom-1-1 .grid-item{height:auto}.grid-col-content-bottom-1-1 .grid-items{justify-content:flex-start}.grid-item-content-bottom-1-1-1{width:100%}.grid-row-top-1{background:rgba(221,221,221,1);padding-top:50px;padding-bottom:15px}.grid-row-top-1::before{display:block;left:0;width:100vw}.grid-row-top-1 .wave-top{display:block}.grid-row-top-1 .wave-bottom{display:block}@media (max-width: 760px){.grid-row-top-1{padding-right:20px;padding-left:20px}}.grid-col-top-1-1{width:100%}.grid-col-top-1-1 .grid-item{height:auto}.grid-col-top-1-1 .grid-items{justify-content:flex-start}.grid-item-top-1-1-1{width:100%}.grid-row-bottom-1::before{display:block;left:0;width:100vw}.grid-row-bottom-1 .wave-top{display:block}.grid-row-bottom-1 .wave-bottom{display:block}.grid-col-bottom-1-1{width:100%}.grid-col-bottom-1-1 .grid-item{height:auto}.grid-col-bottom-1-1 .grid-items{justify-content:flex-start}.grid-item-bottom-1-1-1{width:100%}',
+);

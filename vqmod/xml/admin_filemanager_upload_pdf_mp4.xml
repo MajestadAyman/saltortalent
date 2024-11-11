@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<name>PDF Upload</name>
+	<version>0.1Alpha</version>
+	<author>Tristar Web Solutions</author>
+	<link></link>
+	<code>admin_filemanager_upload_pdf_mp4</code>
+	<file path="admin/controller/common/filemanager.php">
+		<operation>
+			<search><![CDATA[{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}]]></search>
+			<add position="replace"><![CDATA[{jpg,jpeg,png,gif,pdf,mp4,JPG,JPEG,PNG,GIF,PDF,MP4}]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[$data['images'][] = array(]]></search>
+			<add position="before"><![CDATA[
+			if (strrchr($image, '.') == ".pdf"){
+				$img_icon=$this->model_tool_image->resize('pdf_icon.png', 100, 100);
+			} elseif (strrchr($image, '.') == ".mp4"){
+				$img_icon=$this->model_tool_image->resize('mp4_icon.png', 100, 100);
+			} else {
+				$img_icon=$this->model_tool_image->resize(utf8_substr($image, utf8_strlen(DIR_IMAGE)), 100, 100);
+			}
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA['thumb' => $this->model_tool_image->resize(utf8_substr($image, utf8_strlen(DIR_IMAGE)), 100, 100),]]></search>
+			<add position="replace"><![CDATA['thumb' => $img_icon,]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA['png']]></search>
+			<add position="after"><![CDATA[,'pdf','mp4']]></add>
+		</operation>
+		<operation>
+			<search><![CDATA['image/gif']]></search>
+			<add position="after"><![CDATA[,'application/pdf','video/mp4']]></add>
+		</operation>
+	</file>
+</modification>

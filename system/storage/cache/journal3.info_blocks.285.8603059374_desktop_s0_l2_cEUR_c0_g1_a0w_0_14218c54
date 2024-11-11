@@ -1,0 +1,288 @@
+<?php $val = array (
+  'css' => '.module-info_blocks-285 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 1 * 20px) / 2 - 0.01px)}.module-info_blocks-285 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 2 - 0.01px)}.one-column #content .module-info_blocks-285 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 1 * 20px) / 2 - 0.01px)}.one-column #content .module-info_blocks-285 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 2 - 0.01px)}.two-column #content .module-info_blocks-285 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 1 * 20px) / 2 - 0.01px)}.two-column #content .module-info_blocks-285 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 2 - 0.01px)}.side-column .module-info_blocks-285 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-info_blocks-285 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-info_blocks-285 .info-block .info-block-title{font-family:\'Libre Franklin\';font-weight:400;font-size:40px;color:rgba(41, 41, 43, 1);display:block}.module-info_blocks-285 .info-block .info-block-text{font-family:\'Libre Franklin\';font-weight:400;font-size:15px;display:block}.module-info_blocks-285 .info-blocks:last-child .info-block{border-width:0;border-bottom-width:0px}.module-info_blocks-285 a.info-block:hover{box-shadow:0 5px 30px -5px rgba(0, 0, 0, 0.15)}.module-info_blocks-285 .info-block{display:flex;flex-direction:row;justify-content:flex-start;text-align:left}.module-info_blocks-285 .info-block-content{display:flex;justify-content:flex-start}.module-info_blocks-285 .info-block::before{align-self:flex-start}.module-info_blocks-285 .info-block-img{align-self:flex-start}.module-info_blocks-285 .info-block::before, .module-info_blocks-285 .info-block-img{margin-right:20px;margin-bottom:20px}.module-info_blocks-285 .info-block .count-badge{display:none}@media (max-width: 760px){.module-info_blocks-285 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 0 * 20px) / 1 - 0.01px)}.module-info_blocks-285 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 1 - 0.01px)}.module-info_blocks-285 .info-block .info-block-title{font-size:32px}.module-info_blocks-285 .info-block-content{padding-bottom:10px;display:flex}.module-info_blocks-285 .info-block{display:flex;flex-direction:column;align-items:center;text-align:center}.module-info_blocks-285 .info-block::before{align-self:center}.module-info_blocks-285 .info-block-img{align-self:center}.module-info_blocks-285 .info-block::before, .module-info_blocks-285 .info-block-img{margin-right:0px;margin-bottom:15px}}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Libre Franklin' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 2,
+          'spacing' => 20,
+        ),
+        760 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 2,
+          'spacing' => 20,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 2,
+          'spacing' => 20,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'status' => true,
+    'id' => 'info_blocks-643a31ff0e590',
+    'module_id' => 285,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-info_blocks',
+      2 => 'module-info_blocks-285',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '2015',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'content' => 'Iñaki Saltor funda Saltor Talent para dirsumpir en el sector. El nombre rinde tributo a su padre, Joaquim Saltor, que fue durante 25 años Director General de una de las firmas más importantes de la búsqueda de directivos entre los años 70, 80 y 90, IOR.',
+        'button' => false,
+        'id' => '285-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => 'info-blocks',
+          3 => 'info-blocks-image',
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/nosotros/historia/nosotros-historia-5-400x400.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/nosotros/historia/nosotros-historia-5-400x400.jpg',
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'title' => '2017',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'content' => 'Saltor Talent hace una gran apuesta por el I+D+I, en busca de nuevas metodologías que sean válidas en el panorama VUCA actual tanto en la búsqueda de directivos como en la evaluación y en la consultoría. Estrenamos sede en Calle Bruc.',
+        'button' => false,
+        'id' => '285-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          2 => 'info-blocks',
+          3 => 'info-blocks-image',
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/nosotros/historia/nosotros-historia-1-400x400.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/nosotros/historia/nosotros-historia-1-400x400.jpg',
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'title' => '2018',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'content' => 'Se patenta la metodología "Seamless: from need to fit", una formula única que permite una experiencia innovadora gamificada que replantea todos los Momentos de la Verdad de un proceso de búsqueda de ejecutivos para garantizar la máxima eficiencia y, al final, un encaje perfecto entre las necesidades del cliente y el candidato seleccionado.',
+        'button' => false,
+        'id' => '285-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          2 => 'info-blocks',
+          3 => 'info-blocks-image',
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/nosotros/historia/nosotros-historia-4-1-400x400.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/nosotros/historia/nosotros-historia-4-1-400x400.jpg',
+        'items' => 
+        array (
+        ),
+      ),
+      4 => 
+      array (
+        'title' => '2019',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'content' => 'Saltor Talent se alía con Kennedy Executive Search, una red global de firmas de búsqueda de directivos independientes y con representación en Europa, Asia, América Latina y América del Norte con la que cubrimos 50 países.',
+        'button' => false,
+        'id' => '285-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          2 => 'info-blocks',
+          3 => 'info-blocks-image',
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/nosotros/historia/nosotros-historia-3-400x400.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/nosotros/historia/nosotros-historia-3-400x400.jpg',
+        'items' => 
+        array (
+        ),
+      ),
+      5 => 
+      array (
+        'title' => '2020',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'content' => 'Saltor Talent inicia la línea de Human Consulting, con la que transforma en profundidad las compañía a través de una mejora del liderazgo de sus directivos. Se incorporan especialistas con más de 4.000 horas de sesiones y acompañamiento profundo de CEOs, empresarios, ejecutivos y del mejor talento.',
+        'button' => false,
+        'id' => '285-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          2 => 'info-blocks',
+          3 => 'info-blocks-image',
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/nosotros/historia/nosotros-historia-7-400x400.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/nosotros/historia/nosotros-historia-7-400x400.jpg',
+        'items' => 
+        array (
+        ),
+      ),
+      6 => 
+      array (
+        'title' => '2021',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'content' => 'Saltor Talent lanza la herramienta Bright-ly, una factoría de experiencias en assessment center, totalmente gamificada, candidate centric y digital que cuenta con el desarrollo de CookieBox, líder en experiencias y storytelling y con la experiencia de la escuela de directivos IESE. Estrenamos oficinas en el distrito financiero de Barcelona.',
+        'button' => false,
+        'id' => '285-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          2 => 'info-blocks',
+          3 => 'info-blocks-image',
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/nosotros/historia/nosotros-historia-8-400x400.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/nosotros/historia/nosotros-historia-8-400x400.jpg',
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

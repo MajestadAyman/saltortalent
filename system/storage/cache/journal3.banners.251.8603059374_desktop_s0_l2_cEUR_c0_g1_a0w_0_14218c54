@@ -1,0 +1,248 @@
+<?php $val = array (
+  'css' => '.module-banners-251 .module-item.swiper-slide{margin-right:25px;width:calc((100% - 3 * 25px) / 4 - 0.01px)}.module-banners-251 .module-item:not(.swiper-slide){padding:12.5px;width:calc(100% / 4 - 0.01px)}.one-column #content .module-banners-251 .module-item.swiper-slide{margin-right:25px;width:calc((100% - 3 * 25px) / 4 - 0.01px)}.one-column #content .module-banners-251 .module-item:not(.swiper-slide){padding:12.5px;width:calc(100% / 4 - 0.01px)}.two-column #content .module-banners-251 .module-item.swiper-slide{margin-right:25px;width:calc((100% - 3 * 25px) / 4 - 0.01px)}.two-column #content .module-banners-251 .module-item:not(.swiper-slide){padding:12.5px;width:calc(100% / 4 - 0.01px)}.side-column .module-banners-251 .module-item.swiper-slide{margin-right:10px;width:calc((100% - 3 * 10px) / 4 - 0.01px)}.side-column .module-banners-251 .module-item:not(.swiper-slide){padding:5px;width:calc(100% / 4 - 0.01px)}.module-banners-251 a
+img{transform:scale(1)}.desktop .module-banners-251 a:hover
+img{transform:scale(1.15)}.desktop .module-banners-251 .module-item:hover>a{box-shadow:0 5px 30px -5px rgba(0, 0, 0, 0.15)}.module-banners-251 .module-item>a::before{mix-blend-mode:multiply}.module-banners-251 a::before{opacity:1}.module-banners-251 a .banner-caption{visibility:visible;opacity:1;display:block;width:100%}.module-banners-251 .banner-caption{top:auto;left:50%;right:auto;bottom:0;transform:translate3d(-50%, 0, 0)}.module-banners-251 .banner-caption
+span{white-space:normal;;font-family:\'Libre Franklin\';font-weight:400;font-size:22px;color:rgba(255, 255, 255, 1);text-align:center;background:rgba(92, 152, 166, 0.7);padding:10px;padding-right:20px;padding-left:20px}.module-banners-251 a .banner-caption-2{width:100%}.module-banners-251 .banner-caption-2{top:auto;left:50%;right:auto;bottom:0;transform:translate3d(-50%, 0, 0)}.module-banners-251 .banner-caption-2
+span{text-align:center;padding:10px;padding-right:20px;padding-left:20px}.module-banners-251 .banner-caption-3
+span{white-space:normal}@media (max-width: 760px){.module-banners-251 .module-item.swiper-slide{margin-right:10px;width:calc((100% - 1 * 10px) / 2 - 0.01px)}.module-banners-251 .module-item:not(.swiper-slide){padding:5px;width:calc(100% / 2 - 0.01px)}.one-column #content .module-banners-251 .module-item.swiper-slide{margin-right:10px;width:calc((100% - 0 * 10px) / 1 - 0.01px)}.one-column #content .module-banners-251 .module-item:not(.swiper-slide){padding:5px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-banners-251 .module-item.swiper-slide{margin-right:10px;width:calc((100% - 0 * 10px) / 1 - 0.01px)}.two-column #content .module-banners-251 .module-item:not(.swiper-slide){padding:5px;width:calc(100% / 1 - 0.01px)}.module-banners-251 .banner-caption
+span{font-size:18px;padding:5px}.module-banners-251 .banner-caption-2
+span{padding:5px}}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Libre Franklin' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'carousel' => false,
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 4,
+          'spacing' => 25,
+        ),
+        760 => 
+        array (
+          'items' => 2,
+          'spacing' => 10,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 4,
+          'spacing' => 25,
+        ),
+        760 => 
+        array (
+          'items' => 1,
+          'spacing' => 10,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 4,
+          'spacing' => 25,
+        ),
+        760 => 
+        array (
+          'items' => 1,
+          'spacing' => 10,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 4,
+          'spacing' => 10,
+        ),
+      ),
+    ),
+    'imageDimensions' => 
+    array (
+      'width' => 1500,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'lazyLoad' => false,
+    'status' => true,
+    'id' => 'banners-643dba3e3bf07',
+    'module_id' => 251,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-banners',
+      2 => 'module-banners-251',
+      'carousel-mode' => false,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Executive Search',
+        'title2' => '',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '10',
+          'href' => 'https://saltortalent.com/es/executive-search',
+          'name' => 'Executive Search',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '251-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/serv1-1500x875fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/serv1-3000x1750fill.jpg',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'title' => 'Executive Assessment',
+        'title2' => '',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '12',
+          'href' => 'https://saltortalent.com/es/executive-assessment',
+          'name' => 'Executive Assessment',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '251-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/serv2-1500x875fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/serv2-3000x1750fill.jpg',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'title' => 'Comités de Dirección',
+        'title2' => '',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '11',
+          'href' => 'https://saltortalent.com/es/comites-de-direccion',
+          'name' => 'Comités de Dirección',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '251-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/serv3-1500x875fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/serv3-3000x1750fill.jpg',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+      4 => 
+      array (
+        'title' => 'Gestión del talento',
+        'title2' => '',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '13',
+          'href' => 'https://saltortalent.com/es/gestion-de-talento',
+          'name' => 'Gestión de talento',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '251-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => false,
+        ),
+        'image' => 'https://saltortalent.com/image/cache/catalog/serv4-1500x875fill.jpg',
+        'image2x' => 'https://saltortalent.com/image/cache/catalog/serv4-3000x1750fill.jpg',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);
